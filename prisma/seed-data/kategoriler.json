@@ -1,0 +1,527 @@
+[
+  {
+    "slug": "kontrol-panelleri",
+    "ad": {
+      "tr": "Motor Kontrol Panoları",
+      "en": "Motor Control Panels"
+    },
+    "cocuklar": [
+      {
+        "slug": "elektronik-kontrol-panelleri",
+        "ad": {
+          "tr": "Elektronik Kontrol Panelleri",
+          "en": "Electronic Control Panels"
+        },
+        "cocuklar": [
+          {
+            "slug": "smart-serisi",
+            "ad": {
+              "tr": "Smart Serisi",
+              "en": "Smart Series"
+            },
+            "cocuklar": []
+          },
+          {
+            "slug": "frekans-invertor-serisi",
+            "ad": {
+              "tr": "Frekans İnvertör Serisi",
+              "en": "VFD Series"
+            },
+            "cocuklar": []
+          },
+          {
+            "slug": "soft-starter-serisi",
+            "ad": {
+              "tr": "Soft Starter Serisi",
+              "en": "Soft Start Series"
+            },
+            "cocuklar": []
+          }
+        ]
+      },
+      {
+        "slug": "elektro-mekanik-paneller",
+        "ad": {
+          "tr": "Elektro Mekanik Paneller",
+          "en": "Electro Mechanical Panels"
+        },
+        "cocuklar": []
+      },
+      {
+        "slug": "yangin-pompa-kontrol-panolari",
+        "ad": {
+          "tr": "Yangın Pompa Kontrol Panoları",
+          "en": "Fire Fighting System Control Panels"
+        },
+        "cocuklar": [
+          {
+            "slug": "nfpa-ul-fm-serisi",
+            "ad": {
+              "tr": "NFPA / UL & FM Serisi",
+              "en": "NFPA / UL & FM Series"
+            },
+            "cocuklar": [
+              {
+                "slug": "nfpa-dizel-motor-kontrol-panosu",
+                "ad": {
+                  "tr": "Dizel Motor Kontrol Panosu",
+                  "en": "Diesel Engine Driven"
+                },
+                "cocuklar": []
+              },
+              {
+                "slug": "nfpa-elektrik-motor-kontrol-panosu",
+                "ad": {
+                  "tr": "Elektrik Motor Kontrol Panosu",
+                  "en": "Electric Motor Driven"
+                },
+                "cocuklar": []
+              },
+              {
+                "slug": "nfpa-jokey-pompa-kontrol-panosu",
+                "ad": {
+                  "tr": "Jokey Pompa Kontrol Panosu",
+                  "en": "Jockey Series"
+                },
+                "cocuklar": []
+              }
+            ]
+          },
+          {
+            "slug": "en-serisi",
+            "ad": {
+              "tr": "EN Serisi",
+              "en": "EN Series"
+            },
+            "cocuklar": [
+              {
+                "slug": "dizel-serisi-en-12845",
+                "ad": {
+                  "tr": "Dizel Serisi EN 12845",
+                  "en": "Diesel Series EN 12845"
+                },
+                "cocuklar": []
+              },
+              {
+                "slug": "elektrik-serisi-en-12845",
+                "ad": {
+                  "tr": "Elektrik Serisi EN 12845",
+                  "en": "Electric Series EN 12845"
+                },
+                "cocuklar": []
+              },
+              {
+                "slug": "jokey-serisi",
+                "ad": {
+                  "tr": "Jokey Serisi",
+                  "en": "Jockey Series"
+                },
+                "cocuklar": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "enerji-yonetim-platformu",
+    "ad": {
+      "tr": "Enerji Yönetim Platformu (BLES)",
+      "en": "Building Management System (BLES)"
+    },
+    "cocuklar": [
+      {
+        "slug": "yazilim-platformu",
+        "ad": {
+          "tr": "Yazılım Platformu",
+          "en": "Software Platforms"
+        },
+        "cocuklar": []
+      },
+      {
+        "slug": "veri-yonetim-cihazlari",
+        "ad": {
+          "tr": "Veri Yönetim Cihazları",
+          "en": "Data Management Devices"
+        },
+        "cocuklar": [
+          {
+            "slug": "m-bus-converter",
+            "ad": {
+              "tr": "M-Bus Converter",
+              "en": "M-Bus Converter"
+            },
+            "cocuklar": []
+          },
+          {
+            "slug": "ttsmart-box",
+            "ad": {
+              "tr": "TT Smart Box",
+              "en": "TT Smart Box"
+            },
+            "cocuklar": []
+          },
+          {
+            "slug": "data-logger",
+            "ad": {
+              "tr": "Data Logger",
+              "en": "Data Logger"
+            },
+            "cocuklar": []
+          },
+          {
+            "slug": "gateway",
+            "ad": {
+              "tr": "Gateway",
+              "en": "Gateway"
+            },
+            "cocuklar": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "heat-network",
+    "ad": {
+      "tr": "Isı Ağları",
+      "en": "Heat Network"
+    },
+    "cocuklar": [
+      {
+        "slug": "isi-istasyonlari",
+        "ad": {
+          "tr": "Isı İstasyonları",
+          "en": "Heat Interface Units"
+        },
+        "cocuklar": [
+          {
+            "slug": "smarthexa-serisi",
+            "ad": {
+              "tr": "SmartHexa Serisi",
+              "en": "SmartHexa Series"
+            },
+            "cocuklar": [
+              {
+                "slug": "indirect-smarthexa",
+                "ad": {
+                  "tr": "Indirect SmartHexa",
+                  "en": "Indirect SmartHexa"
+                },
+                "cocuklar": []
+              },
+              {
+                "slug": "direct-smarthexa",
+                "ad": {
+                  "tr": "Direct SmartHexa",
+                  "en": "Direct SmartHexa"
+                },
+                "cocuklar": []
+              }
+            ]
+          },
+          {
+            "slug": "hydrohexa-serisi",
+            "ad": {
+              "tr": "HydroHexa Serisi",
+              "en": "HydroHexa Series"
+            },
+            "cocuklar": [
+              {
+                "slug": "indirect-hydrohexa",
+                "ad": {
+                  "tr": "Indirect HydroHexa",
+                  "en": "Indirect HydroHexa"
+                },
+                "cocuklar": []
+              },
+              {
+                "slug": "direct-hydrohexa",
+                "ad": {
+                  "tr": "Direct HydroHexa",
+                  "en": "Direct HydroHexa"
+                },
+                "cocuklar": []
+              }
+            ]
+          },
+          {
+            "slug": "thermohexa-serisi",
+            "ad": {
+              "tr": "ThermoHexa Serisi",
+              "en": "ThermoHexa Series"
+            },
+            "cocuklar": [
+              {
+                "slug": "indirect-thermohexa",
+                "ad": {
+                  "tr": "Indirect ThermoHexa",
+                  "en": "Indirect ThermoHexa"
+                },
+                "cocuklar": [
+                  {
+                    "slug": "indirect-thermohexa-sh",
+                    "ad": {
+                      "tr": "Indirect ThermoHexa SH",
+                      "en": "Indirect ThermoHexa SH"
+                    },
+                    "cocuklar": []
+                  }
+                ]
+              },
+              {
+                "slug": "direct-thermohexa",
+                "ad": {
+                  "tr": "Direct ThermoHexa",
+                  "en": "Direct ThermoHexa"
+                },
+                "cocuklar": []
+              }
+            ]
+          },
+          {
+            "slug": "hydro-em-serisi",
+            "ad": {
+              "tr": "Hydro EM Serisi",
+              "en": "Hydro EM Series"
+            },
+            "cocuklar": [
+              {
+                "slug": "indirect-hydro-em",
+                "ad": {
+                  "tr": "Indirect Hydro EM",
+                  "en": "Indirect Hydro EM"
+                },
+                "cocuklar": [
+                  {
+                    "slug": "indirect-hydro-em-dhw-sh",
+                    "ad": {
+                      "tr": "Indirect Hydro EM DHW-SH",
+                      "en": "Indirect Hydro EM DHW-SH"
+                    },
+                    "cocuklar": []
+                  }
+                ]
+              },
+              {
+                "slug": "direct-hydro-em",
+                "ad": {
+                  "tr": "Direct Hydro EM",
+                  "en": "Direct Hydro EM"
+                },
+                "cocuklar": [
+                  {
+                    "slug": "direct-hydro-em-rh",
+                    "ad": {
+                      "tr": "Direct Hydro EM RH",
+                      "en": "Direct Hydro EM RH"
+                    },
+                    "cocuklar": []
+                  },
+                  {
+                    "slug": "direct-hydro-em-ufh",
+                    "ad": {
+                      "tr": "Direct Hydro EM UFH",
+                      "en": "Direct Hydro EM UFH"
+                    },
+                    "cocuklar": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "endustriyel-isi-istasyonlari",
+        "ad": {
+          "tr": "Endüstriyel Isı İstasyonları",
+          "en": "Sub-Stations"
+        },
+        "cocuklar": [
+          {
+            "slug": "bolgesel-isitma-istasyonlari",
+            "ad": {
+              "tr": "Bölgesel Isıtma İstasyonları",
+              "en": "District Heating Substations"
+            },
+            "cocuklar": []
+          },
+          {
+            "slug": "bolgesel-sogutma-istasyonlari",
+            "ad": {
+              "tr": "Bölgesel Soğutma İstasyonları",
+              "en": "District Cooling Substations"
+            },
+            "cocuklar": []
+          }
+        ]
+      },
+      {
+        "slug": "sayac-istasyonlari",
+        "ad": {
+          "tr": "Sayaç İstasyonları",
+          "en": "Metering Stations"
+        },
+        "cocuklar": [
+          {
+            "slug": "meter-tech-w1",
+            "ad": {
+              "tr": "Meter Tech - W1",
+              "en": "Meter Tech - W1"
+            },
+            "cocuklar": []
+          },
+          {
+            "slug": "meter-tech-w2",
+            "ad": {
+              "tr": "Meter Tech - W2",
+              "en": "Meter Tech - W2"
+            },
+            "cocuklar": []
+          },
+          {
+            "slug": "meter-tech-w3",
+            "ad": {
+              "tr": "Meter Tech - W3",
+              "en": "Meter Tech - W3"
+            },
+            "cocuklar": []
+          },
+          {
+            "slug": "meter-tech-w4",
+            "ad": {
+              "tr": "Meter Tech - W4",
+              "en": "Meter Tech - W4"
+            },
+            "cocuklar": []
+          }
+        ]
+      },
+      {
+        "slug": "manyetik-filtreler",
+        "ad": {
+          "tr": "Manyetik Filtreler",
+          "en": "Magnetic Filters"
+        },
+        "cocuklar": []
+      },
+      {
+        "slug": "aksesuarlar",
+        "ad": {
+          "tr": "Aksesuarlar",
+          "en": "Accessories"
+        },
+        "cocuklar": [
+          {
+            "slug": "ilk-montaj-kiti",
+            "ad": {
+              "tr": "İlk Montaj Kiti",
+              "en": "First Fix Rail Kit"
+            },
+            "cocuklar": []
+          },
+          {
+            "slug": "baglanti-kutulari",
+            "ad": {
+              "tr": "Bağlantı Kutuları",
+              "en": "Junction Boxes"
+            },
+            "cocuklar": []
+          },
+          {
+            "slug": "re-sirkulasyon-kitleri",
+            "ad": {
+              "tr": "Re-Sirkülasyon Kitleri",
+              "en": "Re-Circulation Kits"
+            },
+            "cocuklar": []
+          },
+          {
+            "slug": "fark-basinc-vanasi",
+            "ad": {
+              "tr": "Fark Basınç Vanası",
+              "en": "Differential Pressure Valve"
+            },
+            "cocuklar": []
+          },
+          {
+            "slug": "termal-bypass-vanasi",
+            "ad": {
+              "tr": "Termal By-Pass Vanası",
+              "en": "Thermal By-Pass Valve"
+            },
+            "cocuklar": []
+          },
+          {
+            "slug": "kabin",
+            "ad": {
+              "tr": "Kabin",
+              "en": "Cabinet"
+            },
+            "cocuklar": []
+          }
+        ]
+      },
+      {
+        "slug": "sayaclar",
+        "ad": {
+          "tr": "Sayaçlar",
+          "en": "Meters"
+        },
+        "cocuklar": [
+          {
+            "slug": "isitma-kalorimetresi",
+            "ad": {
+              "tr": "Isıtma Kalorimetresi",
+              "en": "Heat Meter"
+            },
+            "cocuklar": []
+          },
+          {
+            "slug": "sogutma-kalorimetresi",
+            "ad": {
+              "tr": "Soğutma Kalorimetresi",
+              "en": "Cooling Meter"
+            },
+            "cocuklar": []
+          },
+          {
+            "slug": "su-sayaci",
+            "ad": {
+              "tr": "Su Sayacı",
+              "en": "Water Meter"
+            },
+            "cocuklar": []
+          }
+        ]
+      },
+      {
+        "slug": "on-odemeli-sayaclar",
+        "ad": {
+          "tr": "Ön Ödemeli Sayaçlar",
+          "en": "Pre-paid Meters"
+        },
+        "cocuklar": [
+          {
+            "slug": "on-odemeli-kalorimetre",
+            "ad": {
+              "tr": "Ön Ödemeli Kalorimetre",
+              "en": "Pre-paid Heat Meter"
+            },
+            "cocuklar": []
+          },
+          {
+            "slug": "on-odemeli-su-sayaci",
+            "ad": {
+              "tr": "Ön Ödemeli Su Sayacı",
+              "en": "Pre-paid Water Meter"
+            },
+            "cocuklar": []
+          }
+        ]
+      }
+    ]
+  }
+]

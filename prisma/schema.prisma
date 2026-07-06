@@ -1,0 +1,78 @@
+// Taytech ürün kataloğu şeması
+// Tek doğruluk kaynağı: menü, sayfalar ve doküman merkezi bu veriden türetilir.
+// Docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+/// Kategori ağacı (parent/child). Menü buradan otomatik türetilir.
+model Category {
+  id        Int        @id @default(autoincrement())
+  slug      String     @unique
+  nameTr    String
+  nameEn    String
+  order     Int        @default(0)
+  parentId  Int?
+  parent    Category?  @relation("CategoryTree", fields: [parentId], references: [id])
+  children  Category[] @relation("CategoryTree")
+  products  Product[]
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+
+  @@index([parentId])
+}
+
+/// Ürün. Teknik tablo ve galeri JSON string olarak tutulur (export formatıyla uyumlu).
+model Product {
+  id          Int        @id @default(autoincrement())
+  slug        String     @unique
+  order       Int        @default(0)
+  isActive    Boolean    @default(true)
+
+  nameTr      String
+  nameEn      String
+  descTr      String?
+  descEn      String?
+
+  mainImageTr String?
+  mainImageEn String?
+  appImageTr  String?
+  appImageEn  String?
+
+  // JSON string alanlar:
+  specTable   String?    // [{ name, data: [[...], ...] }]
+  gallery     String?    // [{ url, urlEn }]
+
+  categoryId  Int?
+  category    Category?  @relation(fields: [categoryId], references: [id])
+  documents   Document[]
+
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  @@index([categoryId])
+}
+
+/// Ürün dokümanları. Doküman Merkezi sayfası bunların toplamından beslenir.
+model Document {
+  id        Int      @id @default(autoincrement())
+  type      String   // teknik | kilavuz | sertifika | cad | katalog
+  nameTr    String
+  nameEn    String
+  url       String
+  urlEn     String?
+  order     Int      @default(0)
+
+  productId Int
+  product   Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+
+  @@index([productId])
+}

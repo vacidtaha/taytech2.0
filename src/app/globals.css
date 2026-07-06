@@ -8,19 +8,224 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Monaco, monospace;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.no-scrollbar::-webkit-scrollbar,
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar,
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes panelBgIn {
+  0% {
+    transform: translateX(-110%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes panelContentIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.panel-bg-anim {
+  animation: panelBgIn 500ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+.panel-content-anim {
+  animation: panelContentIn 400ms ease-out 150ms both;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 700ms ease-out both;
+}
+
+/* ---------------------------------------------------------------------------
+   Akışkan kırmızı ambient gradyan (ürün & kategori sayfaları arka planı)
+   Yavaşça süzülen yumuşak blob'lar; içeriğin altında kalır, okunabilirliği bozmaz.
+--------------------------------------------------------------------------- */
+.ambient-blob {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(75px);
+  will-change: transform, opacity;
+}
+
+/* Blob'lar sayfa boyunca yüzdesel olarak dağıtılır; renkler kırmızı/gül/koyu
+   kırmızı arasında değişir, üç farklı süzülme animasyonu döngülenir. */
+.ambient-blob-1 {
+  top: -3%;
+  left: -80px;
+  width: 560px;
+  height: 560px;
+  background: radial-gradient(circle at center, rgba(220, 38, 38, 0.5), rgba(220, 38, 38, 0) 70%);
+  animation: ambientDrift1 22s ease-in-out infinite;
+}
+.ambient-blob-2 {
+  top: 8%;
+  right: -100px;
+  width: 620px;
+  height: 620px;
+  background: radial-gradient(circle at center, rgba(244, 63, 94, 0.42), rgba(244, 63, 94, 0) 70%);
+  animation: ambientDrift2 28s ease-in-out infinite;
+}
+.ambient-blob-3 {
+  top: 20%;
+  left: 30%;
+  width: 640px;
+  height: 480px;
+  background: radial-gradient(circle at center, rgba(225, 29, 72, 0.36), rgba(225, 29, 72, 0) 70%);
+  animation: ambientDrift3 34s ease-in-out infinite;
+}
+.ambient-blob-4 {
+  top: 33%;
+  right: -80px;
+  width: 580px;
+  height: 580px;
+  background: radial-gradient(circle at center, rgba(220, 38, 38, 0.4), rgba(220, 38, 38, 0) 70%);
+  animation: ambientDrift1 30s ease-in-out infinite;
+}
+.ambient-blob-5 {
+  top: 46%;
+  left: -100px;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle at center, rgba(244, 63, 94, 0.36), rgba(244, 63, 94, 0) 70%);
+  animation: ambientDrift2 26s ease-in-out infinite;
+}
+.ambient-blob-6 {
+  top: 58%;
+  left: 34%;
+  width: 640px;
+  height: 500px;
+  background: radial-gradient(circle at center, rgba(225, 29, 72, 0.32), rgba(225, 29, 72, 0) 70%);
+  animation: ambientDrift3 32s ease-in-out infinite;
+}
+.ambient-blob-7 {
+  top: 71%;
+  right: -90px;
+  width: 560px;
+  height: 560px;
+  background: radial-gradient(circle at center, rgba(220, 38, 38, 0.38), rgba(220, 38, 38, 0) 70%);
+  animation: ambientDrift1 27s ease-in-out infinite;
+}
+.ambient-blob-8 {
+  top: 84%;
+  left: -70px;
+  width: 580px;
+  height: 560px;
+  background: radial-gradient(circle at center, rgba(244, 63, 94, 0.34), rgba(244, 63, 94, 0) 70%);
+  animation: ambientDrift2 31s ease-in-out infinite;
+}
+.ambient-blob-9 {
+  top: 94%;
+  left: 40%;
+  width: 620px;
+  height: 480px;
+  background: radial-gradient(circle at center, rgba(225, 29, 72, 0.3), rgba(225, 29, 72, 0) 70%);
+  animation: ambientDrift3 29s ease-in-out infinite;
+}
+
+@keyframes ambientDrift1 {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(7%, 9%, 0) scale(1.18);
+  }
+}
+
+@keyframes ambientDrift2 {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1.05);
+  }
+  50% {
+    transform: translate3d(-8%, 6%, 0) scale(0.9);
+  }
+}
+
+@keyframes ambientDrift3 {
+  0%,
+  100% {
+    transform: translate3d(-4%, 0, 0) scale(0.95);
+  }
+  50% {
+    transform: translate3d(6%, -7%, 0) scale(1.12);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ambient-blob {
+    animation: none !important;
+  }
+}
+
+/* Mobil menü — panel soldan kayarak açılır, seviye değişince içerik yerinde fade olur */
+@keyframes menuSlideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.menu-slide-in {
+  animation: menuSlideIn 0.22s ease-out;
+}
+
+@keyframes menuPanelFade {
+  from {
+    opacity: 0;
+    transform: translateX(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.menu-panel-fade {
+  animation: menuPanelFade 0.5s ease;
+}
+
+/* Yatay ürün karuseli — kaydırma çubuğu gizli (Apple tarzı) */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }

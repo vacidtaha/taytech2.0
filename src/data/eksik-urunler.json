@@ -1,0 +1,240 @@
+[
+  {
+    "tr": "Frekans İnvertör Serisi",
+    "en": "VFD Series",
+    "slug": "frekans-invertor-serisi",
+    "href": "/urunler/kontrol-panelleri/elektronik-kontrol-panelleri/frekans-invertor-serisi",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Soft Starter Serisi",
+    "en": "Soft Start Series",
+    "slug": "soft-starter-serisi",
+    "href": "/urunler/kontrol-panelleri/elektronik-kontrol-panelleri/soft-starter-serisi",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Dizel Motor Kontrol Panosu",
+    "en": "Diesel Engine Driven",
+    "slug": "nfpa-dizel-motor-kontrol-panosu",
+    "href": "/urunler/kontrol-panelleri/yangin-pompa-kontrol-panolari/nfpa-ul-fm-serisi/nfpa-dizel-motor-kontrol-panosu",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Elektrik Motor Kontrol Panosu",
+    "en": "Electric Motor Driven",
+    "slug": "nfpa-elektrik-motor-kontrol-panosu",
+    "href": "/urunler/kontrol-panelleri/yangin-pompa-kontrol-panolari/nfpa-ul-fm-serisi/nfpa-elektrik-motor-kontrol-panosu",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Jokey Pompa Kontrol Panosu",
+    "en": "Jockey Series",
+    "slug": "nfpa-jokey-pompa-kontrol-panosu",
+    "href": "/urunler/kontrol-panelleri/yangin-pompa-kontrol-panolari/nfpa-ul-fm-serisi/nfpa-jokey-pompa-kontrol-panosu",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Dizel Serisi EN 12845",
+    "en": "Diesel Series EN 12845",
+    "slug": "dizel-serisi-en-12845",
+    "href": "/urunler/kontrol-panelleri/yangin-pompa-kontrol-panolari/en-serisi/dizel-serisi-en-12845",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Elektrik Serisi EN 12845",
+    "en": "Electric Series EN 12845",
+    "slug": "elektrik-serisi-en-12845",
+    "href": "/urunler/kontrol-panelleri/yangin-pompa-kontrol-panolari/en-serisi/elektrik-serisi-en-12845",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Jokey Serisi",
+    "en": "Jockey Series",
+    "slug": "jokey-serisi",
+    "href": "/urunler/kontrol-panelleri/yangin-pompa-kontrol-panolari/en-serisi/jokey-serisi",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Yazılım Platformu",
+    "en": "Software Platforms",
+    "slug": "yazilim-platformu",
+    "href": "/urunler/enerji-yonetim-platformu/yazilim-platformu",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "M-Bus Converter",
+    "en": "M-Bus Converter",
+    "slug": "m-bus-converter",
+    "href": "/urunler/enerji-yonetim-platformu/veri-yonetim-cihazlari/m-bus-converter",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "TT Smart Box",
+    "en": "TT Smart Box",
+    "slug": "ttsmart-box",
+    "href": "/urunler/enerji-yonetim-platformu/veri-yonetim-cihazlari/ttsmart-box",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Data Logger",
+    "en": "Data Logger",
+    "slug": "data-logger",
+    "href": "/urunler/enerji-yonetim-platformu/veri-yonetim-cihazlari/data-logger",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Gateway",
+    "en": "Gateway",
+    "slug": "gateway",
+    "href": "/urunler/enerji-yonetim-platformu/veri-yonetim-cihazlari/gateway",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Indirect ThermoHexa SH",
+    "en": "Indirect ThermoHexa SH",
+    "slug": "indirect-thermohexa-sh",
+    "href": "/urunler/heat-network/isi-istasyonlari/thermohexa-serisi/indirect-thermohexa/indirect-thermohexa-sh",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Indirect Hydro EM DHW-SH",
+    "en": "Indirect Hydro EM DHW-SH",
+    "slug": "indirect-hydro-em-dhw-sh",
+    "href": "/urunler/heat-network/isi-istasyonlari/hydro-em-serisi/indirect-hydro-em-dhw-sh",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Direct Hydro EM RH",
+    "en": "Direct Hydro EM RH",
+    "slug": "direct-hydro-em-rh",
+    "href": "/urunler/heat-network/isi-istasyonlari/hydro-em-serisi/direct-hydro-em/direct-hydro-em-rh",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Direct Hydro EM UFH",
+    "en": "Direct Hydro EM UFH",
+    "slug": "direct-hydro-em-ufh",
+    "href": "/urunler/heat-network/isi-istasyonlari/hydro-em-serisi/direct-hydro-em/direct-hydro-em-ufh",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Bölgesel Isıtma İstasyonları",
+    "en": "District Heating Substations",
+    "slug": "bolgesel-isitma-istasyonlari",
+    "href": "/urunler/heat-network/endustriyel-isi-istasyonlari/bolgesel-isitma-istasyonlari",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Bölgesel Soğutma İstasyonları",
+    "en": "District Cooling Substations",
+    "slug": "bolgesel-sogutma-istasyonlari",
+    "href": "/urunler/heat-network/endustriyel-isi-istasyonlari/bolgesel-sogutma-istasyonlari",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Meter Tech - W1",
+    "en": "Meter Tech - W1",
+    "slug": "meter-tech-w1",
+    "href": "/urunler/heat-network/sayac-istasyonlari/meter-tech-w1",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Meter Tech - W2",
+    "en": "Meter Tech - W2",
+    "slug": "meter-tech-w2",
+    "href": "/urunler/heat-network/sayac-istasyonlari/meter-tech-w2",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Meter Tech - W3",
+    "en": "Meter Tech - W3",
+    "slug": "meter-tech-w3",
+    "href": "/urunler/heat-network/sayac-istasyonlari/meter-tech-w3",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Meter Tech - W4",
+    "en": "Meter Tech - W4",
+    "slug": "meter-tech-w4",
+    "href": "/urunler/heat-network/sayac-istasyonlari/meter-tech-w4",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "İlk Montaj Kiti",
+    "en": "First Fix Rail Kit",
+    "slug": "ilk-montaj-kiti",
+    "href": "/urunler/heat-network/aksesuarlar/ilk-montaj-kiti",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Bağlantı Kutuları",
+    "en": "Junction Boxes",
+    "slug": "baglanti-kutulari",
+    "href": "/urunler/heat-network/aksesuarlar/baglanti-kutulari",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Re-Sirkülasyon Kitleri",
+    "en": "Re-Circulation Kits",
+    "slug": "re-sirkulasyon-kitleri",
+    "href": "/urunler/heat-network/aksesuarlar/re-sirkulasyon-kitleri",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Fark Basınç Vanası",
+    "en": "Differential Pressure Valve",
+    "slug": "fark-basinc-vanasi",
+    "href": "/urunler/heat-network/aksesuarlar/fark-basinc-vanasi",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Termal By-Pass Vanası",
+    "en": "Thermal By-Pass Valve",
+    "slug": "termal-bypass-vanasi",
+    "href": "/urunler/heat-network/aksesuarlar/termal-bypass-vanasi",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Kabin",
+    "en": "Cabinet",
+    "slug": "kabin",
+    "href": "/urunler/heat-network/aksesuarlar/kabin",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Isıtma Kalorimetresi",
+    "en": "Heat Meter",
+    "slug": "isitma-kalorimetresi",
+    "href": "/urunler/heat-network/sayaclar/isitma-kalorimetresi",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Soğutma Kalorimetresi",
+    "en": "Cooling Meter",
+    "slug": "sogutma-kalorimetresi",
+    "href": "/urunler/heat-network/sayaclar/sogutma-kalorimetresi",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Su Sayacı",
+    "en": "Water Meter",
+    "slug": "su-sayaci",
+    "href": "/urunler/heat-network/sayaclar/su-sayaci",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Ön Ödemeli Kalorimetre",
+    "en": "Pre-paid Heat Meter",
+    "slug": "on-odemeli-kalorimetre",
+    "href": "/urunler/heat-network/on-odemeli-sayaclar/on-odemeli-kalorimetre",
+    "neden": "kat_bos"
+  },
+  {
+    "tr": "Ön Ödemeli Su Sayacı",
+    "en": "Pre-paid Water Meter",
+    "slug": "on-odemeli-su-sayaci",
+    "href": "/urunler/heat-network/on-odemeli-sayaclar/on-odemeli-su-sayaci",
+    "neden": "kat_bos"
+  }
+]
