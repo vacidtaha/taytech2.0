@@ -66,6 +66,10 @@ type FormState = {
   nameEn: string;
   descTr: DescSection[];
   descEn: DescSection[];
+  /** Teknik özellikler: satır başına bir madde; ";"/":" ile biten satır grup
+   * başlığı, tab (veya baştaki "-") ile başlayan satır alt maddedir. */
+  featuresTr: string;
+  featuresEn: string;
   categoryId: number | null;
   mainImageTr: string;
   mainImageEn: string;
@@ -712,6 +716,8 @@ export default function ProductForm(props: Props) {
           nameEn: props.product.nameEn,
           descTr: parseDescToSections(props.product.descTr),
           descEn: parseDescToSections(props.product.descEn),
+          featuresTr: props.product.featuresTr,
+          featuresEn: props.product.featuresEn,
           categoryId: props.product.categoryId,
           mainImageTr: props.product.mainImageTr,
           mainImageEn: props.product.mainImageEn,
@@ -733,6 +739,8 @@ export default function ProductForm(props: Props) {
           nameEn: "",
           descTr: [{ ...EMPTY_SECTION }],
           descEn: [{ ...EMPTY_SECTION }],
+          featuresTr: "",
+          featuresEn: "",
           categoryId: null,
           mainImageTr: "",
           mainImageEn: "",
@@ -986,10 +994,6 @@ export default function ProductForm(props: Props) {
       return "Her doküman için Türkçe ad ve TR dosyası gerekli. Eksik dokümanı tamamlayın ya da kaldırın.";
     }
 
-    // EN görseli olup TR görseli olmayan alanlar (TR ziyaretçi görselsiz kalır).
-    if (form.gallery.some((g) => g.urlEn && !g.url)) {
-      return "Galeride EN görseli olan görselin TR görseli de yüklenmeli.";
-    }
     if (form.mainImageEn && !form.mainImageTr) {
       return "Ana görselin EN'i var ama TR'si yok. TR görseli de yükleyin.";
     }
@@ -1071,6 +1075,8 @@ export default function ProductForm(props: Props) {
             nameEn: "",
             descTr: [{ ...EMPTY_SECTION }],
             descEn: [{ ...EMPTY_SECTION }],
+            featuresTr: "",
+            featuresEn: "",
             categoryId: form.categoryId, // aynı kategoriye peş peşe eklemek yaygın
             mainImageTr: "",
             mainImageEn: "",
@@ -1418,6 +1424,37 @@ export default function ProductForm(props: Props) {
             </div>
           </Card>
 
+          {/* Teknik özellikler — satır bazlı liste */}
+          <Card
+            title="Teknik Özellikler"
+            desc={
+              'Her satıra bir özellik yazın. ";" veya ":" ile biten satır grup başlığı olur (örn. "Korumalar ve Hatalar;"), Tab ile içeri alınan satırlar o grubun alt maddesi olarak gösterilir. Sitede koyu renkli spec bölümü olarak yer alır.'
+            }
+          >
+            <div className="grid gap-6 lg:grid-cols-2">
+              {(["featuresTr", "featuresEn"] as const).map((lang) => (
+                <div key={lang}>
+                  <p className="mb-2 text-[13px] font-medium text-[#424245]">
+                    {lang === "featuresTr"
+                      ? "Teknik Özellikler (TR)"
+                      : "Teknik Özellikler (EN)"}
+                  </p>
+                  <textarea
+                    className={`${inputCls} min-h-[180px] resize-y font-mono text-[13px] leading-relaxed`}
+                    value={form[lang]}
+                    onChange={(e) => set(lang, e.target.value)}
+                    placeholder={
+                      lang === "featuresTr"
+                        ? "Metal Kutu / IP 54\nGüç Beslemesi 3 Faz-50/60Hz 400V ±%15\nKorumalar ve Hatalar;\n\tMotor Aşırı Akım (Ayarlanabilir)\n\tFaz kaybı koruması"
+                        : "Metal Enclosure / IP 54\nPower supply 3-50/60Hz 400V ±%10\nProtections and Failures;\n\tMotor Overcurrent (Adjustable)\n\tPhase loss protection"
+                    }
+                    spellCheck={false}
+                  />
+                </div>
+              ))}
+            </div>
+          </Card>
+
           {/* Ürün görselleri: ana görsel + galeri aynı yerden eklenir */}
           <Card
             title="Ürün Görselleri"
@@ -1443,7 +1480,8 @@ export default function ProductForm(props: Props) {
             <div className="mb-4">
               <h3 className="text-sm font-semibold text-[#1d1d1f]">Galeri</h3>
               <p className="text-[13px] text-[#86868b]">
-                Detay sayfasında küçük resim şeridi olarak gösterilir.
+                Detay sayfasında küçük resim şeridi olarak gösterilir. Yalnız EN
+                görseli olan satır sadece İngilizce sayfada görünür.
               </p>
             </div>
             {form.gallery.length === 0 && (

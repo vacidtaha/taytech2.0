@@ -131,6 +131,10 @@ export type ProductDetailData = {
   nameEn: string;
   descTr: string | null;
   descEn: string | null;
+  /** Teknik özellikler: satır başına bir madde; ";"/":" ile biten satır grup
+   * başlığı, tab ile başlayan satır alt maddedir. */
+  featuresTr: string | null;
+  featuresEn: string | null;
   mainImageTr: string | null;
   mainImageEn: string | null;
   appImageTr: string | null;
@@ -169,6 +173,8 @@ export async function getProductBySlug(
     nameEn: p.nameEn,
     descTr: p.descTr,
     descEn: p.descEn,
+    featuresTr: p.featuresTr,
+    featuresEn: p.featuresEn,
     mainImageTr: p.mainImageTr,
     mainImageEn: p.mainImageEn,
     appImageTr: p.appImageTr,
@@ -560,6 +566,8 @@ export type ProductEditData = {
   nameEn: string;
   descTr: string;
   descEn: string;
+  featuresTr: string;
+  featuresEn: string;
   categoryId: number | null;
   mainImageTr: string;
   mainImageEn: string;
@@ -592,6 +600,8 @@ export async function getProductForEdit(id: number): Promise<ProductEditData | n
     nameEn: p.nameEn,
     descTr: p.descTr ?? "",
     descEn: p.descEn ?? "",
+    featuresTr: p.featuresTr ?? "",
+    featuresEn: p.featuresEn ?? "",
     categoryId: p.categoryId,
     mainImageTr: p.mainImageTr ?? "",
     mainImageEn: p.mainImageEn ?? "",
@@ -633,6 +643,12 @@ export type DocumentItem = {
   categoryNameEn: string;
   topCategoryNameTr: string;
   topCategoryNameEn: string;
+  /** Kök kategorinin hemen altındaki (2. seviye) kategori — yoksa boş. */
+  subCategoryNameTr: string;
+  subCategoryNameEn: string;
+  /** 3. seviye kategori — yoksa boş. */
+  subSubCategoryNameTr: string;
+  subSubCategoryNameEn: string;
 };
 
 /** Tüm dokümanlar (ürünü + kategorisi + kök kategorisi adlarıyla). */
@@ -658,17 +674,25 @@ export async function getAllDocuments(): Promise<DocumentItem[]> {
   ]);
 
   const byId = new Map(categories.map((c) => [c.id, c]));
-  const rootOf = (id: number) => {
+  /** Kategorinin kök zincirini döndürür: [kök, 2. seviye, ...]. */
+  const chainOf = (id: number) => {
+    const chain: { nameTr: string; nameEn: string }[] = [];
     let cur = byId.get(id);
-    while (cur && cur.parentId != null) cur = byId.get(cur.parentId);
-    return cur ?? null;
+    while (cur) {
+      chain.unshift(cur);
+      cur = cur.parentId != null ? byId.get(cur.parentId) : undefined;
+    }
+    return chain;
   };
 
   return docs
     .filter((d) => d.product.isActive)
     .map((d) => {
       const cat = d.product.categoryId ? byId.get(d.product.categoryId) : null;
-      const root = cat ? rootOf(cat.id) : null;
+      const chain = cat ? chainOf(cat.id) : [];
+      const root = chain[0] ?? null;
+      const sub = chain[1] ?? null;
+      const subSub = chain[2] ?? null;
       return {
         id: d.id,
         nameTr: d.nameTr,
@@ -683,6 +707,10 @@ export async function getAllDocuments(): Promise<DocumentItem[]> {
         categoryNameEn: cat?.nameEn ?? "",
         topCategoryNameTr: root?.nameTr ?? "",
         topCategoryNameEn: root?.nameEn ?? "",
+        subCategoryNameTr: sub?.nameTr ?? "",
+        subCategoryNameEn: sub?.nameEn ?? "",
+        subSubCategoryNameTr: subSub?.nameTr ?? "",
+        subSubCategoryNameEn: subSub?.nameEn ?? "",
       };
     });
 }

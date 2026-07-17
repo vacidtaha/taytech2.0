@@ -18,7 +18,7 @@ const cozumlerData = [
 ];
 
 export default function CozumlerPage() {
-  const { t } = useLanguage();
+  const { t, lp } = useLanguage();
   const scrollRef = useRef<HTMLDivElement>(null);
   const mobileScrollRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
@@ -109,7 +109,7 @@ export default function CozumlerPage() {
         {/* Çözümler Carousel - Mobile (yatay sürükleme) */}
         <div style={{ marginTop: '56px', position: 'relative' }}>
           {/* Oklar - Kartların üstünde */}
-          <div style={{ paddingLeft: '20px', paddingRight: '20px', marginBottom: '24px', display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }}>
+          <div style={{ paddingLeft: '20px', paddingRight: '20px', marginBottom: '24px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <div style={{ display: 'flex', gap: '10px' }}>
               <button 
                 onClick={() => scroll('left')}
@@ -156,7 +156,7 @@ export default function CozumlerPage() {
             {cozumlerData.map((cozum, index) => (
               <Link 
                 key={index}
-                href={`/cozumler/${cozum.slug}`}
+                href={lp(`/cozumler/${cozum.slug}`)}
                 style={{ 
                   minWidth: '280px', maxWidth: '280px', aspectRatio: '3/4', borderRadius: '20px', overflow: 'hidden', cursor: 'pointer',
                   display: 'flex', flexDirection: 'column',
@@ -215,7 +215,7 @@ export default function CozumlerPage() {
       {/* Çözümler Carousel */}
       <div style={{ marginTop: '96px', position: 'relative' }}>
         {/* Oklar */}
-        <div style={{ paddingLeft: 'calc(50vw - 500px)', marginBottom: '40px', display: 'flex', justifyContent: 'flex-end', alignItems: 'center', paddingRight: 'calc(50vw - 500px)' }}>
+        <div style={{ paddingLeft: 'calc(50vw - 500px)', marginBottom: '40px', display: 'flex', justifyContent: 'center', alignItems: 'center', paddingRight: 'calc(50vw - 500px)' }}>
           <div style={{ display: 'flex', gap: '12px' }}>
             <button 
               onClick={() => scroll('left')}
@@ -261,7 +261,7 @@ export default function CozumlerPage() {
           {cozumlerData.map((cozum, index) => (
             <Link 
               key={index}
-              href={`/cozumler/${cozum.slug}`}
+              href={lp(`/cozumler/${cozum.slug}`)}
               style={{ 
                 minWidth: '400px', aspectRatio: '3/4', borderRadius: '24px', overflow: 'hidden', cursor: 'pointer',
                 display: 'flex', flexDirection: 'column',

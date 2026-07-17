@@ -16,14 +16,14 @@ export type MenuItem = {
  */
 export const menuTail: MenuItem[] = [
   { label: "Çözümler", en: "Solutions", href: "/cozumler" },
-  { label: "Doküman Merkezi", en: "Document Center", href: "/dokuman-merkezi" },
+  { label: "Doküman Merkezi", en: "Document Centre", href: "/dokuman-merkezi" },
   {
     label: "Bilgi Merkezi",
-    en: "Knowledge Center",
+    en: "Knowledge Centre",
     href: "/bilgi-merkezi",
     children: [
       { label: "SSS", en: "FAQ", href: "/bilgi-merkezi/sikca-sorulan-sorular" },
-      { label: "Doküman Merkezi", en: "Document Center", href: "/dokuman-merkezi" },
+      { label: "Doküman Merkezi", en: "Document Centre", href: "/dokuman-merkezi" },
       { label: "Teknik Destek", en: "Technical Support", href: "/iletisim" },
       { label: "Taytech Akademi", en: "Taytech Academy", href: "/bilgi-merkezi/taytech-akademi" },
       { label: "Video Arşivi", en: "Video Archive", href: "/bilgi-merkezi/video-arsivi" },

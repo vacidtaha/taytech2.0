@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getAllProductSlugs, getCategorySiblingProducts, getProductBySlug } from "@/lib/catalog";
 import { SITE_URL, metaDescription } from "@/lib/site";
+import { requestIsEn } from "@/lib/i18n-meta";
 import ProductDetail from "./ProductDetail";
 
 export async function generateStaticParams() {
@@ -15,20 +16,32 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const product = await getProductBySlug(slug);
+  const [product, isEn] = await Promise.all([
+    getProductBySlug(slug),
+    requestIsEn(),
+  ]);
   if (!product) return {};
 
-  const description = metaDescription(product.descTr ?? "");
+  const name = isEn ? product.nameEn : product.nameTr;
+  const description = metaDescription(
+    (isEn ? product.descEn ?? product.descTr : product.descTr) ?? ""
+  );
   const image = product.mainImageTr ?? product.gallery[0]?.url;
+  const trPath = `/urun/${slug}`;
+  const enPath = `/en/product/${slug}`;
 
   return {
-    title: product.nameTr,
+    title: name,
     description: description || undefined,
-    alternates: { canonical: `/urun/${slug}` },
+    alternates: {
+      canonical: isEn ? enPath : trPath,
+      languages: { tr: trPath, en: enPath, "x-default": trPath },
+    },
     openGraph: {
-      title: `${product.nameTr} | Taytech`,
+      title: `${name} | Taytech`,
       description: description || undefined,
-      url: `/urun/${slug}`,
+      url: isEn ? enPath : trPath,
+      locale: isEn ? "en_GB" : "tr_TR",
       images: image ? [{ url: image }] : [{ url: "/og.png" }],
     },
   };

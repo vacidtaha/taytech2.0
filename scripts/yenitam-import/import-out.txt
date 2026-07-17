@@ -1,0 +1,100 @@
+  ! Elektronik Kontrol Panelleri/Soft Starter Serisi: içerik boş, atlandı
+Toplam içe aktarılacak ürün: 29
+
+### Smart Hidrofor  (slug=smart-booster)
+
+### Smart Derin Kuyu  (slug=smart-bore-hole)
+
+### Smart Box  (slug=smart-box)
+
+### Smart Exclusive  (slug=smart-exclusive)
+
+### Smart Grinder  (slug=smart-grinder)
+
+### Smart Atık Su  (slug=smart-wastewater)
+
+### FxA Serisi  (slug=fxa-serisi)
+
+### FxS Serisi  (slug=fxs-serisi)
+
+### Direct Start  (slug=direkt-baslatma)
+
+### Star & Delta Start  (slug=yildiz-ucgen-baslatma)
+
+### Indirect SmartHexa DHW-SH  (slug=indirect-smarthexa-dhw-sh)
+  ! indirect-smarthexa-dhw-sh: Akış Şeması yalnız İngilizce
+  ! indirect-smarthexa-dhw-sh: Paketleme Bilgisi yalnız İngilizce
+  ! indirect-smarthexa-dhw-sh: CAD Çizimi (DWG) yalnız İngilizce
+
+### Indirect SmartHexa SH  (slug=indirect-smarthexa-sh)
+  ! indirect-smarthexa-sh: Akış Şeması yalnız İngilizce
+  ! indirect-smarthexa-sh: Paketleme Bilgisi yalnız İngilizce
+  ! indirect-smarthexa-sh: CAD Çizimi (DWG) yalnız İngilizce
+
+### Direct SmartHexa - DHW  (slug=direct-smarthexa-dhw)
+  ! direct-smarthexa-dhw: Akış Şeması yalnız İngilizce
+  ! direct-smarthexa-dhw: Paketleme Bilgisi yalnız İngilizce
+  ! direct-smarthexa-dhw: CAD Çizimi (DWG) yalnız İngilizce
+
+### Direct SmartHexa - RH  (slug=direct-smarthexa-rh)
+  ! direct-smarthexa-rh: Akış Şeması yalnız İngilizce
+  ! direct-smarthexa-rh: Paketleme Bilgisi yalnız İngilizce
+  ! direct-smarthexa-rh: CAD Çizimi (DWG) yalnız İngilizce
+
+### Direct SmartHexa - UFH  (slug=direct-smarthexa-ufh)
+  ! direct-smarthexa-ufh: Akış Şeması yalnız İngilizce
+  ! direct-smarthexa-ufh: Paketleme Bilgisi yalnız İngilizce
+  ! direct-smarthexa-ufh: CAD Çizimi (DWG) yalnız İngilizce
+
+### Indirect HydroHexa DHW-SH  (slug=indirect-hydrohexa-dhw-sh)
+  ! indirect-hydrohexa-dhw-sh: Paketleme Bilgisi yalnız İngilizce
+
+### Direct HydroHexa - DHW  (slug=direct-hydrohexa-dhw)
+  ! direct-hydrohexa-dhw: Paketleme Bilgisi yalnız İngilizce
+
+### Direct HydroHexa - RH  (slug=direct-hydrohexa-rh)
+  ! direct-hydrohexa-rh: Paketleme Bilgisi yalnız İngilizce
+
+### Direct HydroHexa - UFH  (slug=direct-hydrohexa-ufh)
+  ! direct-hydrohexa-ufh: Paketleme Bilgisi yalnız İngilizce
+
+### Indirect ThermoHexa DHW-SH  (slug=indirect-thermohexa-dhw-sh)
+  ! indirect-thermohexa-dhw-sh: Akış Şeması yalnız İngilizce
+  ! indirect-thermohexa-dhw-sh: Paketleme Bilgisi yalnız İngilizce
+  ! indirect-thermohexa-dhw-sh: CAD Çizimi (DWG) yalnız İngilizce
+
+### Indirect ThermoHexa SH  (slug=indirect-thermohexa-sh)
+  ! indirect-thermohexa-sh: Akış Şeması yalnız İngilizce
+  ! indirect-thermohexa-sh: Kabin Çizimi yalnız İngilizce
+  ! indirect-thermohexa-sh: Paketleme Bilgisi yalnız İngilizce
+  ! indirect-thermohexa-sh: CAD Çizimi (DWG) yalnız İngilizce
+
+### Direct ThermoHexa - DHW  (slug=direct-thermohexa-dhw)
+  ! direct-thermohexa-dhw: Kabin Çizimi yalnız İngilizce
+  ! direct-thermohexa-dhw: Paketleme Bilgisi yalnız İngilizce
+  ! direct-thermohexa-dhw: CAD Çizimi (DWG) yalnız İngilizce
+
+### Direct ThermoHexa - RH  (slug=direct-thermohexa-rh)
+  ! direct-thermohexa-rh: Kabin Çizimi yalnız İngilizce
+  ! direct-thermohexa-rh: Paketleme Bilgisi yalnız İngilizce
+  ! direct-thermohexa-rh: CAD Çizimi (DWG) yalnız İngilizce
+
+### Direct ThermoHexa - UFH  (slug=direct-thermohexa-ufh)
+  ! direct-thermohexa-ufh: Kabin Çizimi yalnız İngilizce
+  ! direct-thermohexa-ufh: Paketleme Bilgisi yalnız İngilizce
+  ! direct-thermohexa-ufh: CAD Çizimi (DWG) yalnız İngilizce
+
+### Indirect Hydro EM DHW-SH  (slug=indirect-hydro-em-dhw-sh)
+
+### Direct Hydro EM RH  (slug=direct-hydro-em-rh)
+
+### Direct Hydro EM UFH  (slug=direct-hydro-em-ufh)
+
+### IRONTRAP® Manyetik Filtre  (slug=irontrap)
+  ! irontrap: Ürün Kataloğu yalnız İngilizce
+  ! irontrap: CE Sertifikası yalnız İngilizce
+
+### IRONINOX® Manyetik Filtre  (slug=ironinox)
+
+Rapor: /Users/tahavacid/Desktop/taytech2.0/scripts/yenitam-import/report.json
+Uyarı sayısı: 38

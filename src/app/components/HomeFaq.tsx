@@ -6,11 +6,11 @@ import { ChevronDown } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 
 // Ana sayfada gösterilen en önemli 6 soru (SSS sayfasındaki çeviri anahtarları)
-const FAQ_KEYS = ["g1", "u2", "u1", "t3", "t4", "t1"];
+const FAQ_KEYS = ["g1", "h1", "p1", "f1", "s1", "d2"];
 
 /** Ana sayfa — kırmızı arka planlı SSS bölümü (akordeon + tüm sorulara giden buton). */
 export default function HomeFaq() {
-  const { t } = useLanguage();
+  const { t, lp } = useLanguage();
   const [openIdx, setOpenIdx] = useState<number | null>(null);
 
   return (
@@ -36,7 +36,7 @@ export default function HomeFaq() {
             </p>
           </div>
           <Link
-            href="/bilgi-merkezi/sikca-sorulan-sorular"
+            href={lp("/bilgi-merkezi/sikca-sorulan-sorular")}
             className="inline-flex items-center gap-[10px] self-start whitespace-nowrap rounded-full bg-white px-[22px] py-[12px] text-[15px] font-semibold text-[#b91c1c] transition-all hover:bg-white/90 lg:self-auto lg:text-[17px]"
           >
             {t("home.sss.btn")}

@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getAllCategorySlugs, getCategoryPage } from "@/lib/catalog";
+import { requestIsEn } from "@/lib/i18n-meta";
 import CategoryView from "../CategoryView";
 
 export async function generateStaticParams() {
@@ -14,25 +15,36 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const cat = await getCategoryPage(slug);
+  const [cat, isEn] = await Promise.all([getCategoryPage(slug), requestIsEn()]);
   if (!cat) return {};
 
+  const name = isEn ? cat.nameEn : cat.nameTr;
   const productNames = cat.products
     .slice(0, 4)
-    .map((p) => p.nameTr)
+    .map((p) => (isEn ? p.nameEn : p.nameTr))
     .join(", ");
-  const description = productNames
-    ? `Taytech ${cat.nameTr} ürünleri: ${productNames}. Teknik özellikler, dokümanlar ve detaylar.`
-    : `Taytech ${cat.nameTr} kategorisindeki ürünleri, teknik özellikleri ve dokümanları inceleyin.`;
+  const description = isEn
+    ? productNames
+      ? `Taytech ${name} products: ${productNames}. Technical features, documents and details.`
+      : `Explore Taytech ${name} products, technical features and documents.`
+    : productNames
+      ? `Taytech ${name} ürünleri: ${productNames}. Teknik özellikler, dokümanlar ve detaylar.`
+      : `Taytech ${name} kategorisindeki ürünleri, teknik özellikleri ve dokümanları inceleyin.`;
+  const trPath = `/urunler/${slug}`;
+  const enPath = `/en/products/${slug}`;
 
   return {
-    title: cat.nameTr,
+    title: name,
     description,
-    alternates: { canonical: `/urunler/${slug}` },
+    alternates: {
+      canonical: isEn ? enPath : trPath,
+      languages: { tr: trPath, en: enPath, "x-default": trPath },
+    },
     openGraph: {
-      title: `${cat.nameTr} | Taytech`,
+      title: `${name} | Taytech`,
       description,
-      url: `/urunler/${slug}`,
+      url: isEn ? enPath : trPath,
+      locale: isEn ? "en_GB" : "tr_TR",
       images: [{ url: "/og.png" }],
     },
   };

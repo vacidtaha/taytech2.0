@@ -1,19 +1,24 @@
 import type { Metadata } from "next";
 import SolutionDetail from "../SolutionDetail";
+import { localizedMetadata } from "@/lib/i18n-meta";
 
-export const metadata: Metadata = {
-  title: "Bakım ve Huzur Evleri İçin Isıtma ve Kontrol Çözümleri",
-  description:
-    "Kesintisiz konfor ve güvenlik gerektiren bakım tesisleri için hassas sıcaklık kontrolü ve enerji izleme sistemleri.",
-  alternates: { canonical: "/cozumler/bakim-huzur-evleri" },
-  openGraph: {
-    title: "Bakım ve Huzur Evleri İçin Çözümler | Taytech",
-    description:
-      "Bakım tesisleri için hassas sıcaklık kontrolü ve enerji izleme sistemleri.",
-    url: "/cozumler/bakim-huzur-evleri",
-    images: [{ url: "/bakimevi.jpg" }],
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const meta = await localizedMetadata({
+    path: "/cozumler/bakim-huzur-evleri",
+    title: {
+      tr: "Bakım ve Huzur Evleri İçin Isıtma ve Kontrol Çözümleri",
+      en: "Heating & Control Solutions for Care and Nursing Homes",
+    },
+    description: {
+      tr: "Kesintisiz konfor ve güvenlik gerektiren bakım tesisleri için hassas sıcaklık kontrolü ve enerji izleme sistemleri.",
+      en: "Precise temperature control and energy monitoring systems for care facilities that require uninterrupted comfort and safety.",
+    },
+  });
+  return {
+    ...meta,
+    openGraph: { ...meta.openGraph, images: [{ url: "/bakimevi.jpg" }] },
+  };
+}
 
 export default function BakimHuzurEvleri() {
   return (

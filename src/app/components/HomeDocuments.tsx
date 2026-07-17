@@ -11,7 +11,7 @@ export default function HomeDocuments({
 }: {
   docs?: DocumentItem[];
 }) {
-  const { t, locale } = useLanguage();
+  const { t, locale, lp } = useLanguage();
   const isEn = locale === "EN";
 
   const tl = (type: string) => docTypeLabels[type]?.[isEn ? "en" : "tr"] ?? type;
@@ -82,7 +82,7 @@ export default function HomeDocuments({
               </p>
             </div>
             <Link
-              href="/dokuman-merkezi"
+              href={lp("/dokuman-merkezi")}
               className="self-start lg:self-auto hover:!opacity-85"
               style={{
                 display: "inline-flex",

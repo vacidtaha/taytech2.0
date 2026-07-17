@@ -1,19 +1,24 @@
 import type { Metadata } from "next";
 import SolutionDetail from "../SolutionDetail";
+import { localizedMetadata } from "@/lib/i18n-meta";
 
-export const metadata: Metadata = {
-  title: "Eğitim Yapıları İçin Isıtma ve Kontrol Çözümleri",
-  description:
-    "Okullar, üniversiteler ve kampüs alanlarında enerji verimliliğini artıran, uzaktan yönetilebilir merkezi ısıtma ve kontrol sistemleri.",
-  alternates: { canonical: "/cozumler/egitim-yapilari" },
-  openGraph: {
-    title: "Eğitim Yapıları İçin Çözümler | Taytech",
-    description:
-      "Okul ve kampüslerde uzaktan yönetilebilir merkezi ısıtma ve kontrol sistemleri.",
-    url: "/cozumler/egitim-yapilari",
-    images: [{ url: "/okul.jpg" }],
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const meta = await localizedMetadata({
+    path: "/cozumler/egitim-yapilari",
+    title: {
+      tr: "Eğitim Yapıları İçin Isıtma ve Kontrol Çözümleri",
+      en: "Heating & Control Solutions for Educational Buildings",
+    },
+    description: {
+      tr: "Okullar, üniversiteler ve kampüs alanlarında enerji verimliliğini artıran, uzaktan yönetilebilir merkezi ısıtma ve kontrol sistemleri.",
+      en: "Remotely managed central heating and control systems that improve energy efficiency in schools, universities and campuses.",
+    },
+  });
+  return {
+    ...meta,
+    openGraph: { ...meta.openGraph, images: [{ url: "/okul.jpg" }] },
+  };
+}
 
 export default function EgitimYapilari() {
   return (

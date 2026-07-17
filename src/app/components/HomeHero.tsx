@@ -22,7 +22,7 @@ export default function HomeHero() {
       <section id="home-hero" className="relative w-full overflow-hidden bg-[#f5f5f7]">
         <div className="relative h-[56vh] w-full">
           <Image
-            src="/taytechdiscekim.webp"
+            src="/anasayfahero.webp"
             alt={t("home.hero.title")}
             fill
             sizes="100vw"
@@ -53,7 +53,7 @@ export default function HomeHero() {
     >
       <div className="relative h-full">
         <Image
-          src="/taytechdiscekim.webp"
+          src="/anasayfahero.webp"
           alt={t("home.hero.title")}
           fill
           sizes="100vw"

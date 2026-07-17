@@ -31,7 +31,7 @@ export default function HomeShowcase({
   href: string;
   products?: ShowcaseProduct[];
 }) {
-  const { t, locale } = useLanguage();
+  const { t, locale, lp } = useLanguage();
   const isEn = locale === "EN";
   const videoLeft = videoSide === "left";
 
@@ -106,7 +106,7 @@ export default function HomeShowcase({
               {t(descKey)}
             </p>
             <Link
-              href={href}
+              href={lp(href)}
               className="inline-flex items-center gap-[10px] whitespace-nowrap rounded-full bg-[#dc2626] px-[22px] py-[12px] text-[15px] font-semibold text-white transition-all hover:bg-[#b91c1c] lg:text-[17px]"
             >
               {t(btnKey)}
@@ -142,7 +142,7 @@ export default function HomeShowcase({
               return (
                 <Link
                   key={p.slug}
-                  href={`/urun/${p.slug}`}
+                  href={lp(`/urun/${p.slug}`)}
                   className="group flex w-[240px] shrink-0 snap-start flex-col overflow-hidden rounded-2xl bg-[#f5f5f7] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_32px_rgba(0,0,0,0.10)] lg:w-[290px]"
                 >
                   {/* Görsel alanı */}

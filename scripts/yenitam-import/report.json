@@ -1,0 +1,412 @@
+{
+ "products": [
+  {
+   "slug": "smart-booster",
+   "nameTr": "Smart Hidrofor",
+   "nameEn": "Smart Booster",
+   "catId": 3,
+   "images": {
+    "tr": 3,
+    "en": 0
+   },
+   "specTables": 0,
+   "documents": 4
+  },
+  {
+   "slug": "smart-bore-hole",
+   "nameTr": "Smart Derin Kuyu",
+   "nameEn": "Smart Bore Hole",
+   "catId": 3,
+   "images": {
+    "tr": 3,
+    "en": 0
+   },
+   "specTables": 0,
+   "documents": 4
+  },
+  {
+   "slug": "smart-box",
+   "nameTr": "Smart Box",
+   "nameEn": "Smart Box",
+   "catId": 3,
+   "images": {
+    "tr": 3,
+    "en": 0
+   },
+   "specTables": 0,
+   "documents": 4
+  },
+  {
+   "slug": "smart-exclusive",
+   "nameTr": "Smart Exclusive",
+   "nameEn": "Smart Exclusive",
+   "catId": 3,
+   "images": {
+    "tr": 3,
+    "en": 0
+   },
+   "specTables": 0,
+   "documents": 5
+  },
+  {
+   "slug": "smart-grinder",
+   "nameTr": "Smart Grinder",
+   "nameEn": "Smart Grinder",
+   "catId": 3,
+   "images": {
+    "tr": 3,
+    "en": 0
+   },
+   "specTables": 0,
+   "documents": 4
+  },
+  {
+   "slug": "smart-wastewater",
+   "nameTr": "Smart Atık Su",
+   "nameEn": "Smart Wastewater",
+   "catId": 3,
+   "images": {
+    "tr": 3,
+    "en": 0
+   },
+   "specTables": 0,
+   "documents": 4
+  },
+  {
+   "slug": "fxa-serisi",
+   "nameTr": "FxA Serisi",
+   "nameEn": "FxA Series",
+   "catId": 4,
+   "images": {
+    "tr": 3,
+    "en": 0
+   },
+   "specTables": 0,
+   "documents": 3
+  },
+  {
+   "slug": "fxs-serisi",
+   "nameTr": "FxS Serisi",
+   "nameEn": "FxS Series",
+   "catId": 4,
+   "images": {
+    "tr": 3,
+    "en": 0
+   },
+   "specTables": 0,
+   "documents": 3
+  },
+  {
+   "slug": "direkt-baslatma",
+   "nameTr": "Direct Start",
+   "nameEn": "Direct Start",
+   "catId": 6,
+   "images": {
+    "tr": 6,
+    "en": 0
+   },
+   "specTables": 0,
+   "documents": 3
+  },
+  {
+   "slug": "yildiz-ucgen-baslatma",
+   "nameTr": "Star & Delta Start",
+   "nameEn": "Star & Delta Start",
+   "catId": 6,
+   "images": {
+    "tr": 3,
+    "en": 0
+   },
+   "specTables": 0,
+   "documents": 3
+  },
+  {
+   "slug": "indirect-smarthexa-dhw-sh",
+   "nameTr": "Indirect SmartHexa DHW-SH",
+   "nameEn": "Indirect SmartHexa DHW-SH",
+   "catId": 26,
+   "images": {
+    "tr": 4,
+    "en": 0
+   },
+   "specTables": 1,
+   "documents": 9
+  },
+  {
+   "slug": "indirect-smarthexa-sh",
+   "nameTr": "Indirect SmartHexa SH",
+   "nameEn": "Indirect SmartHexa SH",
+   "catId": 26,
+   "images": {
+    "tr": 6,
+    "en": 0
+   },
+   "specTables": 1,
+   "documents": 9
+  },
+  {
+   "slug": "direct-smarthexa-dhw",
+   "nameTr": "Direct SmartHexa - DHW",
+   "nameEn": "Direct SmartHexa - DHW",
+   "catId": 27,
+   "images": {
+    "tr": 6,
+    "en": 0
+   },
+   "specTables": 1,
+   "documents": 9
+  },
+  {
+   "slug": "direct-smarthexa-rh",
+   "nameTr": "Direct SmartHexa - RH",
+   "nameEn": "Direct SmartHexa - RH",
+   "catId": 27,
+   "images": {
+    "tr": 6,
+    "en": 0
+   },
+   "specTables": 1,
+   "documents": 9
+  },
+  {
+   "slug": "direct-smarthexa-ufh",
+   "nameTr": "Direct SmartHexa - UFH",
+   "nameEn": "Direct SmartHexa - UFH",
+   "catId": 27,
+   "images": {
+    "tr": 6,
+    "en": 0
+   },
+   "specTables": 1,
+   "documents": 9
+  },
+  {
+   "slug": "indirect-hydrohexa-dhw-sh",
+   "nameTr": "Indirect HydroHexa DHW-SH",
+   "nameEn": "Indirect HydroHexa DHW-SH",
+   "catId": 29,
+   "images": {
+    "tr": 3,
+    "en": 4
+   },
+   "specTables": 1,
+   "documents": 9
+  },
+  {
+   "slug": "direct-hydrohexa-dhw",
+   "nameTr": "Direct HydroHexa - DHW",
+   "nameEn": "Direct HydroHexa - DHW",
+   "catId": 30,
+   "images": {
+    "tr": 3,
+    "en": 4
+   },
+   "specTables": 1,
+   "documents": 9
+  },
+  {
+   "slug": "direct-hydrohexa-rh",
+   "nameTr": "Direct HydroHexa - RH",
+   "nameEn": "Direct HydroHexa - RH",
+   "catId": 30,
+   "images": {
+    "tr": 3,
+    "en": 4
+   },
+   "specTables": 1,
+   "documents": 9
+  },
+  {
+   "slug": "direct-hydrohexa-ufh",
+   "nameTr": "Direct HydroHexa - UFH",
+   "nameEn": "Direct HydroHexa - UFH",
+   "catId": 30,
+   "images": {
+    "tr": 3,
+    "en": 4
+   },
+   "specTables": 1,
+   "documents": 9
+  },
+  {
+   "slug": "indirect-thermohexa-dhw-sh",
+   "nameTr": "Indirect ThermoHexa DHW-SH",
+   "nameEn": "Indirect ThermoHexa DHW-SH",
+   "catId": 32,
+   "images": {
+    "tr": 3,
+    "en": 4
+   },
+   "specTables": 1,
+   "documents": 9
+  },
+  {
+   "slug": "indirect-thermohexa-sh",
+   "nameTr": "Indirect ThermoHexa SH",
+   "nameEn": "Indirect ThermoHexa SH",
+   "catId": 32,
+   "images": {
+    "tr": 3,
+    "en": 4
+   },
+   "specTables": 1,
+   "documents": 9
+  },
+  {
+   "slug": "direct-thermohexa-dhw",
+   "nameTr": "Direct ThermoHexa - DHW",
+   "nameEn": "Direct ThermoHexa - DHW",
+   "catId": 34,
+   "images": {
+    "tr": 4,
+    "en": 3
+   },
+   "specTables": 1,
+   "documents": 9
+  },
+  {
+   "slug": "direct-thermohexa-rh",
+   "nameTr": "Direct ThermoHexa - RH",
+   "nameEn": "Direct ThermoHexa - RH",
+   "catId": 34,
+   "images": {
+    "tr": 3,
+    "en": 4
+   },
+   "specTables": 1,
+   "documents": 9
+  },
+  {
+   "slug": "direct-thermohexa-ufh",
+   "nameTr": "Direct ThermoHexa - UFH",
+   "nameEn": "Direct ThermoHexa - UFH",
+   "catId": 34,
+   "images": {
+    "tr": 3,
+    "en": 4
+   },
+   "specTables": 1,
+   "documents": 9
+  },
+  {
+   "slug": "indirect-hydro-em-dhw-sh",
+   "nameTr": "Indirect Hydro EM DHW-SH",
+   "nameEn": "Indirect Hydro EM DHW-SH",
+   "catId": 35,
+   "images": {
+    "tr": 3,
+    "en": 6
+   },
+   "specTables": 1,
+   "documents": 3
+  },
+  {
+   "slug": "direct-hydro-em-rh",
+   "nameTr": "Direct Hydro EM RH",
+   "nameEn": "Direct Hydro EM RH",
+   "catId": 38,
+   "images": {
+    "tr": 3,
+    "en": 6
+   },
+   "specTables": 1,
+   "documents": 3
+  },
+  {
+   "slug": "direct-hydro-em-ufh",
+   "nameTr": "Direct Hydro EM UFH",
+   "nameEn": "Direct Hydro EM UFH",
+   "catId": 38,
+   "images": {
+    "tr": 3,
+    "en": 6
+   },
+   "specTables": 1,
+   "documents": 3
+  },
+  {
+   "slug": "irontrap",
+   "nameTr": "IRONTRAP® Manyetik Filtre",
+   "nameEn": "IRONTRAP® Magnetic Filter",
+   "catId": 49,
+   "images": {
+    "tr": 3,
+    "en": 0
+   },
+   "specTables": 0,
+   "documents": 3
+  },
+  {
+   "slug": "ironinox",
+   "nameTr": "IRONINOX® Manyetik Filtre",
+   "nameEn": "IRONINOX® Magnetic Filter",
+   "catId": 49,
+   "images": {
+    "tr": 4,
+    "en": 0
+   },
+   "specTables": 0,
+   "documents": 3
+  }
+ ],
+ "warnings": [
+  "Elektronik Kontrol Panelleri/Soft Starter Serisi: içerik boş, atlandı",
+  "indirect-smarthexa-dhw-sh: featuresEn kaynak dosyası hatalıydı, elle düzeltildi",
+  "indirect-smarthexa-dhw-sh: Akış Şeması yalnız İngilizce",
+  "indirect-smarthexa-dhw-sh: Paketleme Bilgisi yalnız İngilizce",
+  "indirect-smarthexa-dhw-sh: CAD Çizimi (DWG) yalnız İngilizce",
+  "indirect-smarthexa-sh: Akış Şeması yalnız İngilizce",
+  "indirect-smarthexa-sh: Paketleme Bilgisi yalnız İngilizce",
+  "indirect-smarthexa-sh: CAD Çizimi (DWG) yalnız İngilizce",
+  "direct-smarthexa-dhw: featuresTr kaynak dosyası hatalıydı, elle düzeltildi",
+  "direct-smarthexa-dhw: Akış Şeması yalnız İngilizce",
+  "direct-smarthexa-dhw: Paketleme Bilgisi yalnız İngilizce",
+  "direct-smarthexa-dhw: CAD Çizimi (DWG) yalnız İngilizce",
+  "direct-smarthexa-rh: Akış Şeması yalnız İngilizce",
+  "direct-smarthexa-rh: Paketleme Bilgisi yalnız İngilizce",
+  "direct-smarthexa-rh: CAD Çizimi (DWG) yalnız İngilizce",
+  "direct-smarthexa-ufh: featuresEn kaynak dosyası hatalıydı, elle düzeltildi",
+  "direct-smarthexa-ufh: Akış Şeması yalnız İngilizce",
+  "direct-smarthexa-ufh: Paketleme Bilgisi yalnız İngilizce",
+  "direct-smarthexa-ufh: CAD Çizimi (DWG) yalnız İngilizce",
+  "indirect-hydrohexa-dhw-sh: Paketleme Bilgisi yalnız İngilizce",
+  "direct-hydrohexa-dhw: Paketleme Bilgisi yalnız İngilizce",
+  "direct-hydrohexa-rh: Paketleme Bilgisi yalnız İngilizce",
+  "direct-hydrohexa-ufh: Paketleme Bilgisi yalnız İngilizce",
+  "indirect-thermohexa-dhw-sh: Akış Şeması yalnız İngilizce",
+  "indirect-thermohexa-dhw-sh: Paketleme Bilgisi yalnız İngilizce",
+  "indirect-thermohexa-dhw-sh: CAD Çizimi (DWG) yalnız İngilizce",
+  "indirect-thermohexa-sh: Akış Şeması yalnız İngilizce",
+  "indirect-thermohexa-sh: Kabin Çizimi yalnız İngilizce",
+  "indirect-thermohexa-sh: Paketleme Bilgisi yalnız İngilizce",
+  "indirect-thermohexa-sh: CAD Çizimi (DWG) yalnız İngilizce",
+  "direct-thermohexa-dhw: Kabin Çizimi yalnız İngilizce",
+  "direct-thermohexa-dhw: Paketleme Bilgisi yalnız İngilizce",
+  "direct-thermohexa-dhw: CAD Çizimi (DWG) yalnız İngilizce",
+  "direct-thermohexa-rh: Kabin Çizimi yalnız İngilizce",
+  "direct-thermohexa-rh: Paketleme Bilgisi yalnız İngilizce",
+  "direct-thermohexa-rh: CAD Çizimi (DWG) yalnız İngilizce",
+  "direct-thermohexa-ufh: Kabin Çizimi yalnız İngilizce",
+  "direct-thermohexa-ufh: Paketleme Bilgisi yalnız İngilizce",
+  "direct-thermohexa-ufh: CAD Çizimi (DWG) yalnız İngilizce",
+  "irontrap: Ürün Kataloğu yalnız İngilizce",
+  "irontrap: CE Sertifikası yalnız İngilizce"
+ ],
+ "deleted": {
+  "products": 29,
+  "documents": 178,
+  "placeholder_categories": [
+   "indirect-thermohexa-sh",
+   "indirect-hydro-em-dhw-sh",
+   "direct-hydro-em-rh",
+   "direct-hydro-em-ufh"
+  ],
+  "orphan_uploads": 0
+ },
+ "images": {
+  "converted": 168,
+  "deduped": 70,
+  "bytes_in": 0,
+  "bytes_out": 0
+ }
+}

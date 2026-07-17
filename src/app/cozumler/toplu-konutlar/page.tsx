@@ -1,19 +1,24 @@
 import type { Metadata } from "next";
 import SolutionDetail from "../SolutionDetail";
+import { localizedMetadata } from "@/lib/i18n-meta";
 
-export const metadata: Metadata = {
-  title: "Toplu Konutlar İçin Isıtma ve Kontrol Çözümleri",
-  description:
-    "Site, rezidans ve toplu yaşam alanlarında merkezi ısıtma ve sıcak su sistemlerinin optimize edilmesi için uçtan uca otomasyon çözümleri.",
-  alternates: { canonical: "/cozumler/toplu-konutlar" },
-  openGraph: {
-    title: "Toplu Konutlar İçin Çözümler | Taytech",
-    description:
-      "Site ve rezidanslarda merkezi ısıtma ve sıcak su sistemleri için uçtan uca otomasyon.",
-    url: "/cozumler/toplu-konutlar",
-    images: [{ url: "/akıllısehir.webp" }],
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const meta = await localizedMetadata({
+    path: "/cozumler/toplu-konutlar",
+    title: {
+      tr: "Toplu Konutlar İçin Isıtma ve Kontrol Çözümleri",
+      en: "Heating & Control Solutions for Residential Complexes",
+    },
+    description: {
+      tr: "Site, rezidans ve toplu yaşam alanlarında merkezi ısıtma ve sıcak su sistemlerinin optimize edilmesi için uçtan uca otomasyon çözümleri.",
+      en: "End-to-end automation solutions for optimising central heating and hot water systems in residential estates and apartment complexes.",
+    },
+  });
+  return {
+    ...meta,
+    openGraph: { ...meta.openGraph, images: [{ url: "/akıllısehir.webp" }] },
+  };
+}
 
 export default function TopluKonutlar() {
   return (

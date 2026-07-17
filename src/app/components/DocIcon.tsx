@@ -6,7 +6,7 @@ export const docTypeLabels: Record<string, { tr: string; en: string }> = {
   kilavuz: { tr: "Kullanım Kılavuzu", en: "User Manual" },
   sertifika: { tr: "Sertifika", en: "Certificate" },
   cad: { tr: "CAD Çizimi", en: "CAD Drawing" },
-  genel: { tr: "Genel Katalog", en: "General Catalog" },
+  genel: { tr: "Genel Katalog", en: "General Catalogue" },
 };
 
 export function DocIcon({ type }: { type: string }) {

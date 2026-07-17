@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Phone, Mail, Printer, MapPin } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
+import { openCookieSettings } from "@/lib/consent";
 
 type Bi = { tr: string; en: string };
 
@@ -44,11 +45,11 @@ const columns: { title: Bi; href: string; links: (Bi & { href: string })[] }[] =
     ],
   },
   {
-    title: { tr: "Bilgi Merkezi", en: "Knowledge Center" },
+    title: { tr: "Bilgi Merkezi", en: "Knowledge Centre" },
     href: "/bilgi-merkezi/sikca-sorulan-sorular",
     links: [
       { tr: "Sıkça Sorulan Sorular", en: "FAQ", href: "/bilgi-merkezi/sikca-sorulan-sorular" },
-      { tr: "Doküman Merkezi", en: "Document Center", href: "/dokuman-merkezi" },
+      { tr: "Doküman Merkezi", en: "Document Centre", href: "/dokuman-merkezi" },
       { tr: "Teknik Destek", en: "Technical Support", href: "/iletisim" },
       { tr: "Taytech Akademi", en: "Taytech Academy", href: "/bilgi-merkezi/taytech-akademi" },
       { tr: "Video Arşivi", en: "Video Archive", href: "/bilgi-merkezi/video-arsivi" },
@@ -70,7 +71,7 @@ const socials = [
 ];
 
 export default function Footer() {
-  const { locale } = useLanguage();
+  const { locale, lp } = useLanguage();
   const pathname = usePathname();
   const L = (b: Bi) => (locale === "EN" ? b.en : b.tr);
   const year = new Date().getFullYear();
@@ -85,7 +86,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-12 md:grid-cols-12">
           {/* Marka + iletişim */}
           <div className="md:col-span-4">
-            <Link href="/" className="flex items-center gap-3 md:gap-4">
+            <Link href={lp("/")} className="flex items-center gap-3 md:gap-4">
               <Image src="/logos/headerlogo1.webp" alt="TayTech" width={1920} height={1080} className="h-12 w-auto md:h-16" />
               <Image src="/logos/headerlogo2.webp" alt="TayTech" width={1920} height={1080} className="h-12 w-auto md:h-16" />
             </Link>
@@ -127,9 +128,9 @@ export default function Footer() {
                 className="flex items-start gap-3 text-[#424245] transition-colors hover:text-[#dc2626]"
               >
                 <MapPin size={20} className="mt-1 shrink-0 text-[#dc2626]" />
-                <span className="max-w-[18rem]">
-                  <span className="mb-0.5 block text-sm font-semibold uppercase tracking-wider text-[#86868b]">Unıted Kıngdom</span>
-                  17 Green Lanes, London N16 9BS, Unıted Kıngdom
+                <span className="max-w-[18rem]" lang="en">
+                  <span className="mb-0.5 block text-sm font-semibold uppercase tracking-wider text-[#86868b]">United Kingdom</span>
+                  17 Green Lanes, London N16 9BS, United Kingdom
                 </span>
               </a>
             </div>
@@ -140,7 +141,7 @@ export default function Footer() {
             {columns.map((col) => (
               <div key={col.title.tr}>
                 <Link
-                  href={col.href}
+                  href={lp(col.href)}
                   className="text-base font-semibold text-[#1d1d1f] transition-colors hover:text-[#dc2626] md:text-xl"
                 >
                   {L(col.title)}
@@ -149,7 +150,7 @@ export default function Footer() {
                   {col.links.map((link) => (
                     <li key={link.tr}>
                       <Link
-                        href={link.href}
+                        href={lp(link.href)}
                         className="text-sm leading-snug text-[#6e6e73] transition-colors hover:text-[#dc2626] md:text-lg"
                       >
                         {L(link)}
@@ -171,6 +172,13 @@ export default function Footer() {
             {locale === "EN" ? "All rights reserved." : "Tüm hakları saklıdır."}
           </p>
           <div className="flex items-center gap-6">
+            <button
+              type="button"
+              onClick={openCookieSettings}
+              className="text-xs text-[#86868b] transition-colors hover:text-[#dc2626] md:text-sm"
+            >
+              {locale === "EN" ? "Cookie Settings" : "Çerez Ayarları"}
+            </button>
             <div className="flex items-center gap-4">
               {socials.map(({ label, href, Icon }) => (
                 <a

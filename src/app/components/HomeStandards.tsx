@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useLanguage } from "../context/LanguageContext";
 
 export default function HomeStandards() {
-  const { t } = useLanguage();
+  const { t, lp } = useLanguage();
 
   return (
     <div
@@ -109,7 +109,7 @@ export default function HomeStandards() {
           </div>
           <div className="mt-8 lg:mt-12">
             <Link
-              href="/kurumsal"
+              href={lp("/kurumsal")}
               className="bg-[#dc2626] text-white text-sm font-medium transition-all duration-300 hover:bg-[#b91c1c] inline-block"
               style={{ padding: "10px 24px" }}
             >

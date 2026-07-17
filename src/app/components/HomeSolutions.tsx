@@ -27,7 +27,7 @@ const MOSAIC_ICONS = [
 ];
 
 export default function HomeSolutions() {
-  const { t } = useLanguage();
+  const { t, lp } = useLanguage();
 
   return (
     <div
@@ -86,7 +86,7 @@ export default function HomeSolutions() {
           <GraduationCap className="w-10 h-10 lg:w-[68px] lg:h-[68px]" strokeWidth={1.5} color="#dc2626" />
         </div>
         <Link
-          href="/cozumler"
+          href={lp("/cozumler")}
           className="mt-2 lg:mt-4 bg-[#dc2626] text-white text-sm lg:text-base font-medium transition-all duration-300 hover:bg-[#b91c1c]"
           style={{ padding: "10px 28px", borderRadius: "0", textDecoration: "none" }}
         >

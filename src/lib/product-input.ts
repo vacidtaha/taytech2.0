@@ -33,6 +33,10 @@ export type ProductInput = {
   nameEn: string;
   descTr: string | null;
   descEn: string | null;
+  /** Teknik özellikler: satır başına bir madde; ";"/":" ile biten satır grup
+   * başlığı, tab ile başlayan satır alt maddedir. */
+  featuresTr: string | null;
+  featuresEn: string | null;
   categoryId: number | null;
   isActive: boolean;
   mainImageTr: string | null;
@@ -117,15 +121,17 @@ export function parseProductInput(body: unknown): ParseResult {
     }
   }
 
-  // Galeri
+  // Galeri — yalnız EN görseli olan kayıtlar da geçerli (İngiltere'ye özel ürün
+  // görselleri); TR sayfası boş url'li kayıtları atlar.
   const gallery: GalleryInput[] = [];
   if (Array.isArray(b.gallery)) {
     for (const g of b.gallery) {
       if (!g || typeof g !== "object") continue;
       const gg = g as Record<string, unknown>;
       const url = str(gg.url);
-      if (!url) continue;
-      gallery.push({ url, urlEn: strOrNull(gg.urlEn) });
+      const urlEn = strOrNull(gg.urlEn);
+      if (!url && !urlEn) continue;
+      gallery.push({ url, urlEn });
     }
   }
 
@@ -157,6 +163,8 @@ export function parseProductInput(body: unknown): ParseResult {
       nameEn,
       descTr: strOrNull(b.descTr),
       descEn: strOrNull(b.descEn),
+      featuresTr: strOrNull(b.featuresTr),
+      featuresEn: strOrNull(b.featuresEn),
       categoryId,
       isActive: b.isActive !== false,
       mainImageTr: strOrNull(b.mainImageTr),
@@ -178,6 +186,8 @@ export function toPrismaData(input: ProductInput) {
     nameEn: input.nameEn,
     descTr: input.descTr,
     descEn: input.descEn,
+    featuresTr: input.featuresTr,
+    featuresEn: input.featuresEn,
     categoryId: input.categoryId,
     isActive: input.isActive,
     mainImageTr: input.mainImageTr,

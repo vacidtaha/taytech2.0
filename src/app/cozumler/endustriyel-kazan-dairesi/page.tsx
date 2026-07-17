@@ -1,19 +1,24 @@
 import type { Metadata } from "next";
 import SolutionDetail from "../SolutionDetail";
+import { localizedMetadata } from "@/lib/i18n-meta";
 
-export const metadata: Metadata = {
-  title: "Endüstriyel Kazan Daireleri İçin Kontrol Çözümleri",
-  description:
-    "Yüksek kapasiteli endüstriyel kazan dairelerinde verimlilik artışı, enerji tasarrufu ve uzaktan izleme çözümleri.",
-  alternates: { canonical: "/cozumler/endustriyel-kazan-dairesi" },
-  openGraph: {
-    title: "Endüstriyel Kazan Daireleri İçin Çözümler | Taytech",
-    description:
-      "Endüstriyel kazan dairelerinde verimlilik, enerji tasarrufu ve uzaktan izleme.",
-    url: "/cozumler/endustriyel-kazan-dairesi",
-    images: [{ url: "/kazan-dairesi.webp" }],
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const meta = await localizedMetadata({
+    path: "/cozumler/endustriyel-kazan-dairesi",
+    title: {
+      tr: "Endüstriyel Kazan Daireleri İçin Kontrol Çözümleri",
+      en: "Control Solutions for Industrial Boiler Rooms",
+    },
+    description: {
+      tr: "Yüksek kapasiteli endüstriyel kazan dairelerinde verimlilik artışı, enerji tasarrufu ve uzaktan izleme çözümleri.",
+      en: "Efficiency gains, energy savings and remote monitoring solutions for high-capacity industrial boiler rooms.",
+    },
+  });
+  return {
+    ...meta,
+    openGraph: { ...meta.openGraph, images: [{ url: "/kazan-dairesi.webp" }] },
+  };
+}
 
 export default function EndustriyelKazanDairesi() {
   return (

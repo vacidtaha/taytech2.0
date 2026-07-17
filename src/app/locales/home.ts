@@ -92,9 +92,9 @@ export const homeTranslations: Record<Locale, Record<string, string>> = {
     "home.scrollvideo.subtitle":
       "Every detail crafted for superior performance.",
     "home.dokuman.taytech": "Taytech",
-    "home.dokuman.title": "Document Center",
+    "home.dokuman.title": "Document Centre",
     "home.dokuman.desc":
-      "Access all technical data sheets, user manuals, and catalogs from a single point.",
+      "Access all technical data sheets, user manuals and catalogues from a single point.",
     "home.dokuman.btn": "View All Documents",
     "home.cozumler.title": "Discover Our Solutions",
     "home.cozumler.desc":
@@ -122,7 +122,7 @@ export const homeTranslations: Record<Locale, Record<string, string>> = {
     "home.standartlar.iso1": "Quality Management",
     "home.standartlar.iso2": "Environmental Responsibility",
     "home.standartlar.iso3": "Occupational Health and Safety",
-    "home.standartlar.btn": "Read Corporate",
+    "home.standartlar.btn": "Explore Corporate",
     "home.isiistasyonu.label": "Heat Interface Units",
     "home.isiistasyonu.title": "Heat Interface Units. Flawless engineering, from every angle.",
     "home.isiistasyonu.desc":

@@ -7,7 +7,7 @@ import ProductContactDock from "./ProductContactDock";
 /** İletişim sayfası hariç tüm sayfalarda sabit iletişim kutusu. */
 export default function SiteContactDock() {
   const pathname = usePathname();
-  const isHome = pathname === "/";
+  const isHome = pathname === "/" || pathname === "/en";
   const [pastHero, setPastHero] = useState(!isHome);
 
   useEffect(() => {
@@ -36,11 +36,16 @@ export default function SiteContactDock() {
     return () => observer.disconnect();
   }, [isHome]);
 
-  if (pathname === "/iletisim" || pathname.startsWith("/iletisim/")) {
+  if (
+    pathname === "/iletisim" ||
+    pathname.startsWith("/iletisim/") ||
+    pathname === "/en/contact" ||
+    pathname.startsWith("/en/contact/")
+  ) {
     return null;
   }
 
-  const productSlug = pathname.match(/^\/urun\/([^/]+)/)?.[1];
+  const productSlug = pathname.match(/^(?:\/en)?\/(?:urun|product)\/([^/]+)/)?.[1];
 
   return (
     <ProductContactDock

@@ -1,0 +1,643 @@
+  ! Elektronik Kontrol Panelleri/Soft Starter Serisi: içerik boş, atlandı
+Toplam içe aktarılacak ürün: 29
+
+### Smart Hidrofor  (slug=smart-booster)
+  kategori id: 3, görsel TR/EN: 3/0, tablo: 0, doküman: 4
+  --- descTr ---
+  Mikroişlemcili kontrol panoları, tek faz veya trifaz olarak 2 pompaya kadar sistemi kontrol eder. Smart Booster, sisteminizi yönetmeyi, parametreleri değiştirmeyi, olayları ve mesajları kayıt altına alma vb. gibi bir çok işlemi pratik bir şekilde yapmanızı sağlar. (Temiz su uygulamalarında ki basınçlandırma süreçlerini gerçekleştirir)
+  • 3G / WI-FI modül sayesinde, uzak bir noktadan sistemi işletme, verileri görüntüleme ve sistemi kontrol etme sağlanır.
+  • Kolay ve hızlı bir şekilde yönlendirme butonlarını kullanarak, net şekilde okunabilir LCD ekran üzerinden ayarların yapılması
+  • Basınç 
+  --- featuresTr ---
+  Termoplastik (ABS) / IP 54 / Su Geçirmez / Alev Yürütmez Muhafaza
+  Güç Beslemesi 1 Faz-50/60Hz 230V ±%15
+  Güç Beslemesi 3 Faz-50/60Hz 400V ±%15
+  128 x 64 LCD Grafik Ekran
+  Motor Çalışıyor sinyali için yeşil renkli LED / Hatalar için kırmızı renkli LED
+  Başlatma bilgisi için komut girişi (Basınç anahtarı veya sensör)
+  Ana Sayfada Voltaj, Amper, Alarmlar, Basınç, Olaylar ve Tarih & Zaman bilgi
+  DOC [katalog] Ürün Kataloğu | /uploads/smart-booster-katalog.pdf | en=/uploads/smart-booster-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/smart-booster-kilavuz.pdf | en=/uploads/smart-booster-kilavuz-en.pdf
+  DOC [teknik] Ürün Opsiyonları | /uploads/smart-booster-opsiyonlar.pdf | en=/uploads/smart-booster-opsiyonlar-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/smart-booster-sertifika.pdf | en=None
+
+### Smart Derin Kuyu  (slug=smart-bore-hole)
+  kategori id: 3, görsel TR/EN: 3/0, tablo: 0, doküman: 4
+  --- descTr ---
+  Mikroişlemcili kontrol panoları, tek faz veya trifaz olarak 2 pompaya kadar sistemi kontrol eder. Smart Bore Hole, sisteminizi yönetmeyi, parametreleri değiştirmeyi, olayları ve mesajları kayıt altına alma vb. gibi bir çok işlemi pratik bir şekilde yapmanızı sağlar. (Pis su ve temiz su uygulamalarında ki doldurma ve boşaltma süreçlerini gerçekleştirir)
+  • 3G / WI-FI modül sayesinde, uzak bir noktadan sistemi işletme, verileri görüntüleme ve sistemi kontrol etme sağlanır.
+  • Kolay ve hızlı bir şekilde yönlendirme butonlarını kullanarak, net şekilde okunabilir LCD ekran üzerinden ayarların yap
+  --- featuresTr ---
+  Termoplastik (ABS) / IP 54 / Su Geçirmez / Alev Yürütmez Muhafaza
+  Güç Beslemesi 1 Faz-50/60Hz 230V ±%15
+  Güç Beslemesi 3 Faz-50/60Hz 400V ±%15
+  128 x 64 LCD Grafik Ekran
+  Motor Çalışıyor sinyali için yeşil renkli LED / Hatalar için kırmızı renkli LED
+  Başlatma bilgisi için komut girişi (Seviye Elektrodu veya Şamandıra)
+  Ana Sayfada Voltaj, Amper, Alarmlar, Basınç, Olaylar ve Tarih & Zaman b
+  DOC [katalog] Ürün Kataloğu | /uploads/smart-bore-hole-katalog.pdf | en=/uploads/smart-bore-hole-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/smart-bore-hole-kilavuz.pdf | en=/uploads/smart-bore-hole-kilavuz-en.pdf
+  DOC [teknik] Ürün Opsiyonları | /uploads/smart-bore-hole-opsiyonlar.pdf | en=/uploads/smart-bore-hole-opsiyonlar-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/smart-bore-hole-sertifika.pdf | en=None
+
+### Smart Box  (slug=smart-box)
+  kategori id: 3, görsel TR/EN: 3/0, tablo: 0, doküman: 4
+  --- descTr ---
+  Mikrokontrolörlü Kontrol Panoları, 1 fazlı pompaları kontrol etmek için tasarlanmıştır. Smart Box sisteminizi yönetmeyi, parametreleri değiştirmeyi, olayları ve mesajları kayıt altına alma vb. gibi bir çok işlemi pratik bir şekilde yapmanızı sağlar.(Temiz su uygulamalarına yönelik olarak boşaltma veya doldurma işlemlerini gerçekleştirir.)
+  • Kolay ve hızlı bir şekilde yönlendirme butonlarını kullanarak, net şekilde okunabilir LCD ekran üzerinden ayarların yapılması
+  • Farklı tipteki bağlantılar ile motoru başlatma veya durdurma; basınç anahtarı, akış anahtarı vb. gibi
+  --- featuresTr ---
+  Termoplastik (ABS) / IP 54 / Su Geçirmez / Alev Yürütmez Muhafaza
+  Güç Beslemesi 1 Faz-50/60Hz 230V ±%15
+  128 x 64 LCD Grafik Ekran
+  Motor Çalışıyor için Yeşil LED / Hatalar için Kırmızı LED
+  Başlatmak için NO bağlantısı
+  Volt, Amper, Alarmlar, Olaylar ve Ana Sayfada Gün / Zaman Ekranı
+  Korumalar ve Hatalar
+  	Motor Aşırı akım / Düşük Akım (Ayarlanabilir)
+  	Faz Yok ve Faz Sırası Hatası
+  	M
+  DOC [katalog] Ürün Kataloğu | /uploads/smart-box-katalog.pdf | en=/uploads/smart-box-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/smart-box-kilavuz.pdf | en=/uploads/smart-box-kilavuz-en.pdf
+  DOC [teknik] Ürün Opsiyonları | /uploads/smart-box-opsiyonlar.pdf | en=/uploads/smart-box-opsiyonlar-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/smart-box-sertifika.pdf | en=None
+
+### Smart Exclusive  (slug=smart-exclusive)
+  kategori id: 3, görsel TR/EN: 3/0, tablo: 0, doküman: 5
+  --- descTr ---
+  Mikroişlemcili kontrol panoları, tek faz veya trifaz olarak 4 pompaya kadar sistemi kontrol eder. Smart Exclusive D ve S, sisteminizi yönetmeyi, parametreleri değiştirmeyi, olayları ve mesajları kayıt altına alma vb. gibi bir çok işlemi pratik bir şekilde yapmanızı sağlar.(Atık su ve Temiz su uygulamaları için basınçlandırma, boşaltma, doldurma işlemlerinde geçerlidir)
+  • 3G / WI-FI modül sayesinde, uzak bir noktadan sistemi işletme, verileri görüntüleme ve sistemi kontrol etme sağlanır.
+  • Kolay ve hızlı bir şekilde yönlendirme butonlarını kullanarak, net şekilde okunabilir LCD ekran üzerin
+  --- featuresTr ---
+  Metal Kutu / IP 54 / Su Geçirmez / Alev Yürütmez Muhafaza
+  Kilitleme mekanizmasına sahip Ana kesici
+  Güç Beslemesi 1 Faz-50/60Hz 230V ±%15
+  Güç Beslemesi 3 Faz-50/60Hz 400V ±%15
+  128 x 64 LCD Grafik Ekran
+  Motor Çalışıyor sinyali için yeşil renkli LED / Hatalar için kırmızı renkli LED
+  Başlatma bilgisi için komut girişi (Seviye Elektrodu veya Şamandıra)
+  Ana Sayfada Voltaj, Amper, Alarmlar,
+  DOC [katalog] Ürün Kataloğu | /uploads/smart-exclusive-katalog.pdf | en=/uploads/smart-exclusive-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu (D) | /uploads/smart-exclusive-kilavuz-d.pdf | en=/uploads/smart-exclusive-kilavuz-d-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu (S) | /uploads/smart-exclusive-kilavuz-s.pdf | en=/uploads/smart-exclusive-kilavuz-s-en.pdf
+  DOC [teknik] Ürün Opsiyonları | /uploads/smart-exclusive-opsiyonlar.pdf | en=/uploads/smart-exclusive-opsiyonlar-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/smart-exclusive-sertifika.pdf | en=None
+
+### Smart Grinder  (slug=smart-grinder)
+  kategori id: 3, görsel TR/EN: 3/0, tablo: 0, doküman: 4
+  --- descTr ---
+  Mikroişlemcili kontrol panoları, tek faz veya trifaz olarak 2 pompaya kadar sistemi kontrol eder. Smart Grinder, sisteminizi yönetmeyi, parametreleri değiştirmeyi, olayları ve mesajları kayıt altına alma vb.gibi bir çok işlemi pratik bir şekilde yapmanızı sağlar.
+  • 3G / WI-FI modül sayesinde, uzak bir noktadan sistemi işletme, verileri görüntüleme ve sistemi kontrol etme sağlanır.
+  • Kolay ve hızlı bir şekilde yönlendirme butonlarını kullanarak, net şekilde okunabilir LCD ekran üzerinden ayarların yapılması
+  • Şamandıradan gelen bilgi ile, sistemi açar, çalıştırır ve durdurur.
+  --- featuresTr ---
+  Termoplastik (ABS) / IP 54 / Su Geçirmez / Alev Yürütmez Muhafaza
+  Kilitleme mekanizmasına sahip Ana kesici
+  Güç Beslemesi 1 Faz-50/60Hz 230V ±%15
+  Güç Beslemesi 3 Faz-50/60Hz 400V ±%15
+  128 x 64 LCD Grafik Ekran
+  Motor Çalışıyor sinyali için yeşil renkli LED / Hatalar için kırmızı renkli LED
+  Başlatma bilgisi için komut girişi (Seviye Elektrodu veya Şamandıra)
+  Ana Sayfada Voltaj, Amper, A
+  DOC [katalog] Ürün Kataloğu | /uploads/smart-grinder-katalog.pdf | en=/uploads/smart-grinder-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/smart-grinder-kilavuz.pdf | en=/uploads/smart-grinder-kilavuz-en.pdf
+  DOC [teknik] Ürün Opsiyonları | /uploads/smart-grinder-opsiyonlar.pdf | en=/uploads/smart-grinder-opsiyonlar-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/smart-grinder-sertifika.pdf | en=None
+
+### Smart Atık Su  (slug=smart-wastewater)
+  kategori id: 3, görsel TR/EN: 3/0, tablo: 0, doküman: 4
+  --- descTr ---
+  Mikroişlemcili kontrol panoları, tek faz veya trifaz olarak 2 pompaya kadar sistemi kontrol eder. Smart Wastewater, sisteminizi yönetmeyi, parametreleri değiştirmeyi, olayları ve mesajları kayıt altına alma vb. gibi birçok işlemi pratik bir şekilde yapmanızı sağlar. (Pis su uygulamalarında ki doldurma ve boşaltma süreçlerini gerçekleştirir)
+  • 3G / WI-FI modül sayesinde, uzak bir noktadan sistemi işletme, verileri görüntüleme ve sistemi kontrol etme sağlanır.
+  • Kolay ve hızlı bir şekilde yönlendirme butonlarını kullanarak, net şekilde okunabilir LCD ekran üzerinden ayarların yapılması
+  • Ş
+  --- featuresTr ---
+  Termoplastik (ABS) / IP 54 / Su Geçirmez / Alev Yürütmez Muhafaza
+  Güç Beslemesi 1 Faz-50/60Hz 230V ±%15
+  Güç Beslemesi 3 Faz-50/60Hz 400V ±%15
+  128 x 64 LCD Grafik Ekran
+  Motor Çalışıyor sinyali için yeşil renkli LED / Hatalar için kırmızı renkli LED
+  Başlatma bilgisi için komut girişi (Seviye Elektrodu veya Şamandıra)
+  Ana Sayfada Voltaj, Amper, Alarmlar, Basınç, Olaylar ve Tarih & Zaman b
+  DOC [katalog] Ürün Kataloğu | /uploads/smart-wastewater-katalog.pdf | en=/uploads/smart-wastewater-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/smart-wastewater-kilavuz.pdf | en=/uploads/smart-wastewater-kilavuz-en.pdf
+  DOC [teknik] Ürün Opsiyonları | /uploads/smart-wastewater-opsiyonlar.pdf | en=/uploads/smart-wastewater-opsiyonlar-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/smart-wastewater-sertifika.pdf | en=None
+
+### FxA Serisi  (slug=fxa-serisi)
+  kategori id: 4, görsel TR/EN: 3/0, tablo: 0, doküman: 3
+  --- descTr ---
+  3 fazlı 4 motora kadar olan sistemlerde, elektronik olarak değişken frekans kontrolü ile yol verme yöntemi sayesinde, gelişmiş motor kontrolü sağlanır.
+  • 3G / WI-FI modül sayesinde, uzak bir noktadan sistemi işletme, verileri görüntüleme ve sistemi kontrol etme sağlanır.
+  • Kolay ve hızlı bir şekilde yönlendirme butonlarını kullanarak, net şekilde okunabilir LCD ekran üzerinden ayarların yapılması
+  • Fabrika montajlı olarak, motor koruması için devre kesici ve kapı kilitleme mekanizma özelliği olan yük kesici
+  • Şamandıradan, basınç sensöründe ve anahtarından, seviye elektrodundan veya sı
+  --- featuresTr ---
+  Metal Kutu / IP 54
+  Kilitleme mekanizmasına sahip yük kesici
+  Otomatik / Manuel Anahtar
+  Güç Beslemesi 3 Faz-50/60Hz 400V ±%15
+  Korumalar ve Hatalar;
+  	Motor Aşırı Akım / Düşük Akım (Ayarlanabilir)
+  	Faz kaybı ve Faz sırası hatası
+  	Min / Max Voltaj (Ayarlanabilir)
+  	Motor başlama zamanı
+  	Taşma uyarısı fonksiyonu
+  	Kuru çalışma koruması
+  	Termal ve Manyetik Koruma
+  BMS Sistemi için ku
+  DOC [katalog] Ürün Kataloğu | /uploads/fxa-serisi-katalog.pdf | en=/uploads/fxa-serisi-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/fxa-serisi-kilavuz.pdf | en=/uploads/fxa-serisi-kilavuz-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/fxa-serisi-sertifika.pdf | en=None
+
+### FxS Serisi  (slug=fxs-serisi)
+  kategori id: 4, görsel TR/EN: 3/0, tablo: 0, doküman: 3
+  --- descTr ---
+  3 fazlı 4 motora kadar olan sistemlerde, elektronik olarak değişken frekans kontrolü ile yol verme yöntemi sayesinde, gelişmiş motor kontrolü sağlanır.
+  • 3G / WI-FI modül sayesinde, uzak bir noktadan sistemi işletme, verileri görüntüleme ve sistemi kontrol etme sağlanır.
+  • Kolay ve hızlı bir şekilde yönlendirme butonlarını kullanarak, net şekilde okunabilir 7” TFT Dokunmatik ekran üzerinden ayarların yapılması
+  • Fabrika montajlı olarak, motor koruması için devre kesici ve kapı kilitleme mekanizma özelliği olan yük kesici
+  • Şamandıradan, basınç sensöründe ve anahtarından, seviye elektro
+  --- featuresTr ---
+  Metal Kutu / IP 54
+  Kilitleme mekanizmasına sahip yük kesici
+  Otomatik / Manuel Anahtar
+  Güç Beslemesi 3 Faz-50/60Hz 400V ±%15
+  Korumalar ve Hatalar;
+  	Motor Aşırı Akım / Düşük Akım (Ayarlanabilir)
+  	Faz kaybı ve Faz sırası hatası
+  	Min / Max Voltaj (Ayarlanabilir)
+  	Motor başlama zamanı
+  	Taşma uyarısı fonksiyonu
+  	Kuru çalışma koruması
+  	Termal ve Manyetik Koruma
+  BMS Sistemi için ku
+  DOC [katalog] Ürün Kataloğu | /uploads/fxs-serisi-katalog.pdf | en=/uploads/fxs-serisi-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/fxs-serisi-kilavuz.pdf | en=/uploads/fxs-serisi-kilavuz-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/fxs-serisi-sertifika.pdf | en=None
+
+### Direct Start  (slug=direkt-baslatma)
+  kategori id: 6, görsel TR/EN: 6/0, tablo: 0, doküman: 3
+  --- descTr ---
+  Doğrudan yol verme metoduna sahip, 1 veya 3 faz motorları 4 pompaya kadar aynı anda sürebilen kontrol paneli. (Temiz su ve pis su uygulamalarındaki doldurma, boşaltma ve basınçlandırma işlemleri için)
+  • Şamandıra ve seviye elektrod bağlantısı ile, motoru durdurma, çalıştırma ve başlatmayı sağlar.
+  --- featuresTr ---
+  Metal / IP 54 / Su Geçirmez
+  Kilitleme mekanizmasına sahip ana kesici
+  Güç Beslemesi 1-50/60Hz 230V ±%15
+  Güç Beslemesi 3-50/60Hz 400V ±%15
+  Motor çalışıyor bilgisi için yeşil LED / Hatalar için Kırmızı LED
+  Başlatma komutu için giriş
+  Korumalar ve Hatalar;
+  	Motor Aşırı akım koruması
+  	Faz kaybı ve faz sırası için koruma
+  	Kuru çalışma koruması
+  Motor koruma sigortaları
+  Yetkilendirilm
+  DOC [katalog] Ürün Kataloğu | /uploads/direkt-baslatma-katalog.pdf | en=/uploads/direkt-baslatma-katalog-en.pdf
+  DOC [teknik] Ürün Opsiyonları | /uploads/direkt-baslatma-opsiyonlar.pdf | en=/uploads/direkt-baslatma-opsiyonlar-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/direkt-baslatma-sertifika.pdf | en=None
+
+### Star & Delta Start  (slug=yildiz-ucgen-baslatma)
+  kategori id: 6, görsel TR/EN: 3/0, tablo: 0, doküman: 3
+  --- descTr ---
+  • 1 veya 3 fazlı motorlarda 4 pompaya kadar aynı anda kontrol edebilen yıldız üçgen yol vermeli kontrol paneli. (Temiz su ve pis su uygulamalarındaki doldurma, boşaltma ve basınçlandırma işlemleri için).
+  • Şamandıra ve seviye elektrod bağlantısı ile, motoru durdurma, çalıştırma ve başlatmayı sağlar.
+  --- featuresTr ---
+  Metal / IP 54 / Su Geçirmez
+  Kilitleme mekanizmasına sahip ana kesici
+  Güç Beslemesi 1-50/60Hz 230V ±%15
+  Güç Beslemesi 3-50/60Hz 400V ±%15
+  Motor çalışıyor bilgisi için yeşil LED / Hatalar için Kırmızı LED
+  Başlatma komutu için giriş
+  Korumalar ve Hatalar;
+  	Motor Aşırı akım koruması
+  	Faz kaybı ve faz sırası için koruma
+  	Kuru çalışma koruması
+  Motor koruma sigortaları
+  Yetkilendirilm
+  DOC [katalog] Ürün Kataloğu | /uploads/yildiz-ucgen-baslatma-katalog.pdf | en=/uploads/yildiz-ucgen-baslatma-katalog-en.pdf
+  DOC [teknik] Ürün Opsiyonları | /uploads/yildiz-ucgen-baslatma-opsiyonlar.pdf | en=/uploads/yildiz-ucgen-baslatma-opsiyonlar-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/yildiz-ucgen-baslatma-sertifika.pdf | en=None
+
+### Indirect SmartHexa DHW-SH  (slug=indirect-smarthexa-dhw-sh)
+  ! indirect-smarthexa-dhw-sh: Akış Şeması yalnız İngilizce
+  ! indirect-smarthexa-dhw-sh: Paketleme Bilgisi yalnız İngilizce
+  ! indirect-smarthexa-dhw-sh: CAD Çizimi (DWG) yalnız İngilizce
+  kategori id: 26, görsel TR/EN: 4/0, tablo: 1, doküman: 9
+  --- descTr ---
+  Indirect SmartHexa, kullanım sıcak suyu (DHW) üretimine öncelik verirken verimliliği en üst düzeye çıkarmak üzere tasarlanmış gelişmiş bir elektronik kontrol sistemi ile donatılmıştır. Ünite, optimum çalışma koşullarını sağlamak için sıcaklık, basınç ve akışı birçok noktadan sürekli olarak izler. Paslanmaz çelik ısı eşanjörleri ve boruları ile sistem, hem kullanım sıcak suyu hem de alan ısıtma uygulamaları için yüksek dayanıklılık, uzun hizmet ömrü ve güvenilir performans sunar. Orantılı motorlu kontrol vanaları ve gelişmiş kontrol algoritmaları, değişken talep koşulları altında hassas sıcaklı
+  --- featuresTr ---
+  Hızlı kurulum ve devreye alma için GSM veya Ethernet üzerinden PC bağlantısı sağlayan tam elektronik kontrol
+  Kalibre edilmiş sensörlerle hızlı ve hassas kullanım suyu kontrolü
+  Yüksek verimli ısı eşanjörlü bölgesel ısıtma için dönüş sıcaklığı kontrolü
+  Güvenli kullanım suyu için akıllı lejyonella önleme fonksiyonu
+  Sıkışmayı önlemek ve güvenilirliği sağlamak için pompa ve vana çalıştırma modu
+  DOC [katalog] Ürün Kataloğu | /uploads/indirect-smarthexa-dhw-sh-katalog.pdf | en=/uploads/indirect-smarthexa-dhw-sh-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/indirect-smarthexa-dhw-sh-kilavuz.pdf | en=/uploads/indirect-smarthexa-dhw-sh-kilavuz-en.pdf
+  DOC [teknik] Akış Şeması | /uploads/indirect-smarthexa-dhw-sh-akis-semasi-en.pdf | en=None
+  DOC [teknik] Kabin Çizimi | /uploads/indirect-smarthexa-dhw-sh-kabin-cizimi.pdf | en=/uploads/indirect-smarthexa-dhw-sh-kabin-cizimi-en.pdf
+  DOC [teknik] Ürün Opsiyonları | /uploads/indirect-smarthexa-dhw-sh-opsiyonlar.pdf | en=/uploads/indirect-smarthexa-dhw-sh-opsiyonlar-en.pdf
+  DOC [teknik] Paketleme Bilgisi | /uploads/indirect-smarthexa-dhw-sh-paketleme-en.pdf | en=None
+  DOC [teknik] Teknik Çizim | /uploads/indirect-smarthexa-dhw-sh-teknik-cizim.pdf | en=/uploads/indirect-smarthexa-dhw-sh-teknik-cizim-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/indirect-smarthexa-dhw-sh-sertifika.pdf | en=None
+  DOC [cad] CAD Çizimi (DWG) | /uploads/indirect-smarthexa-dhw-sh-cad-en.dwg | en=None
+
+### Indirect SmartHexa SH  (slug=indirect-smarthexa-sh)
+  ! indirect-smarthexa-sh: Akış Şeması yalnız İngilizce
+  ! indirect-smarthexa-sh: Paketleme Bilgisi yalnız İngilizce
+  ! indirect-smarthexa-sh: CAD Çizimi (DWG) yalnız İngilizce
+  kategori id: 26, görsel TR/EN: 6/0, tablo: 1, doküman: 9
+  --- descTr ---
+  SmartHexa SH, mekan ısıtma uygulamalarında maksimum verimliliği sağlayan gelişmiş bir elektronik kontrol sistemi ile donatılmıştır. Ünite, optimum çalışma koşullarını korumak için sıcaklık, basınç ve akışı birçok noktadan sürekli olarak izler. Paslanmaz çelik ısı eşanjörü ve boruları ile sistem, yüksek dayanıklılık sunar ve çeşitli ısıtma sistemlerinde güvenilir performans sağlar. İsteğe bağlı dış ortam telafi kontrolü, değişen ortam koşullarına hızlı adaptasyon sağlayarak genel enerji verimliliğini artırır. Orantılı motorlu kontrol vanaları ve gelişmiş kontrol algoritmaları, ısıtma devresinde
+  --- featuresTr ---
+  Hızlı kurulum ve devreye alma için GSM veya Ethernet üzerinden PC bağlantısı sağlayan tam elektronik kontrol
+  Kalibre edilmiş sensörlerle hızlı ve hassas kullanım suyu kontrolü
+  Yüksek verimli ısı eşanjörlü bölgesel ısıtma için dönüş sıcaklığı kontrolü
+  Güvenli kullanım suyu için akıllı lejyonella önleme fonksiyonu
+  Sıkışmayı önlemek ve güvenilirliği sağlamak için pompa ve vana çalıştırma modu
+  DOC [katalog] Ürün Kataloğu | /uploads/indirect-smarthexa-sh-katalog.pdf | en=/uploads/indirect-smarthexa-sh-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/indirect-smarthexa-sh-kilavuz.pdf | en=/uploads/indirect-smarthexa-sh-kilavuz-en.pdf
+  DOC [teknik] Akış Şeması | /uploads/indirect-smarthexa-sh-akis-semasi-en.pdf | en=None
+  DOC [teknik] Kabin Çizimi | /uploads/indirect-smarthexa-sh-kabin-cizimi.pdf | en=/uploads/indirect-smarthexa-sh-kabin-cizimi-en.pdf
+  DOC [teknik] Ürün Opsiyonları | /uploads/indirect-smarthexa-sh-opsiyonlar.pdf | en=/uploads/indirect-smarthexa-sh-opsiyonlar-en.pdf
+  DOC [teknik] Paketleme Bilgisi | /uploads/indirect-smarthexa-sh-paketleme-en.pdf | en=None
+  DOC [teknik] Teknik Çizim | /uploads/indirect-smarthexa-sh-teknik-cizim.pdf | en=/uploads/indirect-smarthexa-sh-teknik-cizim-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/indirect-smarthexa-sh-sertifika.pdf | en=None
+  DOC [cad] CAD Çizimi (DWG) | /uploads/indirect-smarthexa-sh-cad-en.dwg | en=None
+
+### Direct SmartHexa - DHW  (slug=direct-smarthexa-dhw)
+  ! direct-smarthexa-dhw: Akış Şeması yalnız İngilizce
+  ! direct-smarthexa-dhw: Paketleme Bilgisi yalnız İngilizce
+  ! direct-smarthexa-dhw: CAD Çizimi (DWG) yalnız İngilizce
+  kategori id: 27, görsel TR/EN: 6/0, tablo: 1, doküman: 9
+  --- descTr ---
+  SmartHexa DHW, maksimum verimliliği sağlamak üzere bir elektronik kontrol sistemi ile donatılmıştır ve kullanım sıcak suyu üretimine öncelik verir. Ünite, optimum çalışma koşullarını sağlamak için sıcaklık, basınç ve akış değerlerini birçok noktadan sürekli olarak izler. Paslanmaz çelik ısı eşanjörü ve borulara sahip olan sistem, yüksek dayanıklılık sunar ve verimli ve hijyenik kullanım sıcak suyu hazırlığı sağlar. Merkezi ısıtma sistemlerine sahip binalarda, genel enerji verimliliğini daha da artırmak için isteğe bağlı bir dış ortam telafi kontrolü entegre edilebilir. Sistem, son kullanıcılar
+  --- featuresTr ---
+  SmartHexa RH, gelişmiş elektronik kontrol sistemi sayesinde yüksek verimlilik sunarken, aynı zamanda kullanım sıcak suyu (DHW) üretimine öncelik verir. Ünite, güvenilir ve optimum performans sağlamak için sistem parametrelerini sürekli olarak izler. Paslanmaz çelik ısı eşanjörü ve boru tesisatı sayesinde uzun ömürlü dayanıklılık sağlar ve radyatörlü ısıtma sistemleriyle verimli bir şekilde çalışır
+  DOC [katalog] Ürün Kataloğu | /uploads/direct-smarthexa-dhw-katalog.pdf | en=/uploads/direct-smarthexa-dhw-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/direct-smarthexa-dhw-kilavuz.pdf | en=/uploads/direct-smarthexa-dhw-kilavuz-en.pdf
+  DOC [teknik] Akış Şeması | /uploads/direct-smarthexa-dhw-akis-semasi-en.pdf | en=None
+  DOC [teknik] Kabin Çizimi | /uploads/direct-smarthexa-dhw-kabin-cizimi.pdf | en=/uploads/direct-smarthexa-dhw-kabin-cizimi-en.pdf
+  DOC [teknik] Ürün Opsiyonları | /uploads/direct-smarthexa-dhw-opsiyonlar.pdf | en=/uploads/direct-smarthexa-dhw-opsiyonlar-en.pdf
+  DOC [teknik] Paketleme Bilgisi | /uploads/direct-smarthexa-dhw-paketleme-en.pdf | en=None
+  DOC [teknik] Teknik Çizim | /uploads/direct-smarthexa-dhw-teknik-cizim.pdf | en=/uploads/direct-smarthexa-dhw-teknik-cizim-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/direct-smarthexa-dhw-sertifika.pdf | en=None
+  DOC [cad] CAD Çizimi (DWG) | /uploads/direct-smarthexa-dhw-cad-en.dwg | en=None
+
+### Direct SmartHexa - RH  (slug=direct-smarthexa-rh)
+  ! direct-smarthexa-rh: Akış Şeması yalnız İngilizce
+  ! direct-smarthexa-rh: Paketleme Bilgisi yalnız İngilizce
+  ! direct-smarthexa-rh: CAD Çizimi (DWG) yalnız İngilizce
+  kategori id: 27, görsel TR/EN: 6/0, tablo: 1, doküman: 9
+  --- descTr ---
+  SmartHexa RH, gelişmiş elektronik kontrol sistemi sayesinde yüksek verimlilik sunarken, aynı zamanda kullanım sıcak suyu (DHW) üretimine öncelik verir. Ünite, güvenilir ve optimum performans sağlamak için sistem parametrelerini sürekli olarak izler. Paslanmaz çelik ısı eşanjörü ve boru tesisatı sayesinde uzun ömürlü dayanıklılık sağlar ve radyatörlü ısıtma sistemleriyle verimli bir şekilde çalışır. Motorlu kontrol vanası ve akıllı kontrol algoritmaları sayesinde SmartHexa RH, istikrarlı ve hassas sıcak su konforu sağlar. İsteğe bağlı dış ortam telafisi kontrolü, değişen ortam koşullarına uyum 
+  --- featuresTr ---
+  Hızlı kurulum ve devreye alma için GSM veya Ethernet üzerinden PC bağlantısı sağlayan tam elektronik kontrol
+  Kalibre edilmiş sensörlerle hızlı ve hassas kullanım suyu kontrolü
+  Yüksek verimli ısı eşanjörlü bölgesel ısıtma için dönüş sıcaklığı kontrolü
+  Güvenli kullanım suyu için akıllı lejyonella önleme fonksiyonu
+  Sıkışmayı önlemek ve güvenilirliği sağlamak için pompa ve vana çalıştırma modu
+  DOC [katalog] Ürün Kataloğu | /uploads/direct-smarthexa-rh-katalog.pdf | en=/uploads/direct-smarthexa-rh-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/direct-smarthexa-rh-kilavuz.pdf | en=/uploads/direct-smarthexa-rh-kilavuz-en.pdf
+  DOC [teknik] Akış Şeması | /uploads/direct-smarthexa-rh-akis-semasi-en.pdf | en=None
+  DOC [teknik] Kabin Çizimi | /uploads/direct-smarthexa-rh-kabin-cizimi.pdf | en=/uploads/direct-smarthexa-rh-kabin-cizimi-en.pdf
+  DOC [teknik] Ürün Opsiyonları | /uploads/direct-smarthexa-rh-opsiyonlar.pdf | en=/uploads/direct-smarthexa-rh-opsiyonlar-en.pdf
+  DOC [teknik] Paketleme Bilgisi | /uploads/direct-smarthexa-rh-paketleme-en.pdf | en=None
+  DOC [teknik] Teknik Çizim | /uploads/direct-smarthexa-rh-teknik-cizim.pdf | en=/uploads/direct-smarthexa-rh-teknik-cizim-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/direct-smarthexa-rh-sertifika.pdf | en=None
+  DOC [cad] CAD Çizimi (DWG) | /uploads/direct-smarthexa-rh-cad-en.dwg | en=None
+
+### Direct SmartHexa - UFH  (slug=direct-smarthexa-ufh)
+  ! direct-smarthexa-ufh: Akış Şeması yalnız İngilizce
+  ! direct-smarthexa-ufh: Paketleme Bilgisi yalnız İngilizce
+  ! direct-smarthexa-ufh: CAD Çizimi (DWG) yalnız İngilizce
+  kategori id: 27, görsel TR/EN: 6/0, tablo: 1, doküman: 9
+  --- descTr ---
+  SmartHexa UFH, maksimum verimliliği sağlayan ve kullanım sıcak suyu (DHW) üretimine öncelik veren gelişmiş bir elektronik kontrol sistemi ile donatılmıştır. Ünite, optimum çalışma koşullarını korumak için sıcaklık, basınç ve akışı birçok noktadan sürekli olarak izler. Paslanmaz çelik ısı eşanjörü ve boruları ile sistem yüksek dayanıklılık sunar ve yerden ısıtma için gerekli olan düşük ve sabit sıcaklıkları sağlar. Entegre karıştırma konfigürasyonu, maksimum konfor için sabit besleme suyu sıcaklığı garanti eder. İsteğe bağlı dış ortam telafi kontrolü, değişen ortam koşullarına hızlı adaptasyon 
+  --- featuresTr ---
+  Hızlı kurulum ve devreye alma için GSM veya Ethernet üzerinden PC bağlantısı sağlayan tam elektronik kontrol
+  Kalibre edilmiş sensörlerle hızlı ve hassas kullanım suyu kontrolü
+  Yüksek verimli ısı eşanjörlü bölgesel ısıtma için dönüş sıcaklığı kontrolü
+  Güvenli kullanım suyu için akıllı lejyonella önleme fonksiyonu
+  Sıkışmayı önlemek ve güvenilirliği sağlamak için pompa ve vana çalıştırma modu
+  DOC [katalog] Ürün Kataloğu | /uploads/direct-smarthexa-ufh-katalog.pdf | en=/uploads/direct-smarthexa-ufh-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/direct-smarthexa-ufh-kilavuz.pdf | en=/uploads/direct-smarthexa-ufh-kilavuz-en.pdf
+  DOC [teknik] Akış Şeması | /uploads/direct-smarthexa-ufh-akis-semasi-en.pdf | en=None
+  DOC [teknik] Kabin Çizimi | /uploads/direct-smarthexa-ufh-kabin-cizimi.pdf | en=/uploads/direct-smarthexa-ufh-kabin-cizimi-en.pdf
+  DOC [teknik] Ürün Opsiyonları | /uploads/direct-smarthexa-ufh-opsiyonlar.pdf | en=/uploads/direct-smarthexa-ufh-opsiyonlar-en.pdf
+  DOC [teknik] Paketleme Bilgisi | /uploads/direct-smarthexa-ufh-paketleme-en.pdf | en=None
+  DOC [teknik] Teknik Çizim | /uploads/direct-smarthexa-ufh-teknik-cizim.pdf | en=/uploads/direct-smarthexa-ufh-teknik-cizim-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/direct-smarthexa-ufh-sertifika.pdf | en=None
+  DOC [cad] CAD Çizimi (DWG) | /uploads/direct-smarthexa-ufh-cad-en.dwg | en=None
+
+### Indirect HydroHexa DHW-SH  (slug=indirect-hydrohexa-dhw-sh)
+  ! indirect-hydrohexa-dhw-sh: Paketleme Bilgisi yalnız İngilizce
+  kategori id: 29, görsel TR/EN: 3/4, tablo: 1, doküman: 9
+  --- descTr ---
+  HydroHexa ısı istasyonlarında kontrol hem hidrolik hem de termostaƟk olarak yapılır. Sistem soğuk eşanjör manƨğı ile çalışƨğı için, eşanjör içerisinde kireçlenme olasılığı ortadan kaybolur. HydroHexa ısı istasyonları kullanım sıcak suyu önceliğine sahipƟr. HydroHexa’nın düşük dönüş suyu özelliği sayesinde yoğuşmalı kazanlarla verimli bir şekilde çalışabilir. HydroHexa içerisinde bulunan eşanjörler ve borular, AISI 316 kalite paslanmaz çelikten imal edilmişƟr, bu sayede alüminyum radyatörlerle bile kullanımına olanak sağlanmışƨr. HydroHexa, kazan dönüş haƴnda bulunan fark basınç vanası ve ısıtm
+  --- featuresTr ---
+  Kendinden tahrikli hidrolik ve termostaƟk kontrol
+  Paslanmaz Çelik Borulama ve Eşanjör
+  Kullanım Sıcak Suyu kontrolü için anlık tepkiler
+  Düşük Kazan Dönüş Suyu Sıcaklığı
+  Dahili Fark Basınç Vanası sayesinde yüksek vana otoritesi
+  Sıcaklık Kontrollü, hazırda bekletme fonksiyonu
+  DOC [katalog] Ürün Kataloğu | /uploads/indirect-hydrohexa-dhw-sh-katalog.pdf | en=/uploads/indirect-hydrohexa-dhw-sh-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/indirect-hydrohexa-dhw-sh-kilavuz.pdf | en=/uploads/indirect-hydrohexa-dhw-sh-kilavuz-en.pdf
+  DOC [teknik] Akış Şeması | /uploads/indirect-hydrohexa-dhw-sh-akis-semasi.pdf | en=None
+  DOC [teknik] Kabin Çizimi | /uploads/indirect-hydrohexa-dhw-sh-kabin-cizimi.pdf | en=/uploads/indirect-hydrohexa-dhw-sh-kabin-cizimi-en.pdf
+  DOC [teknik] Ürün Opsiyonları | /uploads/indirect-hydrohexa-dhw-sh-opsiyonlar.pdf | en=/uploads/indirect-hydrohexa-dhw-sh-opsiyonlar-en.pdf
+  DOC [teknik] Paketleme Bilgisi | /uploads/indirect-hydrohexa-dhw-sh-paketleme-en.pdf | en=None
+  DOC [teknik] Teknik Çizim | /uploads/indirect-hydrohexa-dhw-sh-teknik-cizim.pdf | en=/uploads/indirect-hydrohexa-dhw-sh-teknik-cizim-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/indirect-hydrohexa-dhw-sh-sertifika.pdf | en=None
+  DOC [cad] CAD Çizimi (DWG) | /uploads/indirect-hydrohexa-dhw-sh-cad.dwg | en=None
+
+### Direct HydroHexa - DHW  (slug=direct-hydrohexa-dhw)
+  ! direct-hydrohexa-dhw: Paketleme Bilgisi yalnız İngilizce
+  kategori id: 30, görsel TR/EN: 3/4, tablo: 1, doküman: 9
+  --- descTr ---
+  HydroHexa sadece kullanım sıcak suyu hazırlamak için kullanılır. Isı eşanjörü kendi kendine soğuk kalabildiği için kireçlenme birikimi olmadan uzun süre çalışabilir. HydroHexa, maksimum verim elde etmek için oransal hidrolik kontrolöre sahipƟr ve sıcak su üretme önceliğine sahipƟr. Primer taraŌa düşük dönüş sıcaklıkları sağlar. Yoğuşmalı kazanlar ile kullanıma uygundur. Eşanjör ve boru malzemesi paslanmaz çelikƟr ve HIU alüminyum radyatörlerle birlikte verimli bir şekilde çalışabilir.
+  --- featuresTr ---
+  Kendinden tahrikli hidrolik ve termostaƟk kontrol
+  Paslanmaz çelik borulama ve eşanjör
+  Kullanım sıcak suyu kontrolü için anlık tepkiler
+  Düşük kazan dönüş suyu sıcaklığı
+  Dahili fark basınç vanası sayesinde yüksek vana otoritesi
+  Sıcaklık kontrollü hazırda bekletme fonksiyonu
+  DOC [katalog] Ürün Kataloğu | /uploads/direct-hydrohexa-dhw-katalog.pdf | en=/uploads/direct-hydrohexa-dhw-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/direct-hydrohexa-dhw-kilavuz.pdf | en=/uploads/direct-hydrohexa-dhw-kilavuz-en.pdf
+  DOC [teknik] Akış Şeması | /uploads/direct-hydrohexa-dhw-akis-semasi.pdf | en=None
+  DOC [teknik] Kabin Çizimi | /uploads/direct-hydrohexa-dhw-kabin-cizimi.pdf | en=/uploads/direct-hydrohexa-dhw-kabin-cizimi-en.pdf
+  DOC [teknik] Ürün Opsiyonları | /uploads/direct-hydrohexa-dhw-opsiyonlar.pdf | en=/uploads/direct-hydrohexa-dhw-opsiyonlar-en.pdf
+  DOC [teknik] Paketleme Bilgisi | /uploads/direct-hydrohexa-dhw-paketleme-en.pdf | en=None
+  DOC [teknik] Teknik Çizim | /uploads/direct-hydrohexa-dhw-teknik-cizim.pdf | en=/uploads/direct-hydrohexa-dhw-teknik-cizim-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/direct-hydrohexa-dhw-sertifika.pdf | en=None
+  DOC [cad] CAD Çizimi (DWG) | /uploads/direct-hydrohexa-dhw-cad.dwg | en=None
+
+### Direct HydroHexa - RH  (slug=direct-hydrohexa-rh)
+  ! direct-hydrohexa-rh: Paketleme Bilgisi yalnız İngilizce
+  kategori id: 30, görsel TR/EN: 3/4, tablo: 1, doküman: 9
+  --- descTr ---
+  HydroHexa ısı istasyonlarında kontrol hem hidrolik hem de termostatik olarak yapılır. Sistem soğuk eşanjör manƨğı ile çalışƨğı için, eşanjör içerisinde kireçlenme olasılığı ortadan kaybolur. HydroHexa ısı istasyonları kullanım sıcak suyu önceliğine sahiptir. HydroHexa’nın düşük dönüş suyu özelliği sayesinde yoğuşmalı kazanlarla verimli bir şekilde çalışabilir. HydroHexa içerisinde bulunan eşanjörler ve borular, AISI 316 kalite paslanmaz çelikten imal edilmiştir, bu sayede alüminyum radyatörlerle bile kullanımına olanak sağlanmışƨr. HydroHexa, kazan dönüş haƴnda bulunan fark basınç vanası ve ıs
+  --- featuresTr ---
+  Kendinden tahrikli hidrolik ve termostaƟk kontrol
+  Paslanmaz Çelik Borulama ve Eşanjör
+  Kullanım sıcak suyu kontrolü için anlık tepkiler
+  Düşük kazan dönüş suyu sıcaklığı
+  Dahili fark basınç vanası sayesinde yüksek vana otoritesi
+  Sıcaklık kontrollü, hazırda bekletme fonksiyonu
+  DOC [katalog] Ürün Kataloğu | /uploads/direct-hydrohexa-rh-katalog.pdf | en=/uploads/direct-hydrohexa-rh-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/direct-hydrohexa-rh-kilavuz.pdf | en=/uploads/direct-hydrohexa-rh-kilavuz-en.pdf
+  DOC [teknik] Akış Şeması | /uploads/direct-hydrohexa-rh-akis-semasi.pdf | en=None
+  DOC [teknik] Kabin Çizimi | /uploads/direct-hydrohexa-rh-kabin-cizimi.pdf | en=/uploads/direct-hydrohexa-rh-kabin-cizimi-en.pdf
+  DOC [teknik] Ürün Opsiyonları | /uploads/direct-hydrohexa-rh-opsiyonlar.pdf | en=/uploads/direct-hydrohexa-rh-opsiyonlar-en.pdf
+  DOC [teknik] Paketleme Bilgisi | /uploads/direct-hydrohexa-rh-paketleme-en.pdf | en=None
+  DOC [teknik] Teknik Çizim | /uploads/direct-hydrohexa-rh-teknik-cizim.pdf | en=/uploads/direct-hydrohexa-rh-teknik-cizim-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/direct-hydrohexa-rh-sertifika.pdf | en=None
+  DOC [cad] CAD Çizimi (DWG) | /uploads/direct-hydrohexa-rh-cad.dwg | en=None
+
+### Direct HydroHexa - UFH  (slug=direct-hydrohexa-ufh)
+  ! direct-hydrohexa-ufh: Paketleme Bilgisi yalnız İngilizce
+  kategori id: 30, görsel TR/EN: 3/4, tablo: 1, doküman: 9
+  --- descTr ---
+  HydroHexa ısı istasyonlarında kontrol hem hidrolik hem de termostaƟk olarak yapılır. Sistem soğuk eşanjör manƨğı ile çalışƨğı için, eşanjör içerisinde kireçlenme olasılığı ortadan kaybolur. HydroHexa ısı istasyonları kullanım sıcak suyu önceliğine sahipƟr. HydroHexa’nın düşük dönüş suyu özelliği sayesinde yoğuşmalı kazanlarla verimli bir şekilde çalışabilir. HydroHexa içerisinde bulunan eşanjörler ve borular, AISI 316 kalite paslanmaz çelikten imal edilmişƟr, bu sayede alüminyum radyatörlerle bile kullanımına olanak sağlanmışƨr. HydroHexa, kazan dönüş haƴnda bulunan fark basınç vanası ve ısıtm
+  --- featuresTr ---
+  Kendinden tahrikli hidrolik ve termostaƟk kontrol
+  Paslanmaz çelik borulama ve eşanjör
+  Kullanım Sıcak Suyu kontrolü için anlık tepkiler
+  Düşük kazan dönüş suyu sıcaklığı
+  Dahili fark basınç vanası sayesinde yüksek vana otoritesi
+  Sıcaklık kontrollü, hazırda bekletme fonksiyonu
+  Yerden ısıtma haƴ için karışım devresi
+  Elektrik bağlanƨları için bağlanƨ kutusu (Opsiyonel)
+  Yerden ısıtma devr
+  DOC [katalog] Ürün Kataloğu | /uploads/direct-hydrohexa-ufh-katalog.pdf | en=/uploads/direct-hydrohexa-ufh-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/direct-hydrohexa-ufh-kilavuz.pdf | en=/uploads/direct-hydrohexa-ufh-kilavuz-en.pdf
+  DOC [teknik] Akış Şeması | /uploads/direct-hydrohexa-ufh-akis-semasi.pdf | en=None
+  DOC [teknik] Kabin Çizimi | /uploads/direct-hydrohexa-ufh-kabin-cizimi.pdf | en=/uploads/direct-hydrohexa-ufh-kabin-cizimi-en.pdf
+  DOC [teknik] Ürün Opsiyonları | /uploads/direct-hydrohexa-ufh-opsiyonlar.pdf | en=/uploads/direct-hydrohexa-ufh-opsiyonlar-en.pdf
+  DOC [teknik] Paketleme Bilgisi | /uploads/direct-hydrohexa-ufh-paketleme-en.pdf | en=None
+  DOC [teknik] Teknik Çizim | /uploads/direct-hydrohexa-ufh-teknik-cizim.pdf | en=/uploads/direct-hydrohexa-ufh-teknik-cizim-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/direct-hydrohexa-ufh-sertifika.pdf | en=None
+  DOC [cad] CAD Çizimi (DWG) | /uploads/direct-hydrohexa-ufh-cad.dwg | en=None
+
+### Indirect ThermoHexa DHW-SH  (slug=indirect-thermohexa-dhw-sh)
+  ! indirect-thermohexa-dhw-sh: Akış Şeması yalnız İngilizce
+  ! indirect-thermohexa-dhw-sh: Paketleme Bilgisi yalnız İngilizce
+  ! indirect-thermohexa-dhw-sh: CAD Çizimi (DWG) yalnız İngilizce
+  kategori id: 32, görsel TR/EN: 3/4, tablo: 1, doküman: 9
+  --- descTr ---
+  TermoHexa ısı istasyonlarında kontrol sıcaklığa bağlı, yani termostaƟk olarak yapılır. Kullanım sıcak suyu hazırlama işlemi ile ısıtma işlemi aynı anda gerçekleşir. ThermoHexa içerisinde bulunan ve sıcaklığa bağlı çok hızlı tepki gösteren TermostaƟk Vana sayesinde, ısı kaybı olasılığı azalır. Kompak tasarımı sayesinde, cihazı monte etmek praƟk ve kolaydır. ThermoHexa içerisinde bulunan eşanjörler ve borular, AISI 316 kalite paslanmaz çelikten imal edilmişƟr, bu sayede alüminyum radyatörlerle bile kullanımına olanak sağlanmışƨr. Indirect serisi ThermoHexa, yüksek katlı binalarda basınç kırıcı g
+  --- featuresTr ---
+  Paslanmaz Çelik Borulama ve Eşanjör
+  Kullanım Sıcak Suyu kontrolü için anlık tepkiler
+  Düşük Kazan Dönüş Suyu Sıcaklığı
+  Dahili Fark Basınç Vanası sayesinde yüksek vana otoritesi
+  DOC [katalog] Ürün Kataloğu | /uploads/indirect-thermohexa-dhw-sh-katalog.pdf | en=/uploads/indirect-thermohexa-dhw-sh-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/indirect-thermohexa-dhw-sh-kilavuz.pdf | en=/uploads/indirect-thermohexa-dhw-sh-kilavuz-en.pdf
+  DOC [teknik] Akış Şeması | /uploads/indirect-thermohexa-dhw-sh-akis-semasi-en.pdf | en=None
+  DOC [teknik] Kabin Çizimi | /uploads/indirect-thermohexa-dhw-sh-kabin-cizimi.pdf | en=/uploads/indirect-thermohexa-dhw-sh-kabin-cizimi-en.pdf
+  DOC [teknik] Ürün Opsiyonları | /uploads/indirect-thermohexa-dhw-sh-opsiyonlar.pdf | en=/uploads/indirect-thermohexa-dhw-sh-opsiyonlar-en.pdf
+  DOC [teknik] Paketleme Bilgisi | /uploads/indirect-thermohexa-dhw-sh-paketleme-en.pdf | en=None
+  DOC [teknik] Teknik Çizim | /uploads/indirect-thermohexa-dhw-sh-teknik-cizim.pdf | en=/uploads/indirect-thermohexa-dhw-sh-teknik-cizim-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/indirect-thermohexa-dhw-sh-sertifika.pdf | en=None
+  DOC [cad] CAD Çizimi (DWG) | /uploads/indirect-thermohexa-dhw-sh-cad-en.dwg | en=None
+
+### Indirect ThermoHexa SH  (slug=indirect-thermohexa-sh)
+  ! indirect-thermohexa-sh: Akış Şeması yalnız İngilizce
+  ! indirect-thermohexa-sh: Kabin Çizimi yalnız İngilizce
+  ! indirect-thermohexa-sh: Paketleme Bilgisi yalnız İngilizce
+  ! indirect-thermohexa-sh: CAD Çizimi (DWG) yalnız İngilizce
+  kategori id: 32, görsel TR/EN: 3/4, tablo: 1, doküman: 9
+  --- descTr ---
+  ThermoHexa SH ısı istasyonlarında kontrol sıcaklığa bağlı, yani termostatik olarak yapılır. Alan ısıtma işlemi, sistem ih yacına göre hızlı ve dengeli şekilde gerçekleştirilir. ThermoHexa SH içerisinde bulunan ve sıcaklığa bağlı çok hızlı tepki gösteren termosta k vana sayesinde, is tenilen mahal sıcaklığı hassas şekilde korunur ve enerji kayıpları azaltılır. Kompakt tasarımı sayesinde cihazın montajı pra k ve kolaydır. ThermoHexa SH içerisinde bulunan eşanjörler ve borular, AISI 316 kalite paslanmaz çe-likten imal edil miş r. Bu sayede yüksek dayanıklılık, uzun ömürlü kul lanım ve farklı rady
+  --- featuresTr ---
+  Paslanmaz Çelik Borulama ve Eşanjör
+  2 Alan ısıtma kontrolü için anlık tepkiler
+  Düşük dönüş suyu sıcaklığı
+  Dahili fark basınç vanası sayesinde yüksek vana otoritesi
+  DOC [katalog] Ürün Kataloğu | /uploads/indirect-thermohexa-sh-katalog.pdf | en=/uploads/indirect-thermohexa-sh-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/indirect-thermohexa-sh-kilavuz.pdf | en=/uploads/indirect-thermohexa-sh-kilavuz-en.pdf
+  DOC [teknik] Akış Şeması | /uploads/indirect-thermohexa-sh-akis-semasi-en.pdf | en=None
+  DOC [teknik] Kabin Çizimi | /uploads/indirect-thermohexa-sh-kabin-cizimi-en.pdf | en=None
+  DOC [teknik] Ürün Opsiyonları | /uploads/indirect-thermohexa-sh-opsiyonlar.pdf | en=/uploads/indirect-thermohexa-sh-opsiyonlar-en.pdf
+  DOC [teknik] Paketleme Bilgisi | /uploads/indirect-thermohexa-sh-paketleme-en.pdf | en=None
+  DOC [teknik] Teknik Çizim | /uploads/indirect-thermohexa-sh-teknik-cizim.pdf | en=/uploads/indirect-thermohexa-sh-teknik-cizim-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/indirect-thermohexa-sh-sertifika.pdf | en=None
+  DOC [cad] CAD Çizimi (DWG) | /uploads/indirect-thermohexa-sh-cad-en.dwg | en=None
+
+### Direct ThermoHexa - DHW  (slug=direct-thermohexa-dhw)
+  ! direct-thermohexa-dhw: Kabin Çizimi yalnız İngilizce
+  ! direct-thermohexa-dhw: Paketleme Bilgisi yalnız İngilizce
+  ! direct-thermohexa-dhw: CAD Çizimi (DWG) yalnız İngilizce
+  kategori id: 34, görsel TR/EN: 4/3, tablo: 1, doküman: 9
+  --- descTr ---
+  ThermoHexa sadece kullanım sıcak suyunu hazırlamak ve primer taraŌa dengeleme yapmak için kullanılır. Enerji kayıplarının minimum olması için çok hızlı tepki veren termostaƟk vanaya sahipƟr. Isı eşanjöründeki ısı kaybını en aza indirmek için EPP izolasyon uygulanmışƨr. Kompakt tasarımı, kullanıcının montajı kolay ve praƟk bir şekilde yapmasını sağlar. Eşanjör ve boruların malzemesi paslanmaz çelikƟr ve HIU alüminyum radyatörlerle birlikte verimli bir şekilde çalışabilir.
+  --- featuresTr ---
+  Paslanmaz Çelik borulama ve eşanjör
+  Kullanım sıcak suyu için anlık tepkiler
+  Düşük kazan dönüş suyu sıcaklığı
+  Dahili fark basınç vanası sayesinde yüksek vana otoritesi
+  DOC [katalog] Ürün Kataloğu | /uploads/direct-thermohexa-dhw-katalog.pdf | en=/uploads/direct-thermohexa-dhw-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/direct-thermohexa-dhw-kilavuz.pdf | en=/uploads/direct-thermohexa-dhw-kilavuz-en.pdf
+  DOC [teknik] Akış Şeması | /uploads/direct-thermohexa-dhw-akis-semasi.pdf | en=None
+  DOC [teknik] Kabin Çizimi | /uploads/direct-thermohexa-dhw-kabin-cizimi-en.pdf | en=None
+  DOC [teknik] Ürün Opsiyonları | /uploads/direct-thermohexa-dhw-opsiyonlar.pdf | en=/uploads/direct-thermohexa-dhw-opsiyonlar-en.pdf
+  DOC [teknik] Paketleme Bilgisi | /uploads/direct-thermohexa-dhw-paketleme-en.pdf | en=None
+  DOC [teknik] Teknik Çizim | /uploads/direct-thermohexa-dhw-teknik-cizim.pdf | en=/uploads/direct-thermohexa-dhw-teknik-cizim-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/direct-thermohexa-dhw-sertifika.pdf | en=None
+  DOC [cad] CAD Çizimi (DWG) | /uploads/direct-thermohexa-dhw-cad-en.dwg | en=None
+
+### Direct ThermoHexa - RH  (slug=direct-thermohexa-rh)
+  ! direct-thermohexa-rh: Kabin Çizimi yalnız İngilizce
+  ! direct-thermohexa-rh: Paketleme Bilgisi yalnız İngilizce
+  ! direct-thermohexa-rh: CAD Çizimi (DWG) yalnız İngilizce
+  kategori id: 34, görsel TR/EN: 3/4, tablo: 1, doküman: 9
+  --- descTr ---
+  TermoHexa ısı istasyonlarında kontrol sıcaklığa bağlı, yani termostaƟk olarak yapılır. Kullanım sıcak suyu hazırlama işlemi ile ısıtma işlemi aynı anda gerçekleşir. ThermoHexa içerisinde bulunan ve sıcaklığa bağlı çok hızlı tepki gösteren TermostaƟk Vana sayesinde, ısı kaybı olasılığı azalır. Kompak tasarımı sayesinde, cihazı monte etmek praƟk ve kolaydır. ThermoHexa içerisinde bulunan eşanjörler ve borular, AISI 316 kalite paslanmaz çelikten imal edilmişƟr, bu sayede alüminyum radyatörlerle bile kullanımına olanak sağlanmışƨr.
+  --- featuresTr ---
+  Paslanmaz Çelik Borulama ve Eşanjör
+  Kullanım sıcak suyu kontrolü için anlık tepkiler
+  Düşüj kazan dönüş suyu sıcaklığı
+  Dahili fark basınç vanası sayesinde yüksek vana otoritesi
+  DOC [katalog] Ürün Kataloğu | /uploads/direct-thermohexa-rh-katalog.pdf | en=/uploads/direct-thermohexa-rh-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/direct-thermohexa-rh-kilavuz.pdf | en=/uploads/direct-thermohexa-rh-kilavuz-en.pdf
+  DOC [teknik] Akış Şeması | /uploads/direct-thermohexa-rh-akis-semasi.pdf | en=None
+  DOC [teknik] Kabin Çizimi | /uploads/direct-thermohexa-rh-kabin-cizimi-en.pdf | en=None
+  DOC [teknik] Ürün Opsiyonları | /uploads/direct-thermohexa-rh-opsiyonlar.pdf | en=/uploads/direct-thermohexa-rh-opsiyonlar-en.pdf
+  DOC [teknik] Paketleme Bilgisi | /uploads/direct-thermohexa-rh-paketleme-en.pdf | en=None
+  DOC [teknik] Teknik Çizim | /uploads/direct-thermohexa-rh-teknik-cizim.pdf | en=/uploads/direct-thermohexa-rh-teknik-cizim-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/direct-thermohexa-rh-sertifika.pdf | en=None
+  DOC [cad] CAD Çizimi (DWG) | /uploads/direct-thermohexa-rh-cad-en.dwg | en=None
+
+### Direct ThermoHexa - UFH  (slug=direct-thermohexa-ufh)
+  ! direct-thermohexa-ufh: Kabin Çizimi yalnız İngilizce
+  ! direct-thermohexa-ufh: Paketleme Bilgisi yalnız İngilizce
+  ! direct-thermohexa-ufh: CAD Çizimi (DWG) yalnız İngilizce
+  kategori id: 34, görsel TR/EN: 3/4, tablo: 1, doküman: 9
+  --- descTr ---
+  TermoHexa ısı istasyonlarında kontrol sıcaklığa bağlı, yani termostaƟk olarak yapılır. Kullanım sıcak suyu hazırlama işlemi ile ısıtma işlemi aynı anda gerçekleşir. ThermoHexa içerisinde bulunan ve sıcaklığa bağlı çok hızlı tepki gösteren TermostaƟk Vana sayesinde, ısı kaybı olasılığı azalır. Kompak tasarımı sayesinde, cihazı monte etmek praƟk ve kolaydır. ThermoHexa içerisinde bulunan eşanjörler ve borular, AISI 316 kalite paslanmaz çelikten imal edilmişƟr, bu sayede alüminyum radyatörlerle bile kullanımına olanak sağlanmışƨr. TermoHexa, yerden ısıtma haƴ sıcaklığını stabil tutmak için, bir k
+  --- featuresTr ---
+  Paslanmaz Çelik Borulama ve Eşanjör
+  Kullanım Sıcak Suyu kontrolü için anlık tepkiler
+  Düşük Kazan dönüş suyu sıcaklığı
+  Dahili fark basınç vanası sayesinde yüksek vana otoritesi
+  Yerden ısıtma haƴ için karışım devresi
+  Elektrik bağlanƨları için bağlanƨ kutusu (Opsiyonel)
+  Yerden ısıtma devresi için sıcaklık kontrol vanası
+  DOC [katalog] Ürün Kataloğu | /uploads/direct-thermohexa-ufh-katalog.pdf | en=/uploads/direct-thermohexa-ufh-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/direct-thermohexa-ufh-kilavuz.pdf | en=/uploads/direct-thermohexa-ufh-kilavuz-en.pdf
+  DOC [teknik] Akış Şeması | /uploads/direct-thermohexa-ufh-akis-semasi.pdf | en=None
+  DOC [teknik] Kabin Çizimi | /uploads/direct-thermohexa-ufh-kabin-cizimi-en.pdf | en=None
+  DOC [teknik] Ürün Opsiyonları | /uploads/direct-thermohexa-ufh-opsiyonlar.pdf | en=/uploads/direct-thermohexa-ufh-opsiyonlar-en.pdf
+  DOC [teknik] Paketleme Bilgisi | /uploads/direct-thermohexa-ufh-paketleme-en.pdf | en=None
+  DOC [teknik] Teknik Çizim | /uploads/direct-thermohexa-ufh-teknik-cizim.pdf | en=/uploads/direct-thermohexa-ufh-teknik-cizim-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/direct-thermohexa-ufh-sertifika.pdf | en=None
+  DOC [cad] CAD Çizimi (DWG) | /uploads/direct-thermohexa-ufh-cad-en.dwg | en=None
+
+### Indirect Hydro EM DHW-SH  (slug=indirect-hydro-em-dhw-sh)
+  kategori id: 35, görsel TR/EN: 3/6, tablo: 1, doküman: 3
+  --- descTr ---
+  Indirect Hydro EM, kullanım sıcak suyunun hazırlanması ve birincil tarafta dengeleme amacıyla kullanılır. Isı eşanjörü kendi kendine soğuk kalabildiğinden,
+  
+  kireç birikimi olmadan uzun süre çalışabilir. Indirect Hydro EM, maksimum verimlilik sağlamak için akış
+  
+  şalteri ve kontrol vanasına sahiptir ve sıcak su üretimine öncelik verir. Birincil tarafta düşük dönüş sıcaklıkları sağlar. Yoğuşmalı kazanlarla kullanım için uygundur. Isı eşanjörü ve boruların malzemesi paslanmaz çeliktir ve HIU, alüminyum radyatörlerle birlikte
+  
+  verimliAbirAşekildeAçalışabilir. Indirect Hydro EM, sistemde
+  --- featuresTr ---
+  Otomatik elektromekanik ve termostatik kontroller
+  Paslanmaz çelik altıgen bağlantı parçaları ve borular
+  Kullanım suyu talebine anında yanıt
+  Düşük besleme sıcaklıkları için uygun
+  Entegre diferansiyel basınç vanası
+  Sıcaklık kontrollü Isıtma Fonksiyonu
+  DOC [katalog] Ürün Kataloğu | /uploads/indirect-hydro-em-dhw-sh-katalog.pdf | en=/uploads/indirect-hydro-em-dhw-sh-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/indirect-hydro-em-dhw-sh-kilavuz.pdf | en=/uploads/indirect-hydro-em-dhw-sh-kilavuz-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/indirect-hydro-em-dhw-sh-sertifika.pdf | en=None
+
+### Direct Hydro EM RH  (slug=direct-hydro-em-rh)
+  kategori id: 38, görsel TR/EN: 3/6, tablo: 1, doküman: 3
+  --- descTr ---
+  Direct Hydro-EM, kullanım sıcak suyunun hazırlanması ve birincil devrede dengeleme
+  
+  amacıyla kullanılır. Isı eşanjörü kendi kendine soğuk kalabildiğinden, kireç birikimi olmadan uzun süre çalışabilir. Hydro-EM,
+  
+  maksimum verimlilik sağlamak için akış şalteri ve 3 yollu yön değiştirme vanasına sahiptir ve sıcak su üretimine öncelik verir.
+  
+  Birincil devrede düşük dönüş sıcaklıkları sağlar. Yoğuşmalı kazanlarla kullanım için
+  
+  uygundur. Isı eşanjörü ve boruların malzemesi paslanmaz çeliktir ve HIU, alüminyum
+  
+  radyatörlerle birlikte verimli bir şekilde çalışabilir. Direct Hydro-
+  --- featuresTr ---
+  Paslanmaz çelik altıgen borular ve borular
+  Kullanım suyu talebine anında yanıt
+  Düşük besleme sıcaklıkları için uygun
+  Entegre diferansiyel basınç vanası
+  DOC [katalog] Ürün Kataloğu | /uploads/direct-hydro-em-rh-katalog.pdf | en=/uploads/direct-hydro-em-rh-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/direct-hydro-em-rh-kilavuz.pdf | en=/uploads/direct-hydro-em-rh-kilavuz-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/direct-hydro-em-rh-sertifika.pdf | en=None
+
+### Direct Hydro EM UFH  (slug=direct-hydro-em-ufh)
+  kategori id: 38, görsel TR/EN: 3/6, tablo: 1, doküman: 3
+  --- descTr ---
+  Direct Hydro-EM UFH, kullanım sıcak suyunun hazırlanmasında ve birincil devrede dengeleme işlemlerinde kullanılır. Isı eşanjörü
+  
+  kendi kendine soğuk kalabildiğinden, kireç
+  
+  birikimi olmadan uzun süre çalışabilir. Hydro- EM, maksimum verimlilik sağlamak için akış
+  
+  şalteri ve 3 yollu yön değiştirme vanasına sahiptir ve sıcak su üretimine öncelik verir. Birincil devrede düşük dönüş sıcaklıkları sağlar.
+  
+  Yoğuşmalı kazanlarla kullanım için uygundur.
+  
+  Isı eşanjörü ve boruların malzemesi paslanmaz çeliktir ve HIU, alüminyum radyatörlerle
+  
+  birlikteaverimliabiraşekildeaçalışabil
+  --- featuresTr ---
+  Otomatik hidrolik ve termostatik kontroller
+  Paslanmaz çelik altıgen bağlantı parçaları ve borular
+  Kullanım suyu talebine anında tepki
+  Düşük besleme sıcaklıkları için uygun
+  Entegre diferansiyel basınç vanası
+  Yerden ısıtma devresi için karıştırma devresi
+  Elektrik bağlantıları için bağlantı kutusu
+  Yerden ısıtma devresi için sıcaklık kontrol van
+  DOC [katalog] Ürün Kataloğu | /uploads/direct-hydro-em-ufh-katalog.pdf | en=/uploads/direct-hydro-em-ufh-katalog-en.pdf
+  DOC [kilavuz] Kullanım Kılavuzu | /uploads/direct-hydro-em-ufh-kilavuz.pdf | en=/uploads/direct-hydro-em-ufh-kilavuz-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/direct-hydro-em-ufh-sertifika.pdf | en=None
+
+### IRONTRAP® Manyetik Filtre  (slug=irontrap)
+  ! irontrap: Ürün Kataloğu yalnız İngilizce
+  ! irontrap: CE Sertifikası yalnız İngilizce
+  kategori id: 49, görsel TR/EN: 3/0, tablo: 0, doküman: 3
+  --- descTr ---
+  Demir tozu ve manyetit sadece konut sistemlerinin sorunu değildir. Endüstriyel uygulamada sistemin temizlenmesi ve korunması için gerekli bir üründür. IronTrap ürünleri, ısıtma-soğutma sistemlerindeki tüm uygulamalarda kullanılabilir. Irontrap manyetik filtre ile koruyucu temizleyici sıvılar beraber kullanıldığında ısıtma-soğutma sistemleri tam bir korumaya kavuşur. Koruyucu sıvıların kullanımına ilaveten düzenli sistem takibi yapılırsa sürdürülebilir sistem koruması sağlanır.
+  
+  KULLANIM AVANTAJLARI
+  
+  Tüm Isıtma – Soğutma Sistemleri ile uyumludur. Sistemin arıza verme riskini ve yüksek b
+  --- featuresTr ---
+  Maksimum Çalışma Basıncı		:	10 Bar Çalışma Sıcaklığı 			:	3°C – 100°C Gövde Malzeme				:	TS EN 10219 Drenaj					:	1 “ Küresel Vana TSEN 13547 Vakum Vanası 			:	1/2 “ Küresel Vana TSEN 13547 Hava Purjörü				:	Otomatik Hava Atma Purjörü ½” Conta Kapak Sızdırmazlık Contası		:	EPDM Mıknatıs Mıknatıs Yüzey Çekme Gücü	:	9500 – 10500 gauss Mıknatıs Taşıma Flanşı		:	AISI 304 paslanmaz Çelik Temizleme Kapa
+  DOC [katalog] Ürün Kataloğu | /uploads/irontrap-katalog-en.pdf | en=None
+  DOC [teknik] Ürün Opsiyonları | /uploads/irontrap-opsiyonlar.pdf | en=/uploads/irontrap-opsiyonlar-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/irontrap-sertifika-en.pdf | en=None
+
+### IRONINOX® Manyetik Filtre  (slug=ironinox)
+  kategori id: 49, görsel TR/EN: 4/0, tablo: 0, doküman: 3
+  --- descTr ---
+  Demir tozu ve manyetit sadece konut sistemlerinin sorunu değildir. Endüstriyel uygulamada sistemin temizlenmesi ve korunması için gerekli bir üründür. IronInox ürünleri, ısıtma-soğutma sistemlerindeki tüm uygulamalarda kullanılabilir. IronInox manyetik filtre ile koruyucu temizleyici sıvılar beraber kullanıldığında ısıtma-soğutma sistemleri tam bir korumaya kavuşur. Koruyucu sıvıların kullanımına ilaveten düzenli sistem takibi yapılırsa sürdürülebilir sistem koruması sağlanır.
+  
+  KULLANIM AVANTAJLARI
+  
+  Tüm Isıtma – Soğutma Sistemleri ile uyumludur. Sistemin arıza verme riskini ve yüksek b
+  --- featuresTr ---
+  Maksimum Çalışma Basıncı		:	10 Bar Çalışma Sıcaklığı 			:	3°C – 100°C Gövde Malzeme				:	TS EN 10219 – Paslanmaz Çelik Drenaj					:	1 “ Küresel Vana TSEN 13547 Vakum Vanası 			:	1/2 “ Küresel Vana TSEN 13547 Hava Purjörü				:	Otomatik Hava Atma Purjörü ½” Conta Kapak Sızdırmazlık Contası		:	EPDM Mıknatıs Mıknatıs Yüzey Çekme Gücü	:	9500 – 10500 gauss Mıknatıs Taşıma Flanşı		:	AISI 304 paslanmaz Çe
+  DOC [katalog] Ürün Kataloğu | /uploads/ironinox-katalog.pdf | en=/uploads/ironinox-katalog-en.pdf
+  DOC [teknik] Ürün Opsiyonları | /uploads/ironinox-opsiyonlar.pdf | en=/uploads/ironinox-opsiyonlar-en.pdf
+  DOC [sertifika] CE Sertifikası | /uploads/ironinox-sertifika.pdf | en=/uploads/ironinox-sertifika-en.pdf
+
+Rapor: /Users/tahavacid/Desktop/taytech2.0/scripts/yenitam-import/report-dry.json
+Uyarı sayısı: 38

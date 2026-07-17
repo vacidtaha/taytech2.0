@@ -28,10 +28,10 @@ export default function Header({ menu }: { menu: MenuItem[] }) {
     window.addEventListener("resize", checkMobile);
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
-  const { locale, setLocale } = useLanguage();
+  const { locale, setLocale, lp } = useLanguage();
   const scrollRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
-  const isHome = pathname === "/";
+  const isHome = pathname === "/" || pathname === "/en";
   // Ana sayfa girişinde (en üstte) header şeffaf-vinyet olur; kaydırınca normal beyaz.
   const homeTop = isHome && !scrolled;
 
@@ -185,7 +185,7 @@ export default function Header({ menu }: { menu: MenuItem[] }) {
               ENG
             </button>
           </div>
-          <Link href="/" className="flex items-center gap-3 md:gap-5">
+          <Link href={lp("/")} className="flex items-center gap-3 md:gap-5">
             <Image
               src="/logos/headerlogo1.webp"
               alt="TayTech Logo 1"
@@ -220,7 +220,7 @@ export default function Header({ menu }: { menu: MenuItem[] }) {
 
           {/* Daralınca hamburger ile bağlantıların arasında beliren logolar */}
           <Link
-            href="/"
+            href={lp("/")}
             aria-hidden={!scrolled}
             className={`flex items-center gap-2 overflow-hidden transition-all duration-300 ease-out md:gap-3 ${
               scrolled
@@ -246,7 +246,7 @@ export default function Header({ menu }: { menu: MenuItem[] }) {
 
           <ul className="hidden items-center gap-8 text-lg font-medium text-zinc-800 md:flex">
             <li>
-              <Link href="/" className="transition-colors hover:text-red-600">
+              <Link href={lp("/")} className="transition-colors hover:text-red-600">
                 {locale === "EN" ? "Home" : "Ana Sayfa"}
               </Link>
             </li>
@@ -264,7 +264,7 @@ export default function Header({ menu }: { menu: MenuItem[] }) {
               ) : (
                 <li key={link.label}>
                   <Link
-                    href={link.href ?? "#"}
+                    href={link.href ? lp(link.href) : "#"}
                     className="transition-colors hover:text-red-600"
                   >
                     {label(link)}
@@ -399,7 +399,7 @@ export default function Header({ menu }: { menu: MenuItem[] }) {
                     return (
                       <li key={item.label}>
                         <Link
-                          href={resolveHref(item, current.parentHref)}
+                          href={lp(resolveHref(item, current.parentHref))}
                           onClick={closeMenu}
                           className={`${baseClass} hover:bg-red-800`}
                         >
@@ -417,22 +417,34 @@ export default function Header({ menu }: { menu: MenuItem[] }) {
                     onClick={() => setLocale(locale === "TR" ? "EN" : "TR")}
                     className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/70 px-5 py-2 text-base font-medium text-white transition-colors hover:bg-white/10"
                   >
-                    {locale === "TR" ? "Türkiye" : "Unıted Kıngdom"}
+                    {locale === "TR" ? "Türkiye" : "United Kingdom"}
                   </button>
-                  <a
-                    href="tel:+902625025149"
-                    className="flex items-center gap-3 text-base font-medium transition-opacity hover:opacity-80"
-                  >
-                    <Phone size={18} className="shrink-0" />
-                    <span>+90 (262) 502 51 49</span>
-                  </a>
-                  <a
-                    href="mailto:info@taytech.com.tr"
-                    className="mt-3 flex items-center gap-3 text-base font-medium transition-opacity hover:opacity-80"
-                  >
-                    <Mail size={18} className="shrink-0" />
-                    <span>info@taytech.com.tr</span>
-                  </a>
+                  {locale === "TR" ? (
+                    <>
+                      <a
+                        href="tel:+902625025149"
+                        className="flex items-center gap-3 text-base font-medium transition-opacity hover:opacity-80"
+                      >
+                        <Phone size={18} className="shrink-0" />
+                        <span>+90 (262) 502 51 49</span>
+                      </a>
+                      <a
+                        href="mailto:info@taytech.com.tr"
+                        className="mt-3 flex items-center gap-3 text-base font-medium transition-opacity hover:opacity-80"
+                      >
+                        <Mail size={18} className="shrink-0" />
+                        <span>info@taytech.com.tr</span>
+                      </a>
+                    </>
+                  ) : (
+                    <Link
+                      href={lp("/iletisim")}
+                      onClick={closeMenu}
+                      className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-2.5 text-base font-semibold text-[#b91c1c] transition-colors hover:bg-white/90"
+                    >
+                      Request a Quote
+                    </Link>
+                  )}
                 </div>
               )}
             </div>
@@ -572,7 +584,7 @@ export default function Header({ menu }: { menu: MenuItem[] }) {
                             return (
                               <li key={item.label}>
                                 <Link
-                                  href={resolveHref(item, panel.parentHref)}
+                                  href={lp(resolveHref(item, panel.parentHref))}
                                   onClick={closeMenu}
                                   onMouseEnter={() => handleBranch(item, level)}
                                   className={`${baseClass} ${
@@ -603,7 +615,7 @@ export default function Header({ menu }: { menu: MenuItem[] }) {
                           return (
                             <li key={item.label}>
                               <Link
-                                href={resolveHref(item, panel.parentHref)}
+                                href={lp(resolveHref(item, panel.parentHref))}
                                 onClick={closeMenu}
                                 onMouseEnter={
                                   level >= 1
@@ -626,22 +638,34 @@ export default function Header({ menu }: { menu: MenuItem[] }) {
                           onClick={() => setLocale(locale === "TR" ? "EN" : "TR")}
                           className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/70 px-5 py-2 text-base font-medium text-white transition-colors hover:bg-white/10"
                         >
-                          {locale === "TR" ? "Türkiye" : "Unıted Kıngdom"}
+                          {locale === "TR" ? "Türkiye" : "United Kingdom"}
                         </button>
-                        <a
-                          href="tel:+902625025149"
-                          className="flex items-center gap-3 text-base font-medium transition-opacity hover:opacity-80"
-                        >
-                          <Phone size={18} className="shrink-0" />
-                          <span>+90 (262) 502 51 49</span>
-                        </a>
-                        <a
-                          href="mailto:info@taytech.com.tr"
-                          className="mt-3 flex items-center gap-3 text-base font-medium transition-opacity hover:opacity-80"
-                        >
-                          <Mail size={18} className="shrink-0" />
-                          <span>info@taytech.com.tr</span>
-                        </a>
+                        {locale === "TR" ? (
+                          <>
+                            <a
+                              href="tel:+902625025149"
+                              className="flex items-center gap-3 text-base font-medium transition-opacity hover:opacity-80"
+                            >
+                              <Phone size={18} className="shrink-0" />
+                              <span>+90 (262) 502 51 49</span>
+                            </a>
+                            <a
+                              href="mailto:info@taytech.com.tr"
+                              className="mt-3 flex items-center gap-3 text-base font-medium transition-opacity hover:opacity-80"
+                            >
+                              <Mail size={18} className="shrink-0" />
+                              <span>info@taytech.com.tr</span>
+                            </a>
+                          </>
+                        ) : (
+                          <Link
+                            href={lp("/iletisim")}
+                            onClick={closeMenu}
+                            className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-2.5 text-base font-semibold text-[#b91c1c] transition-colors hover:bg-white/90"
+                          >
+                            Request a Quote
+                          </Link>
+                        )}
                       </div>
                     )}
                   </div>

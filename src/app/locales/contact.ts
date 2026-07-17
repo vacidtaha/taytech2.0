@@ -49,9 +49,9 @@ export const contactTranslations: Record<Locale, Record<string, string>> = {
   EN: {
     "contact.hero": "Contact",
     "contact.intro":
-      "You are at the right place to optimize your processes, increase your energy efficiency, and equip your business with smart technologies.",
+      "You are at the right place to optimise your processes, increase your energy efficiency, and equip your business with smart technologies.",
     "contact.intro2":
-      "Fill out the form or contact us directly to meet with Taytech expertise and discuss technical details.",
+      "Fill in the form or contact us directly to speak to Taytech's experts and discuss technical details.",
     "contact.formTitle": "Contact Form",
     "contact.name": "Full Name",
     "contact.email": "Email",
@@ -88,7 +88,7 @@ export const contactTranslations: Record<Locale, Record<string, string>> = {
     "contact.factory": "Factory",
     "contact.factoryAddr1": "İnönü Mahallesi Gebze Plastikçiler OSB",
     "contact.factoryAddr2": "Atatürk Bulvarı No:7/2",
-    "contact.factoryAddr3": "Gebze/KOCAELİ",
+    "contact.factoryAddr3": "Gebze, Kocaeli, Türkiye",
     "contact.visit": "Visit Us",
   },
 };

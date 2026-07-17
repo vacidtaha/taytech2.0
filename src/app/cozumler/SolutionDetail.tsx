@@ -22,7 +22,7 @@ export default function SolutionDetail({
   p1Key,
   p2Key,
 }: Props) {
-  const { t } = useLanguage();
+  const { t, lp } = useLanguage();
 
   return (
     <div className="min-h-screen bg-white">
@@ -47,7 +47,7 @@ export default function SolutionDetail({
         {/* Geri butonu - sol üst köşe, sadece ikon */}
         <div className="absolute left-6 top-6 md:left-8 md:top-8">
           <Link
-            href="/cozumler"
+            href={lp("/cozumler")}
             aria-label={t("cozumler.nav")}
             className="flex h-11 w-11 items-center justify-center rounded-full border border-white/30 bg-white/10 text-white backdrop-blur-md transition-colors hover:bg-white/20"
           >

@@ -426,10 +426,10 @@ export default function IletisimPage() {
                 </div>
 
                 <div style={{ borderTop: '1px solid rgb(210, 210, 215)', paddingTop: '24px', marginBottom: '16px' }}>
-                  <h3 style={{ fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'rgb(134, 134, 139)', marginBottom: '10px' }}>Unıted Kıngdom</h3>
+                  <h3 style={{ fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'rgb(134, 134, 139)', marginBottom: '10px' }} lang="en">United Kingdom</h3>
                   <p style={{ fontSize: '14px', fontWeight: 500, marginBottom: '10px' }}>Taytech Technologies Ltd.</p>
                   <p style={{ fontSize: '13px', fontWeight: 450 }}>17 Green Lanes, London N16 9BS</p>
-                  <p style={{ fontSize: '13px', fontWeight: 450 }}>Unıted Kıngdom</p>
+                  <p style={{ fontSize: '13px', fontWeight: 450 }}>United Kingdom</p>
                 </div>
               </div>
             </div>
@@ -830,14 +830,14 @@ export default function IletisimPage() {
 
               {/* United Kingdom */}
               <div style={{ paddingLeft: '40px' }}>
-                <h3 style={{ fontSize: '13px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'rgb(134, 134, 139)', marginBottom: '14px' }}>Unıted Kıngdom</h3>
+                <h3 style={{ fontSize: '13px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'rgb(134, 134, 139)', marginBottom: '14px' }} lang="en">United Kingdom</h3>
                 <p style={{ fontSize: '17px', fontWeight: 500, marginBottom: '16px' }}>Taytech Technologies Ltd.</p>
 
                 <div>
                   <h4 style={{ fontSize: '13px', fontWeight: 500, color: 'rgb(134, 134, 139)', marginBottom: '4px' }}>Address</h4>
                   <p style={{ fontSize: '16px', fontWeight: 450 }}>17 Green Lanes</p>
                   <p style={{ fontSize: '16px', fontWeight: 450 }}>London N16 9BS</p>
-                  <p style={{ fontSize: '16px', fontWeight: 450 }}>Unıted Kıngdom</p>
+                  <p style={{ fontSize: '16px', fontWeight: 450 }}>United Kingdom</p>
                 </div>
               </div>
             </div>

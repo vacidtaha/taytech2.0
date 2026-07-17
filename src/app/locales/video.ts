@@ -19,6 +19,6 @@ export const videoTranslations: Record<Locale, Record<string, string>> = {
     "akademi.eyebrow": "Taytech Academy",
     "akademi.title": "Coming soon.",
     "akademi.desc":
-      "Taytech Academy is in the works. Trainings, technical content and expert insights will be here soon.",
+      "Taytech Academy is in the works. Training courses, technical content and expert insights will be here soon.",
   },
 };

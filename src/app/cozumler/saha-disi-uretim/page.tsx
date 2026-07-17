@@ -1,19 +1,24 @@
 import type { Metadata } from "next";
 import SolutionDetail from "../SolutionDetail";
+import { localizedMetadata } from "@/lib/i18n-meta";
 
-export const metadata: Metadata = {
-  title: "Saha Dışı Üretim Projeleri İçin Çözümler",
-  description:
-    "Prefabrik ve modüler yapı projelerinde fabrikada üretilip sahada monte edilen hazır ısı istasyonu ve kontrol panosu çözümleri.",
-  alternates: { canonical: "/cozumler/saha-disi-uretim" },
-  openGraph: {
-    title: "Saha Dışı Üretim İçin Çözümler | Taytech",
-    description:
-      "Prefabrik ve modüler projeler için fabrikada üretilen hazır ısı istasyonu ve pano çözümleri.",
-    url: "/cozumler/saha-disi-uretim",
-    images: [{ url: "/akıllıtasıma.jpg" }],
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const meta = await localizedMetadata({
+    path: "/cozumler/saha-disi-uretim",
+    title: {
+      tr: "Saha Dışı Üretim Projeleri İçin Çözümler",
+      en: "Solutions for Offsite Manufacturing Projects",
+    },
+    description: {
+      tr: "Prefabrik ve modüler yapı projelerinde fabrikada üretilip sahada monte edilen hazır ısı istasyonu ve kontrol panosu çözümleri.",
+      en: "Factory-built, site-installed heat interface unit and control panel solutions for prefabricated and modular construction projects.",
+    },
+  });
+  return {
+    ...meta,
+    openGraph: { ...meta.openGraph, images: [{ url: "/akıllıtasıma.jpg" }] },
+  };
+}
 
 export default function SahaDisiUretim() {
   return (

@@ -124,7 +124,7 @@ export const corporateTranslations: Record<Locale, Record<string, string>> = {
       "40 years of industry expertise forms the foundation of Taytech. We manage all processes from design to production in-house, providing end-to-end solutions in electronic control and data management.",
     "corp.rakamlar.title": "Production power in numbers.",
     "corp.rakamlar.desc":
-      "Thinking at scale requires a strong infrastructure. At Taytech, we carry out all our operations at our modern facilities in Gebze Plastikçiler Organized Industrial Zone.",
+      "Thinking at scale requires a strong infrastructure. At Taytech, we carry out all our operations at our modern facilities in Gebze Plastikçiler Organised Industrial Zone.",
     "corp.rakamlar.entegrasyon": "End-to-End Integration",
     "corp.rakamlar.entegrasyonDesc":
       "From design to card, from assembly to final testing — everything under one roof. This enables us to target zero defects in our quality control processes.",
@@ -136,8 +136,8 @@ export const corporateTranslations: Record<Locale, Record<string, string>> = {
       "A massive ecosystem where production and innovation converge.",
     "corp.rakamlar.uretim": "Production Floor",
     "corp.rakamlar.uretimDesc":
-      "High-capacity production center equipped with state-of-the-art machine lines and smart assembly stations.",
-    "corp.rakamlar.arge": "R&D Center",
+      "High-capacity production centre equipped with state-of-the-art machine lines and smart assembly stations.",
+    "corp.rakamlar.arge": "R&D Centre",
     "corp.rakamlar.argeDesc":
       "A dedicated design space where ideas turn into prototypes and prototypes into standard-setting technologies.",
     "corp.standartlar.title": "Beyond standards.",
@@ -155,7 +155,7 @@ export const corporateTranslations: Record<Locale, Record<string, string>> = {
     "corp.standartlar.politikaBaslik":
       "QUALITY, ENVIRONMENT, OCCUPATIONAL HEALTH AND SAFETY POLICY",
     "corp.standartlar.politika1":
-      "TAY TECH, a pioneering organization in its sector that carries out Electrical Control and Distribution Devices, Heat Station, and Magnetic Filter Manufacturing activities, considers 'Excellence in Service and Production' as its most important principle.",
+      "TAY TECH, a pioneering organisation in its sector that carries out Electrical Control and Distribution Devices, Heat Station and Magnetic Filter Manufacturing activities, considers 'Excellence in Service and Production' as its most important principle.",
     "corp.standartlar.politika2":
       "We commit to continuously improving the integrated management system we have established in accordance with ISO 9001, ISO 14001, ISO 45001 standards, and to periodically reviewing and developing the policy we have defined within this framework. In this context;",
     "corp.standartlar.taahhut": "we commit.",
@@ -164,7 +164,7 @@ export const corporateTranslations: Record<Locale, Record<string, string>> = {
     "corp.standartlar.madde1":
       "To ensure customer satisfaction by providing the best service to our customers at affordable prices and payment terms with our experienced and trained staff,",
     "corp.standartlar.madde2":
-      "To continuously develop by closely following technology and incorporating the latest production systems and equipment into our organization,",
+      "To continuously develop by closely following technology and incorporating the latest production systems and equipment into our organisation,",
     "corp.standartlar.madde3":
       "To perform one hundred percent quality control for products produced as a result of work carried out with great care at every stage,",
     "corp.standartlar.madde4":
@@ -178,7 +178,7 @@ export const corporateTranslations: Record<Locale, Record<string, string>> = {
     "corp.standartlar.madde8":
       "To prevent occupational health and safety incidents and occupational diseases,",
     "corp.standartlar.madde9":
-      "To minimize and, if possible, eliminate the negative environmental impacts of our activities and products in line with environmental objectives,",
+      "To minimise and, if possible, eliminate the negative environmental impacts of our activities and products in line with environmental objectives,",
     "corp.standartlar.madde10":
       "To conduct environmental risk assessments and implement necessary corrective actions,",
     "corp.standartlar.madde11":
@@ -209,7 +209,7 @@ export const corporateTranslations: Record<Locale, Record<string, string>> = {
       "We transform our engineering experience into a consultancy service that will be by your side whenever you need it. We don't just offer products; we guarantee expert support to ensure your project operates efficiently for its lifetime.",
     "corp.destek.danismanlik": "Holistic Consultancy",
     "corp.destek.danismanlikDesc":
-      "Starting from the pre-sales process, we design the most suitable technological infrastructure for your project together. We analyze your needs with our expert team and offer the most efficient solution.",
+      "Starting from the pre-sales process, we design the most suitable technological infrastructure for your project together. We analyse your needs with our expert team and offer the most efficient solution.",
     "corp.destek.hizli": "Fast Resolution",
     "corp.destek.hizliDesc": "Technical support in the shortest time",
     "corp.destek.satisSonrasi": "After Sales",

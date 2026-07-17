@@ -7,14 +7,39 @@ import { useLanguage } from "../../context/LanguageContext";
 
 // FAQ yapısı - anahtarlar çeviri dosyalarından çekilir
 const faqStructure = [
-  { catKey: "sss.cat.genel", keys: ["sss.g1", "sss.g2", "sss.g3", "sss.g4"] },
-  { catKey: "sss.cat.urunler", keys: ["sss.u1", "sss.u2", "sss.u3", "sss.u4", "sss.u5", "sss.u6"] },
-  { catKey: "sss.cat.teknik", keys: ["sss.t1", "sss.t2", "sss.t3", "sss.t4"] },
-  { catKey: "sss.cat.cozumler", keys: ["sss.c1", "sss.c2", "sss.c3"] },
+  { catKey: "sss.cat.genel", keys: ["sss.g1", "sss.g2", "sss.g3", "sss.g4", "sss.g5"] },
+  {
+    catKey: "sss.cat.isi",
+    keys: ["sss.h1", "sss.h2", "sss.h3", "sss.h4", "sss.h5", "sss.h6", "sss.h7", "sss.h8", "sss.h9", "sss.h10"],
+  },
+  {
+    catKey: "sss.cat.pano",
+    keys: ["sss.p1", "sss.p2", "sss.p3", "sss.p4", "sss.p5", "sss.p6", "sss.p7", "sss.p8"],
+  },
+  {
+    catKey: "sss.cat.filtre",
+    keys: ["sss.f1", "sss.f2", "sss.f3", "sss.f4", "sss.f5", "sss.f6"],
+  },
+  {
+    catKey: "sss.cat.enerji",
+    keys: ["sss.e1", "sss.e2", "sss.e3", "sss.e4", "sss.e5"],
+  },
+  {
+    catKey: "sss.cat.kurulum",
+    keys: ["sss.k1", "sss.k2", "sss.k3", "sss.k4", "sss.k5"],
+  },
+  {
+    catKey: "sss.cat.destek",
+    keys: ["sss.d1", "sss.d2", "sss.d3", "sss.d4", "sss.d5"],
+  },
+  {
+    catKey: "sss.cat.satis",
+    keys: ["sss.s1", "sss.s2", "sss.s3", "sss.s4"],
+  },
 ];
 
 export default function SikcaSorulanSorular() {
-  const { t } = useLanguage();
+  const { t, lp } = useLanguage();
   const [openIndex, setOpenIndex] = useState<string | null>("sss.g1");
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const [isMobile, setIsMobile] = useState(false);
@@ -171,7 +196,7 @@ export default function SikcaSorulanSorular() {
             <p style={{ fontSize: "15px", fontWeight: 600, color: "#1d1d1f", marginBottom: "8px" }}>{t("sss.sorunuz")}</p>
             <p style={{ fontSize: "13px", color: "#86868b", lineHeight: 1.5, marginBottom: "16px" }}>{t("sss.sorunuzDesc")}</p>
             <Link
-              href="/iletisim"
+              href={lp("/iletisim")}
               style={{
                 display: "inline-block",
                 fontSize: "13px",
@@ -380,7 +405,7 @@ export default function SikcaSorulanSorular() {
                 <p style={{ fontSize: "15px", fontWeight: 600, color: "#1d1d1f", marginBottom: "8px" }}>{t("sss.sorunuz")}</p>
                 <p style={{ fontSize: "13px", color: "#86868b", lineHeight: 1.5, marginBottom: "16px" }}>{t("sss.sorunuzDesc")}</p>
                 <Link
-                  href="/iletisim"
+                  href={lp("/iletisim")}
                   style={{
                     display: "inline-block",
                     fontSize: "13px",

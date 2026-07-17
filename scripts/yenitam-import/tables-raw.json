@@ -1,0 +1,3147 @@
+{
+ "Isı İstasyonları/Hydro EM Serisi/Direct Hydro EM/Direct Hydro EM RH :: tablo-en.xlsx": {
+  "Sayfa1": {
+   "rows": [
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Indirect SmartHexa"
+    ],
+    [
+     "Specifications",
+     "",
+     "Product Specifications"
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "Suitable for district heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for heat pump",
+     "",
+     "NO"
+    ],
+    [
+     "Suitable for heating",
+     "",
+     "NO"
+    ],
+    [
+     "Suitable for cooling",
+     "",
+     "NO"
+    ],
+    [
+     "Sutiable for hot tap water",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for working with cirulation pump",
+     "",
+     "YES"
+    ],
+    [
+     "High efficiency pump",
+     "",
+     "NO"
+    ],
+    [
+     "DHW Heat Exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Material of heat exchanger",
+     "",
+     "Stainless steel with copper soldered"
+    ],
+    [
+     "Full sealed heat exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with heat meter",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with cold water meter",
+     "",
+     "YES"
+    ],
+    [
+     "Primary supply temperature",
+     "",
+     "0 - 110°C"
+    ],
+    [
+     "Primary pressure difference",
+     "",
+     "20-60 kPa"
+    ],
+    [
+     "Hot water capacity continously",
+     "",
+     "15 l/m - 17 l/m at 65°C"
+    ],
+    [
+     "DHW capacity",
+     "",
+     "37 kW - 46 kW"
+    ],
+    [
+     "Max. Heating capacity",
+     "",
+     "-"
+    ],
+    [
+     "Inlet / Outlet connections for Heating, cold water",
+     "",
+     "3/4\" Female connections"
+    ],
+    [
+     "Hot water and primary supply",
+     "",
+     ""
+    ],
+    [
+     "Hot water priority",
+     "",
+     "YES"
+    ],
+    [
+     "Differential Pressure Balancing Valve included",
+     "",
+     "YES"
+    ],
+    [
+     "Keep warm function",
+     "",
+     "YES"
+    ],
+    [
+     "Strainer for primary line",
+     "",
+     "YES"
+    ],
+    [
+     "Zone valve control for heating side",
+     "",
+     "NO"
+    ],
+    [
+     "Height",
+     "",
+     "530 mm"
+    ],
+    [
+     "Widht",
+     "",
+     "500 mm"
+    ],
+    [
+     "Depth",
+     "",
+     "170 mm"
+    ]
+   ],
+   "merged": [
+    "C17:E17",
+    "C26:E27"
+   ]
+  }
+ },
+ "Isı İstasyonları/Hydro EM Serisi/Direct Hydro EM/Direct Hydro EM UFH :: tablo-en.xlsx": {
+  "Sayfa1": {
+   "rows": [
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Indirect SmartHexa"
+    ],
+    [
+     "Specifications",
+     "",
+     "Product Specifications"
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "Suitable for district heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for heat pump",
+     "",
+     "NO"
+    ],
+    [
+     "Suitable for heating",
+     "",
+     "NO"
+    ],
+    [
+     "Suitable for cooling",
+     "",
+     "NO"
+    ],
+    [
+     "Sutiable for hot tap water",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for working with cirulation pump",
+     "",
+     "YES"
+    ],
+    [
+     "High efficiency pump",
+     "",
+     "NO"
+    ],
+    [
+     "DHW Heat Exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Material of heat exchanger",
+     "",
+     "Stainless steel with copper soldered"
+    ],
+    [
+     "Full sealed heat exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with heat meter",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with cold water meter",
+     "",
+     "YES"
+    ],
+    [
+     "Primary supply temperature",
+     "",
+     "0 - 110°C"
+    ],
+    [
+     "Primary pressure difference",
+     "",
+     "20-60 kPa"
+    ],
+    [
+     "Hot water capacity continously",
+     "",
+     "15 l/m - 17 l/m at 65°C"
+    ],
+    [
+     "DHW capacity",
+     "",
+     "37 kW - 46 kW"
+    ],
+    [
+     "Max. Heating capacity",
+     "",
+     "-"
+    ],
+    [
+     "Inlet / Outlet connections for Heating, cold water",
+     "",
+     "3/4\" Female connections"
+    ],
+    [
+     "Hot water and primary supply",
+     "",
+     ""
+    ],
+    [
+     "Hot water priority",
+     "",
+     "YES"
+    ],
+    [
+     "Differential Pressure Balancing Valve included",
+     "",
+     "YES"
+    ],
+    [
+     "Keep warm function",
+     "",
+     "YES"
+    ],
+    [
+     "Strainer for primary line",
+     "",
+     "YES"
+    ],
+    [
+     "Zone valve control for heating side",
+     "",
+     "NO"
+    ],
+    [
+     "Height",
+     "",
+     "530 mm"
+    ],
+    [
+     "Widht",
+     "",
+     "500 mm"
+    ],
+    [
+     "Depth",
+     "",
+     "170 mm"
+    ]
+   ],
+   "merged": [
+    "C17:E17",
+    "C26:E27"
+   ]
+  }
+ },
+ "Isı İstasyonları/Hydro EM Serisi/Indirect Hydro EM DHW-SH :: tablo en.xlsx": {
+  "Sayfa1": {
+   "rows": [
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Indirect SmartHexa"
+    ],
+    [
+     "Specifications",
+     "",
+     "Product Specifications"
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "Suitable for district heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for heat pump",
+     "",
+     "NO"
+    ],
+    [
+     "Suitable for heating",
+     "",
+     "NO"
+    ],
+    [
+     "Suitable for cooling",
+     "",
+     "NO"
+    ],
+    [
+     "Sutiable for hot tap water",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for working with cirulation pump",
+     "",
+     "YES"
+    ],
+    [
+     "High efficiency pump",
+     "",
+     "NO"
+    ],
+    [
+     "DHW Heat Exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Material of heat exchanger",
+     "",
+     "Stainless steel with copper soldered"
+    ],
+    [
+     "Full sealed heat exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with heat meter",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with cold water meter",
+     "",
+     "YES"
+    ],
+    [
+     "Primary supply temperature",
+     "",
+     "0 - 110°C"
+    ],
+    [
+     "Primary pressure difference",
+     "",
+     "20-60 kPa"
+    ],
+    [
+     "Hot water capacity continously",
+     "",
+     "15 l/m - 17 l/m at 65°C"
+    ],
+    [
+     "DHW capacity",
+     "",
+     "37 kW - 46 kW"
+    ],
+    [
+     "Max. Heating capacity",
+     "",
+     "-"
+    ],
+    [
+     "Inlet / Outlet connections for Heating, cold water",
+     "",
+     "3/4\" Female connections"
+    ],
+    [
+     "Hot water and primary supply",
+     "",
+     ""
+    ],
+    [
+     "Hot water priority",
+     "",
+     "YES"
+    ],
+    [
+     "Differential Pressure Balancing Valve included",
+     "",
+     "YES"
+    ],
+    [
+     "Keep warm function",
+     "",
+     "YES"
+    ],
+    [
+     "Strainer for primary line",
+     "",
+     "YES"
+    ],
+    [
+     "Zone valve control for heating side",
+     "",
+     "NO"
+    ],
+    [
+     "Height",
+     "",
+     "530 mm"
+    ],
+    [
+     "Widht",
+     "",
+     "500 mm"
+    ],
+    [
+     "Depth",
+     "",
+     "170 mm"
+    ]
+   ],
+   "merged": [
+    "C17:E17",
+    "C26:E27"
+   ]
+  }
+ },
+ "Isı İstasyonları/HydroHexa Serisi/Direct HydroHexa/Direct HydroHexa - DHW :: tablo-en.xlsx": {
+  "Sayfa1": {
+   "rows": [
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Indirect SmartHexa"
+    ],
+    [
+     "Specifications",
+     "",
+     "Product Specifications"
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "Suitable for district heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for heat pump",
+     "",
+     "NO"
+    ],
+    [
+     "Suitable for heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for cooling",
+     "",
+     "NO"
+    ],
+    [
+     "Sutiable for hot tap water",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for working with cirulation pump",
+     "",
+     "YES"
+    ],
+    [
+     "High efficiency pump",
+     "",
+     "NO"
+    ],
+    [
+     "DHW Heat Exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Material of heat exchanger",
+     "",
+     "Stainless steel with copper soldered"
+    ],
+    [
+     "Full sealed heat exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with heat meter",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with cold water meter",
+     "",
+     "YES"
+    ],
+    [
+     "Primary supply temperature",
+     "",
+     "0 - 110°C"
+    ],
+    [
+     "Primary pressure difference",
+     "",
+     "20-60 kPa"
+    ],
+    [
+     "Hot water capacity continously",
+     "",
+     "15 l/m - 17 l/m at 65°C"
+    ],
+    [
+     "DHW capacity",
+     "",
+     "37 kW - 46 kW"
+    ],
+    [
+     "Max. Heating capacity",
+     "",
+     "15 kW"
+    ],
+    [
+     "Inlet / Outlet connections for Heating, cold water",
+     "",
+     "3/4\" Female connections"
+    ],
+    [
+     "Hot water and primary supply",
+     "",
+     ""
+    ],
+    [
+     "Hot water priority",
+     "",
+     "YES"
+    ],
+    [
+     "Differential Pressure Balancing Valve included",
+     "",
+     "YES"
+    ],
+    [
+     "Keep warm function",
+     "",
+     "YES"
+    ],
+    [
+     "Strainer for primary line",
+     "",
+     "YES"
+    ],
+    [
+     "Zone valve control for heating side",
+     "",
+     "YES"
+    ],
+    [
+     "Height",
+     "",
+     "530 mm"
+    ],
+    [
+     "Widht",
+     "",
+     "500 mm"
+    ],
+    [
+     "Depth",
+     "",
+     "170 mm"
+    ]
+   ],
+   "merged": [
+    "C17:E17",
+    "C26:E27"
+   ]
+  }
+ },
+ "Isı İstasyonları/HydroHexa Serisi/Direct HydroHexa/Direct HydroHexa - RH :: tablo-en.xlsx": {
+  "Sayfa1": {
+   "rows": [
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Indirect SmartHexa"
+    ],
+    [
+     "Specifications",
+     "",
+     "Product Specifications"
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "Suitable for district heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for heat pump",
+     "",
+     "NO"
+    ],
+    [
+     "Suitable for heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for cooling",
+     "",
+     "NO"
+    ],
+    [
+     "Sutiable for hot tap water",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for working with cirulation pump",
+     "",
+     "YES"
+    ],
+    [
+     "High efficiency pump",
+     "",
+     "NO"
+    ],
+    [
+     "DHW Heat Exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Material of heat exchanger",
+     "",
+     "Stainless steel with copper soldered"
+    ],
+    [
+     "Full sealed heat exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with heat meter",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with cold water meter",
+     "",
+     "YES"
+    ],
+    [
+     "Primary supply temperature",
+     "",
+     "0 - 110°C"
+    ],
+    [
+     "Primary pressure difference",
+     "",
+     "20-60 kPa"
+    ],
+    [
+     "Hot water capacity continously",
+     "",
+     "15 l/m - 17 l/m at 65°C"
+    ],
+    [
+     "DHW capacity",
+     "",
+     "37 kW - 46 kW"
+    ],
+    [
+     "Max. Heating capacity",
+     "",
+     "15 kW"
+    ],
+    [
+     "Inlet / Outlet connections for Heating, cold water",
+     "",
+     "3/4\" Female connections"
+    ],
+    [
+     "Hot water and primary supply",
+     "",
+     ""
+    ],
+    [
+     "Hot water priority",
+     "",
+     "YES"
+    ],
+    [
+     "Differential Pressure Balancing Valve included",
+     "",
+     "YES"
+    ],
+    [
+     "Keep warm function",
+     "",
+     "YES"
+    ],
+    [
+     "Strainer for primary line",
+     "",
+     "YES"
+    ],
+    [
+     "Zone valve control for heating side",
+     "",
+     "YES"
+    ],
+    [
+     "Height",
+     "",
+     "530 mm"
+    ],
+    [
+     "Widht",
+     "",
+     "500 mm"
+    ],
+    [
+     "Depth",
+     "",
+     "170 mm"
+    ]
+   ],
+   "merged": [
+    "C17:E17",
+    "C26:E27"
+   ]
+  }
+ },
+ "Isı İstasyonları/HydroHexa Serisi/Direct HydroHexa/Direct HydroHexa - UFH :: tablo-en.xlsx": {
+  "Sayfa1": {
+   "rows": [
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Indirect SmartHexa"
+    ],
+    [
+     "Specifications",
+     "",
+     "Product Specifications"
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "Suitable for district heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for heat pump",
+     "",
+     "NO"
+    ],
+    [
+     "Suitable for heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for cooling",
+     "",
+     "NO"
+    ],
+    [
+     "Sutiable for hot tap water",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for working with cirulation pump",
+     "",
+     "YES"
+    ],
+    [
+     "High efficiency pump",
+     "",
+     "NO"
+    ],
+    [
+     "DHW Heat Exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Material of heat exchanger",
+     "",
+     "Stainless steel with copper soldered"
+    ],
+    [
+     "Full sealed heat exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with heat meter",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with cold water meter",
+     "",
+     "YES"
+    ],
+    [
+     "Primary supply temperature",
+     "",
+     "0 - 110°C"
+    ],
+    [
+     "Primary pressure difference",
+     "",
+     "20-60 kPa"
+    ],
+    [
+     "Hot water capacity continously",
+     "",
+     "15 l/m - 17 l/m at 65°C"
+    ],
+    [
+     "DHW capacity",
+     "",
+     "37 kW - 46 kW"
+    ],
+    [
+     "Max. Heating capacity",
+     "",
+     "15 kW"
+    ],
+    [
+     "Inlet / Outlet connections for Heating, cold water",
+     "",
+     "3/4\" Female connections"
+    ],
+    [
+     "Hot water and primary supply",
+     "",
+     ""
+    ],
+    [
+     "Hot water priority",
+     "",
+     "YES"
+    ],
+    [
+     "Differential Pressure Balancing Valve included",
+     "",
+     "YES"
+    ],
+    [
+     "Keep warm function",
+     "",
+     "YES"
+    ],
+    [
+     "Strainer for primary line",
+     "",
+     "YES"
+    ],
+    [
+     "Zone valve control for heating side",
+     "",
+     "YES"
+    ],
+    [
+     "Height",
+     "",
+     "530 mm"
+    ],
+    [
+     "Widht",
+     "",
+     "500 mm"
+    ],
+    [
+     "Depth",
+     "",
+     "170 mm"
+    ]
+   ],
+   "merged": [
+    "C17:E17",
+    "C26:E27"
+   ]
+  }
+ },
+ "Isı İstasyonları/HydroHexa Serisi/Indirect HydroHexa/Indirect HydroHexa DHW-SH :: tablo-en.xlsx": {
+  "Sayfa1": {
+   "rows": [
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Indirect SmartHexa"
+    ],
+    [
+     "Specifications",
+     "",
+     "Product Specifications"
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "Suitable for district heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for heat pump",
+     "",
+     "NO"
+    ],
+    [
+     "Suitable for heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for cooling",
+     "",
+     "NO"
+    ],
+    [
+     "Sutiable for hot tap water",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for working with cirulation pump",
+     "",
+     "YES"
+    ],
+    [
+     "High efficiency pump",
+     "",
+     "NO"
+    ],
+    [
+     "DHW Heat Exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Material of heat exchanger",
+     "",
+     "Stainless steel with copper soldered"
+    ],
+    [
+     "Full sealed heat exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with heat meter",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with cold water meter",
+     "",
+     "YES"
+    ],
+    [
+     "Primary supply temperature",
+     "",
+     "0 - 110°C"
+    ],
+    [
+     "Primary pressure difference",
+     "",
+     "20-60 kPa"
+    ],
+    [
+     "Hot water capacity continously",
+     "",
+     "15 l/m - 17 l/m at 65°C"
+    ],
+    [
+     "DHW capacity",
+     "",
+     "37 kW - 46 kW"
+    ],
+    [
+     "Max. Heating capacity",
+     "",
+     "15 kW"
+    ],
+    [
+     "Inlet / Outlet connections for Heating, cold water",
+     "",
+     "3/4\" Female connections"
+    ],
+    [
+     "Hot water and primary supply",
+     "",
+     ""
+    ],
+    [
+     "Hot water priority",
+     "",
+     "YES"
+    ],
+    [
+     "Differential Pressure Balancing Valve included",
+     "",
+     "YES"
+    ],
+    [
+     "Keep warm function",
+     "",
+     "NO"
+    ],
+    [
+     "Strainer for primary line",
+     "",
+     "YES"
+    ],
+    [
+     "Zone valve control for heating side",
+     "",
+     "YES"
+    ],
+    [
+     "Height",
+     "",
+     "530 mm"
+    ],
+    [
+     "Widht",
+     "",
+     "500 mm"
+    ],
+    [
+     "Depth",
+     "",
+     "170 mm"
+    ]
+   ],
+   "merged": [
+    "C17:E17",
+    "C26:E27"
+   ]
+  }
+ },
+ "Isı İstasyonları/SmartHexa Serisi/Direct SmartHexa/Direct SmartHexa - DHW :: tablo-en.xlsx": {
+  "Sayfa1": {
+   "rows": [
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Indirect SmartHexa"
+    ],
+    [
+     "Specifications",
+     "",
+     "Product Specifications"
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "Suitable for district heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for heat pump",
+     "",
+     "NO"
+    ],
+    [
+     "Suitable for heating",
+     "",
+     "NO"
+    ],
+    [
+     "Suitable for cooling",
+     "",
+     "NO"
+    ],
+    [
+     "Sutiable for hot tap water",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for working with cirulation pump",
+     "",
+     "YES"
+    ],
+    [
+     "High efficiency pump",
+     "",
+     "NO"
+    ],
+    [
+     "DHW Heat Exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Material of heat exchanger",
+     "",
+     "Stainless steel with copper soldered"
+    ],
+    [
+     "Full sealed heat exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with heat meter",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with cold water meter",
+     "",
+     "YES"
+    ],
+    [
+     "Primary supply temperature",
+     "",
+     "0 - 110°C"
+    ],
+    [
+     "Primary pressure difference",
+     "",
+     "20-60 kPa"
+    ],
+    [
+     "Hot water capacity continously",
+     "",
+     "15 l/m - 17 l/m at 65°C"
+    ],
+    [
+     "DHW capacity",
+     "",
+     "37 kW - 46 kW"
+    ],
+    [
+     "Max. Heating capacity",
+     "",
+     "-"
+    ],
+    [
+     "Inlet / Outlet connections for Heating, cold water",
+     "",
+     "3/4\" Female connections"
+    ],
+    [
+     "Hot water and primary supply",
+     "",
+     ""
+    ],
+    [
+     "Hot water priority",
+     "",
+     "YES"
+    ],
+    [
+     "Differential Pressure Balancing Valve included",
+     "",
+     "YES"
+    ],
+    [
+     "Keep warm function",
+     "",
+     "YES"
+    ],
+    [
+     "Strainer for primary line",
+     "",
+     "YES"
+    ],
+    [
+     "Zone valve control for heating side",
+     "",
+     "NO"
+    ],
+    [
+     "Height",
+     "",
+     "530 mm"
+    ],
+    [
+     "Widht",
+     "",
+     "500 mm"
+    ],
+    [
+     "Depth",
+     "",
+     "170 mm"
+    ]
+   ],
+   "merged": [
+    "C17:E17",
+    "C26:E27"
+   ]
+  }
+ },
+ "Isı İstasyonları/SmartHexa Serisi/Direct SmartHexa/Direct SmartHexa - RH :: teknik tablo-en.xlsx": {
+  "Sayfa1": {
+   "rows": [
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Direct SmartHexa RH"
+    ],
+    [
+     "Specifications",
+     "",
+     "Product Specifications"
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "Suitable for district heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for heat pump",
+     "",
+     "NO"
+    ],
+    [
+     "Suitable for heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for cooling",
+     "",
+     "NO"
+    ],
+    [
+     "Sutiable for hot tap water",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for working with cirulation pump",
+     "",
+     "YES"
+    ],
+    [
+     "High efficiency pump",
+     "",
+     "NO"
+    ],
+    [
+     "DHW Heat Exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Material of heat exchanger",
+     "",
+     "Stainless steel with copper soldered"
+    ],
+    [
+     "Full sealed heat exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with heat meter",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with cold water meter",
+     "",
+     "YES"
+    ],
+    [
+     "Primary supply temperature",
+     "",
+     "0 - 110°C"
+    ],
+    [
+     "Primary pressure difference",
+     "",
+     "20-60 kPa"
+    ],
+    [
+     "Hot water capacity continously",
+     "",
+     "15 l/m - 17 l/m at 65°C"
+    ],
+    [
+     "DHW capacity",
+     "",
+     "37 kW - 46 kW"
+    ],
+    [
+     "Max. Heating capacity",
+     "",
+     "-"
+    ],
+    [
+     "Inlet / Outlet connections for Heating, cold water",
+     "",
+     "3/4\" Female connections"
+    ],
+    [
+     "Hot water and primary supply",
+     "",
+     ""
+    ],
+    [
+     "Hot water priority",
+     "",
+     "YES"
+    ],
+    [
+     "Differential Pressure Balancing Valve included",
+     "",
+     "YES"
+    ],
+    [
+     "Keep warm function",
+     "",
+     "YES"
+    ],
+    [
+     "Strainer for primary line",
+     "",
+     "YES"
+    ],
+    [
+     "Zone valve control for heating side",
+     "",
+     "NO"
+    ],
+    [
+     "Height",
+     "",
+     "530 mm"
+    ],
+    [
+     "Widht",
+     "",
+     "500 mm"
+    ],
+    [
+     "Depth",
+     "",
+     "170 mm"
+    ]
+   ],
+   "merged": [
+    "C17:E17",
+    "C26:E27"
+   ]
+  }
+ },
+ "Isı İstasyonları/SmartHexa Serisi/Direct SmartHexa/Direct SmartHexa - UFH :: teknik tablo-en.xlsx": {
+  "Sayfa1": {
+   "rows": [
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Indirect SmartHexa"
+    ],
+    [
+     "Specifications",
+     "",
+     "Product Specifications"
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "Suitable for district heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for heat pump",
+     "",
+     "NO"
+    ],
+    [
+     "Suitable for heating",
+     "",
+     "NO"
+    ],
+    [
+     "Suitable for cooling",
+     "",
+     "NO"
+    ],
+    [
+     "Sutiable for hot tap water",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for working with cirulation pump",
+     "",
+     "YES"
+    ],
+    [
+     "High efficiency pump",
+     "",
+     "NO"
+    ],
+    [
+     "DHW Heat Exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Material of heat exchanger",
+     "",
+     "Stainless steel with copper soldered"
+    ],
+    [
+     "Full sealed heat exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with heat meter",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with cold water meter",
+     "",
+     "YES"
+    ],
+    [
+     "Primary supply temperature",
+     "",
+     "0 - 110°C"
+    ],
+    [
+     "Primary pressure difference",
+     "",
+     "20-60 kPa"
+    ],
+    [
+     "Hot water capacity continously",
+     "",
+     "15 l/m - 17 l/m at 65°C"
+    ],
+    [
+     "DHW capacity",
+     "",
+     "37 kW - 46 kW"
+    ],
+    [
+     "Max. Heating capacity",
+     "",
+     "-"
+    ],
+    [
+     "Inlet / Outlet connections for Heating, cold water",
+     "",
+     "3/4\" Female connections"
+    ],
+    [
+     "Hot water and primary supply",
+     "",
+     ""
+    ],
+    [
+     "Hot water priority",
+     "",
+     "YES"
+    ],
+    [
+     "Differential Pressure Balancing Valve included",
+     "",
+     "YES"
+    ],
+    [
+     "Keep warm function",
+     "",
+     "YES"
+    ],
+    [
+     "Strainer for primary line",
+     "",
+     "YES"
+    ],
+    [
+     "Zone valve control for heating side",
+     "",
+     "NO"
+    ],
+    [
+     "Height",
+     "",
+     "530 mm"
+    ],
+    [
+     "Widht",
+     "",
+     "500 mm"
+    ],
+    [
+     "Depth",
+     "",
+     "170 mm"
+    ]
+   ],
+   "merged": [
+    "C17:E17",
+    "C26:E27"
+   ]
+  }
+ },
+ "Isı İstasyonları/SmartHexa Serisi/Indirect SmartHexa/Indirect SmartHexa DHW-SH :: teknik tablo-en.xlsx": {
+  "Sayfa1": {
+   "rows": [
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Indirect SmartHexa"
+    ],
+    [
+     "Specifications",
+     "",
+     "Product Specifications"
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "Suitable for district heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for heat pump",
+     "",
+     "NO"
+    ],
+    [
+     "Suitable for heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for cooling",
+     "",
+     "NO"
+    ],
+    [
+     "Sutiable for hot tap water",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for working with cirulation pump",
+     "",
+     "YES"
+    ],
+    [
+     "High efficiency pump",
+     "",
+     "NO"
+    ],
+    [
+     "DHW Heat Exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Material of heat exchanger",
+     "",
+     "Stainless steel with copper soldered"
+    ],
+    [
+     "Full sealed heat exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with heat meter",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with cold water meter",
+     "",
+     "YES"
+    ],
+    [
+     "Primary supply temperature",
+     "",
+     "0 - 110°C"
+    ],
+    [
+     "Primary pressure difference",
+     "",
+     "20-60 kPa"
+    ],
+    [
+     "Hot water capacity continously",
+     "",
+     "15 l/m - 17 l/m at 65°C"
+    ],
+    [
+     "DHW capacity",
+     "",
+     "37 kW - 46 kW"
+    ],
+    [
+     "Max. Heating capacity",
+     "",
+     "15 kW"
+    ],
+    [
+     "Inlet / Outlet connections for Heating, cold water",
+     "",
+     "3/4\" Female connections"
+    ],
+    [
+     "Hot water and primary supply",
+     "",
+     ""
+    ],
+    [
+     "Hot water priority",
+     "",
+     "YES"
+    ],
+    [
+     "Differential Pressure Balancing Valve included",
+     "",
+     "YES"
+    ],
+    [
+     "Keep warm function",
+     "",
+     "YES"
+    ],
+    [
+     "Strainer for primary line",
+     "",
+     "YES"
+    ],
+    [
+     "Zone valve control for heating side",
+     "",
+     "YES"
+    ],
+    [
+     "Height",
+     "",
+     "530 mm"
+    ],
+    [
+     "Widht",
+     "",
+     "500 mm"
+    ],
+    [
+     "Depth",
+     "",
+     "170 mm"
+    ]
+   ],
+   "merged": [
+    "C17:E17",
+    "C26:E27"
+   ]
+  }
+ },
+ "Isı İstasyonları/SmartHexa Serisi/Indirect SmartHexa/Indirect SmartHexa SH :: teknik tablo-en.xlsx": {
+  "Sayfa1": {
+   "rows": [
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Indirect SmartHexa SH"
+    ],
+    [
+     "Specifications",
+     "",
+     "Product Specifications"
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "Suitable for district heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for heat pump",
+     "",
+     "NO"
+    ],
+    [
+     "Suitable for heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for cooling",
+     "",
+     "NO"
+    ],
+    [
+     "Sutiable for hot tap water",
+     "",
+     "NO"
+    ],
+    [
+     "Suitable for working with cirulation pump",
+     "",
+     "NO"
+    ],
+    [
+     "High efficiency pump",
+     "",
+     "NO"
+    ],
+    [
+     "DHW Heat Exchanger",
+     "",
+     "NO"
+    ],
+    [
+     "Material of heat exchanger",
+     "",
+     "Stainless steel with copper soldered"
+    ],
+    [
+     "Full sealed heat exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with heat meter",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with cold water meter",
+     "",
+     "NO"
+    ],
+    [
+     "Primary supply temperature",
+     "",
+     "0 - 110°C"
+    ],
+    [
+     "Primary pressure difference",
+     "",
+     "20-60 kPa"
+    ],
+    [
+     "Hot water capacity continously",
+     "",
+     "-"
+    ],
+    [
+     "DHW capacity",
+     "",
+     "-"
+    ],
+    [
+     "Max. Heating capacity",
+     "",
+     "20 kW"
+    ],
+    [
+     "Inlet / Outlet connections for Heating, cold water",
+     "",
+     "3/4\" Female connections"
+    ],
+    [
+     "Hot water and primary supply",
+     "",
+     ""
+    ],
+    [
+     "Hot water priority",
+     "",
+     "NO"
+    ],
+    [
+     "Differential Pressure Balancing Valve included",
+     "",
+     "YES"
+    ],
+    [
+     "Keep warm function",
+     "",
+     "NO"
+    ],
+    [
+     "Strainer for primary line",
+     "",
+     "YES"
+    ],
+    [
+     "Zone valve control for heating side",
+     "",
+     "YES"
+    ],
+    [
+     "Height",
+     "",
+     "530 mm"
+    ],
+    [
+     "Widht",
+     "",
+     "500 mm"
+    ],
+    [
+     "Depth",
+     "",
+     "170 mm"
+    ]
+   ],
+   "merged": [
+    "C17:E17",
+    "C26:E27"
+   ]
+  }
+ },
+ "Isı İstasyonları/ThermoHexa Serisi/Direct ThermoHexa/Direct ThermoHexa - DHW :: teknik tablo-en.xlsx": {
+  "Sayfa1": {
+   "rows": [
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Indirect SmartHexa"
+    ],
+    [
+     "Specifications",
+     "",
+     "Product Specifications"
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "Suitable for district heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for heat pump",
+     "",
+     "NO"
+    ],
+    [
+     "Suitable for heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for cooling",
+     "",
+     "NO"
+    ],
+    [
+     "Sutiable for hot tap water",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for working with cirulation pump",
+     "",
+     "YES"
+    ],
+    [
+     "High efficiency pump",
+     "",
+     "NO"
+    ],
+    [
+     "DHW Heat Exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Material of heat exchanger",
+     "",
+     "Stainless steel with copper soldered"
+    ],
+    [
+     "Full sealed heat exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with heat meter",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with cold water meter",
+     "",
+     "YES"
+    ],
+    [
+     "Primary supply temperature",
+     "",
+     "0 - 110°C"
+    ],
+    [
+     "Primary pressure difference",
+     "",
+     "20-60 kPa"
+    ],
+    [
+     "Hot water capacity continously",
+     "",
+     "15 l/m - 17 l/m at 65°C"
+    ],
+    [
+     "DHW capacity",
+     "",
+     "37 kW - 46 kW"
+    ],
+    [
+     "Max. Heating capacity",
+     "",
+     "15 kW"
+    ],
+    [
+     "Inlet / Outlet connections for Heating, cold water",
+     "",
+     "3/4\" Female connections"
+    ],
+    [
+     "Hot water and primary supply",
+     "",
+     ""
+    ],
+    [
+     "Hot water priority",
+     "",
+     "YES"
+    ],
+    [
+     "Differential Pressure Balancing Valve included",
+     "",
+     "YES"
+    ],
+    [
+     "Keep warm function",
+     "",
+     "YES"
+    ],
+    [
+     "Strainer for primary line",
+     "",
+     "YES"
+    ],
+    [
+     "Zone valve control for heating side",
+     "",
+     "YES"
+    ],
+    [
+     "Height",
+     "",
+     "530 mm"
+    ],
+    [
+     "Widht",
+     "",
+     "500 mm"
+    ],
+    [
+     "Depth",
+     "",
+     "170 mm"
+    ]
+   ],
+   "merged": [
+    "C17:E17",
+    "C26:E27"
+   ]
+  }
+ },
+ "Isı İstasyonları/ThermoHexa Serisi/Direct ThermoHexa/Direct ThermoHexa - RH :: teknik tablo-en.xlsx": {
+  "Sayfa1": {
+   "rows": [
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Indirect SmartHexa"
+    ],
+    [
+     "Specifications",
+     "",
+     "Product Specifications"
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "Suitable for district heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for heat pump",
+     "",
+     "NO"
+    ],
+    [
+     "Suitable for heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for cooling",
+     "",
+     "NO"
+    ],
+    [
+     "Sutiable for hot tap water",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for working with cirulation pump",
+     "",
+     "YES"
+    ],
+    [
+     "High efficiency pump",
+     "",
+     "NO"
+    ],
+    [
+     "DHW Heat Exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Material of heat exchanger",
+     "",
+     "Stainless steel with copper soldered"
+    ],
+    [
+     "Full sealed heat exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with heat meter",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with cold water meter",
+     "",
+     "YES"
+    ],
+    [
+     "Primary supply temperature",
+     "",
+     "0 - 110°C"
+    ],
+    [
+     "Primary pressure difference",
+     "",
+     "20-60 kPa"
+    ],
+    [
+     "Hot water capacity continously",
+     "",
+     "15 l/m - 17 l/m at 65°C"
+    ],
+    [
+     "DHW capacity",
+     "",
+     "37 kW - 46 kW"
+    ],
+    [
+     "Max. Heating capacity",
+     "",
+     "15 kW"
+    ],
+    [
+     "Inlet / Outlet connections for Heating, cold water",
+     "",
+     "3/4\" Female connections"
+    ],
+    [
+     "Hot water and primary supply",
+     "",
+     ""
+    ],
+    [
+     "Hot water priority",
+     "",
+     "YES"
+    ],
+    [
+     "Differential Pressure Balancing Valve included",
+     "",
+     "YES"
+    ],
+    [
+     "Keep warm function",
+     "",
+     "YES"
+    ],
+    [
+     "Strainer for primary line",
+     "",
+     "YES"
+    ],
+    [
+     "Zone valve control for heating side",
+     "",
+     "YES"
+    ],
+    [
+     "Height",
+     "",
+     "530 mm"
+    ],
+    [
+     "Widht",
+     "",
+     "500 mm"
+    ],
+    [
+     "Depth",
+     "",
+     "170 mm"
+    ]
+   ],
+   "merged": [
+    "C17:E17",
+    "C26:E27"
+   ]
+  }
+ },
+ "Isı İstasyonları/ThermoHexa Serisi/Direct ThermoHexa/Direct ThermoHexa - UFH :: teknik tablo-en.xlsx": {
+  "Sayfa1": {
+   "rows": [
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Indirect SmartHexa"
+    ],
+    [
+     "Specifications",
+     "",
+     "Product Specifications"
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "Suitable for district heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for heat pump",
+     "",
+     "NO"
+    ],
+    [
+     "Suitable for heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for cooling",
+     "",
+     "NO"
+    ],
+    [
+     "Sutiable for hot tap water",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for working with cirulation pump",
+     "",
+     "YES"
+    ],
+    [
+     "High efficiency pump",
+     "",
+     "NO"
+    ],
+    [
+     "DHW Heat Exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Material of heat exchanger",
+     "",
+     "Stainless steel with copper soldered"
+    ],
+    [
+     "Full sealed heat exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with heat meter",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with cold water meter",
+     "",
+     "YES"
+    ],
+    [
+     "Primary supply temperature",
+     "",
+     "0 - 110°C"
+    ],
+    [
+     "Primary pressure difference",
+     "",
+     "20-60 kPa"
+    ],
+    [
+     "Hot water capacity continously",
+     "",
+     "15 l/m - 17 l/m at 65°C"
+    ],
+    [
+     "DHW capacity",
+     "",
+     "37 kW - 46 kW"
+    ],
+    [
+     "Max. Heating capacity",
+     "",
+     "15 kW"
+    ],
+    [
+     "Inlet / Outlet connections for Heating, cold water",
+     "",
+     "3/4\" Female connections"
+    ],
+    [
+     "Hot water and primary supply",
+     "",
+     ""
+    ],
+    [
+     "Hot water priority",
+     "",
+     "YES"
+    ],
+    [
+     "Differential Pressure Balancing Valve included",
+     "",
+     "YES"
+    ],
+    [
+     "Keep warm function",
+     "",
+     "YES"
+    ],
+    [
+     "Strainer for primary line",
+     "",
+     "YES"
+    ],
+    [
+     "Zone valve control for heating side",
+     "",
+     "YES"
+    ],
+    [
+     "Height",
+     "",
+     "530 mm"
+    ],
+    [
+     "Widht",
+     "",
+     "500 mm"
+    ],
+    [
+     "Depth",
+     "",
+     "170 mm"
+    ]
+   ],
+   "merged": [
+    "C17:E17",
+    "C26:E27"
+   ]
+  }
+ },
+ "Isı İstasyonları/ThermoHexa Serisi/Indirect ThermoHexa/Indirect ThermoHexa DHW-SH :: teknik tablo-en.xlsx": {
+  "Sayfa1": {
+   "rows": [
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Indirect SmartHexa"
+    ],
+    [
+     "Specifications",
+     "",
+     "Product Specifications"
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "Suitable for district heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for heat pump",
+     "",
+     "NO"
+    ],
+    [
+     "Suitable for heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for cooling",
+     "",
+     "NO"
+    ],
+    [
+     "Sutiable for hot tap water",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for working with cirulation pump",
+     "",
+     "YES"
+    ],
+    [
+     "High efficiency pump",
+     "",
+     "NO"
+    ],
+    [
+     "DHW Heat Exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Material of heat exchanger",
+     "",
+     "Stainless steel with copper soldered"
+    ],
+    [
+     "Full sealed heat exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with heat meter",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with cold water meter",
+     "",
+     "YES"
+    ],
+    [
+     "Primary supply temperature",
+     "",
+     "0 - 110°C"
+    ],
+    [
+     "Primary pressure difference",
+     "",
+     "20-60 kPa"
+    ],
+    [
+     "Hot water capacity continously",
+     "",
+     "15 l/m - 17 l/m at 65°C"
+    ],
+    [
+     "DHW capacity",
+     "",
+     "37 kW - 46 kW"
+    ],
+    [
+     "Max. Heating capacity",
+     "",
+     "15 kW"
+    ],
+    [
+     "Inlet / Outlet connections for Heating, cold water",
+     "",
+     "3/4\" Female connections"
+    ],
+    [
+     "Hot water and primary supply",
+     "",
+     ""
+    ],
+    [
+     "Hot water priority",
+     "",
+     "YES"
+    ],
+    [
+     "Differential Pressure Balancing Valve included",
+     "",
+     "YES"
+    ],
+    [
+     "Keep warm function",
+     "",
+     "YES"
+    ],
+    [
+     "Strainer for primary line",
+     "",
+     "YES"
+    ],
+    [
+     "Zone valve control for heating side",
+     "",
+     "YES"
+    ],
+    [
+     "Height",
+     "",
+     "530 mm"
+    ],
+    [
+     "Widht",
+     "",
+     "500 mm"
+    ],
+    [
+     "Depth",
+     "",
+     "170 mm"
+    ]
+   ],
+   "merged": [
+    "C17:E17",
+    "C26:E27"
+   ]
+  }
+ },
+ "Isı İstasyonları/ThermoHexa Serisi/Indirect ThermoHexa/Indirect ThermoHexa SH :: teknik tablo-en.xlsx": {
+  "Sayfa1": {
+   "rows": [
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "",
+     "",
+     "Indirect SmartHexa"
+    ],
+    [
+     "Specifications",
+     "",
+     "Product Specifications"
+    ],
+    [
+     "",
+     "",
+     ""
+    ],
+    [
+     "Suitable for district heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for heat pump",
+     "",
+     "NO"
+    ],
+    [
+     "Suitable for heating",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for cooling",
+     "",
+     "NO"
+    ],
+    [
+     "Sutiable for hot tap water",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for working with cirulation pump",
+     "",
+     "YES"
+    ],
+    [
+     "High efficiency pump",
+     "",
+     "NO"
+    ],
+    [
+     "DHW Heat Exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Material of heat exchanger",
+     "",
+     "Stainless steel with copper soldered"
+    ],
+    [
+     "Full sealed heat exchanger",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with heat meter",
+     "",
+     "YES"
+    ],
+    [
+     "Suitable for using and fitting with cold water meter",
+     "",
+     "YES"
+    ],
+    [
+     "Primary supply temperature",
+     "",
+     "0 - 110°C"
+    ],
+    [
+     "Primary pressure difference",
+     "",
+     "20-60 kPa"
+    ],
+    [
+     "Hot water capacity continously",
+     "",
+     "15 l/m - 17 l/m at 65°C"
+    ],
+    [
+     "DHW capacity",
+     "",
+     "37 kW - 46 kW"
+    ],
+    [
+     "Max. Heating capacity",
+     "",
+     "15 kW"
+    ],
+    [
+     "Inlet / Outlet connections for Heating, cold water",
+     "",
+     "3/4\" Female connections"
+    ],
+    [
+     "Hot water and primary supply",
+     "",
+     ""
+    ],
+    [
+     "Hot water priority",
+     "",
+     "YES"
+    ],
+    [
+     "Differential Pressure Balancing Valve included",
+     "",
+     "YES"
+    ],
+    [
+     "Keep warm function",
+     "",
+     "YES"
+    ],
+    [
+     "Strainer for primary line",
+     "",
+     "YES"
+    ],
+    [
+     "Zone valve control for heating side",
+     "",
+     "YES"
+    ],
+    [
+     "Height",
+     "",
+     "530 mm"
+    ],
+    [
+     "Widht",
+     "",
+     "500 mm"
+    ],
+    [
+     "Depth",
+     "",
+     "170 mm"
+    ]
+   ],
+   "merged": [
+    "C17:E17",
+    "C26:E27"
+   ]
+  }
+ }
+}

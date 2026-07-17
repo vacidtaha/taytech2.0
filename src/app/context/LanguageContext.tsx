@@ -1,19 +1,14 @@
 "use client";
 
-import {
-  createContext,
-  useContext,
-  useState,
-  useCallback,
-  useEffect,
-  ReactNode,
-} from "react";
+import { createContext, useContext, useCallback, ReactNode } from "react";
+import { usePathname, useRouter } from "next/navigation";
 import { contactTranslations, type Locale } from "../locales/contact";
 import {
   LOCALE_COOKIE,
   LOCALE_MANUAL_COOKIE,
   localeCookieOptions,
 } from "@/lib/locale";
+import { isEnPath, localizePath } from "@/lib/paths";
 import { faqTranslations } from "../locales/faq";
 import { corporateTranslations } from "../locales/corporate";
 import { solutionsTranslations } from "../locales/solutions";
@@ -30,15 +25,16 @@ interface LanguageContextType {
   locale: Locale;
   setLocale: (locale: Locale) => void;
   t: (key: string) => string;
+  /** Türkçe yolu aktif dile göre çevirir (EN'de /en/products vb.). */
+  lp: (path: string) => string;
 }
 
 const LanguageContext = createContext<LanguageContextType>({
   locale: "TR",
   setLocale: () => {},
   t: (key) => key,
+  lp: (path) => path,
 });
-
-const LOCALE_KEY = "taytech-locale";
 
 function writeLocaleCookies(locale: Locale) {
   const opts = localeCookieOptions();
@@ -49,38 +45,30 @@ function writeLocaleCookies(locale: Locale) {
 
 export function LanguageProvider({
   children,
-  initialLocale = "TR",
 }: {
   children: ReactNode;
+  /** Geriye dönük uyumluluk; dil artık URL'den türetilir. */
   initialLocale?: Locale;
 }) {
-  const [locale, setLocaleState] = useState<Locale>(initialLocale);
+  const pathname = usePathname();
+  const router = useRouter();
 
-  // Kayıtlı tercihi yükle. İlk render initialLocale ile uyuşsun (hydration).
-  useEffect(() => {
-    try {
-      const manual = document.cookie.includes(`${LOCALE_MANUAL_COOKIE}=1`);
-      const saved = localStorage.getItem(LOCALE_KEY);
-      if (manual && (saved === "EN" || saved === "TR")) {
-        setLocaleState(saved);
-        return;
+  // Dil artık URL'den belirlenir: /en altındaki her sayfa İngilizcedir.
+  const locale: Locale = isEnPath(pathname) ? "EN" : "TR";
+
+  // Dil değişimi = aynı sayfanın diğer dildeki URL'sine geçiş.
+  const setLocale = useCallback(
+    (next: Locale) => {
+      try {
+        writeLocaleCookies(next);
+      } catch {
+        /* önemsiz */
       }
-      localStorage.setItem(LOCALE_KEY, initialLocale);
-      setLocaleState(initialLocale);
-    } catch {
-      /* localStorage kapalı olabilir */
-    }
-  }, [initialLocale]);
-
-  const setLocale = useCallback((next: Locale) => {
-    setLocaleState(next);
-    try {
-      localStorage.setItem(LOCALE_KEY, next);
-      writeLocaleCookies(next);
-    } catch {
-      /* önemsiz */
-    }
-  }, []);
+      const target = localizePath(pathname, next);
+      if (target !== pathname) router.push(target);
+    },
+    [pathname, router]
+  );
 
   const t = useCallback(
     (key: string): string => {
@@ -93,8 +81,13 @@ export function LanguageProvider({
     [locale]
   );
 
+  const lp = useCallback(
+    (path: string): string => localizePath(path, locale),
+    [locale]
+  );
+
   return (
-    <LanguageContext.Provider value={{ locale, setLocale, t }}>
+    <LanguageContext.Provider value={{ locale, setLocale, t, lp }}>
       {children}
     </LanguageContext.Provider>
   );

@@ -1,15 +1,16 @@
 import { Metadata } from "next";
+import { localizedMetadata } from "@/lib/i18n-meta";
 
-export const metadata: Metadata = {
-  title: "İletişim",
-  description: "Taytech ile iletişime geçin. Gebze, Kocaeli merkezli ofisimiz ve fabrikamıza ulaşın. Teklif, teknik destek ve iş birliği için bize yazın.",
-  alternates: { canonical: "/iletisim" },
-  openGraph: {
-    title: "İletişim | Taytech",
-    description: "Taytech'e ulaşın: Adres, telefon, e-posta ve iletişim formu. Özel teklif ve teknik destek talepleriniz için.",
-    url: "https://taytech.com.tr/iletisim",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return localizedMetadata({
+    path: "/iletisim",
+    title: { tr: "İletişim", en: "Contact" },
+    description: {
+      tr: "Taytech ile iletişime geçin. Gebze, Kocaeli merkezli ofisimiz ve fabrikamıza ulaşın. Teklif, teknik destek ve iş birliği için bize yazın.",
+      en: "Get in touch with Taytech. Reach our offices in Gebze, Kocaeli and London. Write to us for quotations, technical support and partnerships.",
+    },
+  });
+}
 
 export default function IletisimLayout({ children }: { children: React.ReactNode }) {
   return children;

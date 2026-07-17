@@ -1,10 +1,11 @@
 import type { MetadataRoute } from "next";
 import { prisma } from "@/lib/db";
 import { SITE_URL } from "@/lib/site";
+import { trToEn } from "@/lib/paths";
 
 /**
- * Veritabanından beslenen sitemap: yeni ürün/kategori eklendiğinde
- * revalidate sonrası otomatik olarak listeye girer.
+ * Veritabanından beslenen iki dilli sitemap: her sayfanın Türkçe ve
+ * İngilizce (/en/...) sürümü hreflang alternatifleriyle listelenir.
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [products, categories] = await Promise.all([
@@ -15,7 +16,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     prisma.category.findMany({ select: { slug: true, updatedAt: true } }),
   ]);
 
-  const staticRoutes: MetadataRoute.Sitemap = [
+  const staticRoutes: { path: string; priority: number }[] = [
     { path: "/", priority: 1 },
     { path: "/urunler", priority: 0.9 },
     { path: "/kurumsal", priority: 0.8 },
@@ -34,25 +35,44 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: "/bilgi-merkezi/video-arsivi", priority: 0.4 },
     { path: "/bilgi-merkezi/taytech-akademi", priority: 0.4 },
     { path: "/iletisim", priority: 0.7 },
-  ].map(({ path, priority }) => ({
-    url: `${SITE_URL}${path === "/" ? "" : path}`,
-    changeFrequency: "monthly" as const,
-    priority,
-  }));
+  ];
 
-  const categoryRoutes: MetadataRoute.Sitemap = categories.map((c) => ({
-    url: `${SITE_URL}/urunler/${c.slug}`,
-    lastModified: c.updatedAt,
-    changeFrequency: "weekly" as const,
-    priority: 0.7,
-  }));
+  /** TR + EN girdisi üretir; ikisi de birbirini hreflang ile gösterir. */
+  const bilingual = (
+    trPath: string,
+    opts: {
+      priority: number;
+      changeFrequency: "weekly" | "monthly";
+      lastModified?: Date;
+    }
+  ): MetadataRoute.Sitemap => {
+    const enPath = trToEn(trPath);
+    const trUrl = `${SITE_URL}${trPath === "/" ? "" : trPath}`;
+    const enUrl = `${SITE_URL}${enPath}`;
+    const languages = { tr: trUrl, en: enUrl, "x-default": trUrl };
+    return [
+      { url: trUrl, ...opts, alternates: { languages } },
+      { url: enUrl, ...opts, alternates: { languages } },
+    ];
+  };
 
-  const productRoutes: MetadataRoute.Sitemap = products.map((p) => ({
-    url: `${SITE_URL}/urun/${p.slug}`,
-    lastModified: p.updatedAt,
-    changeFrequency: "weekly" as const,
-    priority: 0.8,
-  }));
-
-  return [...staticRoutes, ...categoryRoutes, ...productRoutes];
+  return [
+    ...staticRoutes.flatMap(({ path, priority }) =>
+      bilingual(path, { priority, changeFrequency: "monthly" })
+    ),
+    ...categories.flatMap((c) =>
+      bilingual(`/urunler/${c.slug}`, {
+        priority: 0.7,
+        changeFrequency: "weekly",
+        lastModified: c.updatedAt,
+      })
+    ),
+    ...products.flatMap((p) =>
+      bilingual(`/urun/${p.slug}`, {
+        priority: 0.8,
+        changeFrequency: "weekly",
+        lastModified: p.updatedAt,
+      })
+    ),
+  ];
 }

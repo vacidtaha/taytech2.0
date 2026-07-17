@@ -1,17 +1,21 @@
 import { Metadata } from "next";
+import { localizedMetadata } from "@/lib/i18n-meta";
 
-export const metadata: Metadata = {
-  // Düz string kök şablonunu ezer; alt sayfaların "| Taytech" eki alması için
-  // şablon burada yeniden tanımlanır.
-  title: { default: "Çözümler", template: "%s | Taytech" },
-  description: "Taytech endüstriyel otomasyon çözümleri: Toplu konutlar, hastaneler, ticari tesisler, eğitim yapıları, spor tesisleri ve endüstriyel kazan daireleri için akıllı kontrol sistemleri.",
-  alternates: { canonical: "/cozumler" },
-  openGraph: {
-    title: "Çözümler | Taytech",
-    description: "Sektörlere özel ısıtma, soğutma ve otomasyon çözümleri.",
-    url: "https://taytech.com.tr/cozumler",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const meta = await localizedMetadata({
+    path: "/cozumler",
+    title: { tr: "Çözümler", en: "Solutions" },
+    description: {
+      tr: "Taytech endüstriyel otomasyon çözümleri: Toplu konutlar, hastaneler, ticari tesisler, eğitim yapıları, spor tesisleri ve endüstriyel kazan daireleri için akıllı kontrol sistemleri.",
+      en: "Taytech industrial automation solutions: smart control systems for residential complexes, hospitals, commercial facilities, educational buildings, sports facilities and industrial boiler rooms.",
+    },
+  });
+  // Alt sayfaların "| Taytech" eki alması için şablon yeniden tanımlanır.
+  return {
+    ...meta,
+    title: { default: meta.title as string, template: "%s | Taytech" },
+  };
+}
 
 export default function CozumlerLayout({ children }: { children: React.ReactNode }) {
   return children;

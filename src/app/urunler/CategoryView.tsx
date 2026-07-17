@@ -24,7 +24,7 @@ export default function CategoryView({
   products,
   isRoot = false,
 }: Props) {
-  const { locale } = useLanguage();
+  const { locale, lp } = useLanguage();
   const isEn = locale === "EN";
   const name = isEn ? nameEn : nameTr;
 
@@ -48,7 +48,7 @@ export default function CategoryView({
       {!isEmpty && <AmbientGlow />}
       <div className="relative mx-auto max-w-6xl px-5 pt-7 md:px-6 md:pt-14">
         <Link
-          href={backHref}
+          href={lp(backHref)}
           aria-label={isEn ? "Back" : "Geri"}
           className={`absolute left-5 top-7 md:left-6 md:top-14 ${backButtonClass}`}
         >
@@ -56,14 +56,14 @@ export default function CategoryView({
         </Link>
         {/* Breadcrumb */}
         <nav className="flex flex-wrap items-center gap-1.5 pl-12 text-[13px] text-[#86868b] md:pl-14">
-          <Link href="/urunler" className="transition-colors hover:text-[#1d1d1f]">
+          <Link href={lp("/urunler")} className="transition-colors hover:text-[#1d1d1f]">
             {isEn ? "Products" : "Ürünler"}
           </Link>
           {ancestors.map((a) => (
             <span key={a.slug} className="flex items-center gap-1.5">
               <ChevronRight size={13} className="shrink-0" />
               <Link
-                href={`/urunler/${a.slug}`}
+                href={lp(`/urunler/${a.slug}`)}
                 className="transition-colors hover:text-[#1d1d1f]"
               >
                 {isEn ? a.nameEn : a.nameTr}
@@ -101,7 +101,7 @@ export default function CategoryView({
               {subcategories.map((c) => (
                 <Link
                   key={c.slug}
-                  href={`/urunler/${c.slug}`}
+                  href={lp(`/urunler/${c.slug}`)}
                   className="group flex flex-col overflow-hidden rounded-2xl border border-[#e8e8ed] bg-white transition-all hover:border-[#d2d2d7] hover:shadow-md md:rounded-3xl"
                 >
                   <div className="relative flex aspect-[4/3] items-center justify-center overflow-hidden bg-[#f5f5f7]">
@@ -160,7 +160,7 @@ export default function CategoryView({
                 return (
                   <Link
                     key={p.slug}
-                    href={`/urun/${p.slug}`}
+                    href={lp(`/urun/${p.slug}`)}
                     className="group flex flex-col overflow-hidden rounded-2xl border border-[#e8e8ed] bg-white transition-all hover:border-[#d2d2d7] hover:shadow-md md:rounded-3xl"
                   >
                     <div className="relative flex aspect-square items-center justify-center overflow-hidden bg-[#f5f5f7]">

@@ -40,6 +40,11 @@ model Product {
   descTr      String?
   descEn      String?
 
+  // Teknik özellikler: her satır bir madde; ";" veya ":" ile biten satır grup
+  // başlığı, tab ile başlayan satır alt maddedir.
+  featuresTr  String?
+  featuresEn  String?
+
   mainImageTr String?
   mainImageEn String?
   appImageTr  String?

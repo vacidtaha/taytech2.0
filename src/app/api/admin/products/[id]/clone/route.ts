@@ -46,6 +46,8 @@ export async function POST(
         nameEn: `${src.nameEn} (Copy)`,
         descTr: src.descTr,
         descEn: src.descEn,
+        featuresTr: src.featuresTr,
+        featuresEn: src.featuresEn,
         mainImageTr: src.mainImageTr,
         mainImageEn: src.mainImageEn,
         appImageTr: src.appImageTr,
