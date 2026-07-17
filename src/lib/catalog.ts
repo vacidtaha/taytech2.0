@@ -1,5 +1,6 @@
 import { prisma } from "@/lib/db";
 import { menuTail, type MenuItem } from "@/app/lib/menu";
+import { menuDescriptions } from "@/app/lib/menu-descriptions";
 
 /**
  * Katalog veri erişim katmanı.
@@ -83,6 +84,8 @@ export async function getMenu(): Promise<MenuItem[]> {
         en: p.nameEn,
         href: productHref(p.slug),
         image: p.mainImageTr ?? p.mainImageEn ?? undefined,
+        desc: menuDescriptions[p.slug]?.tr,
+        descEn: menuDescriptions[p.slug]?.en,
       })),
     ];
     // Alt ağacında hiç ürün yoksa menüde tıklanamaz olsun.
@@ -95,6 +98,8 @@ export async function getMenu(): Promise<MenuItem[]> {
       children: children.length ? children : undefined,
       disabled: hasProductsDeep ? undefined : true,
       image: firstImageFor(cat.id) ?? undefined,
+      desc: menuDescriptions[cat.slug]?.tr,
+      descEn: menuDescriptions[cat.slug]?.en,
     };
   };
 

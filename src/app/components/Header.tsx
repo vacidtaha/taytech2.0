@@ -77,6 +77,9 @@ export default function Header({ menu }: { menu: MenuItem[] }) {
   const label = (item: MenuItem) =>
     locale === "EN" ? item.en ?? item.label : item.label;
 
+  const shortDesc = (item: MenuItem) =>
+    locale === "EN" ? item.descEn ?? item.desc : item.desc;
+
   const openMenu = () => {
     setPath([]);
     setPhase("open");
@@ -530,6 +533,11 @@ export default function Header({ menu }: { menu: MenuItem[] }) {
                                   size={20}
                                   className="shrink-0 opacity-80"
                                 />
+                              )}
+                              {showImage && shortDesc(item) && (
+                                <span className="mt-1 block w-full pr-6 text-[13px] font-normal leading-snug text-white/65">
+                                  {shortDesc(item)}
+                                </span>
                               )}
                               {showImage && item.image && (
                                 <span className="mt-2.5 block w-full overflow-hidden rounded-lg bg-white">

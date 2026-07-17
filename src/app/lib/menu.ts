@@ -7,6 +7,10 @@ export type MenuItem = {
   disabled?: boolean;
   /** Menüde öğenin altında gösterilen önizleme görseli (ürün fotoğrafı). */
   image?: string;
+  /** Menüde başlığın altında gösterilen kısa tanıtım metni (TR). */
+  desc?: string;
+  /** Kısa tanıtım metninin İngilizcesi. */
+  descEn?: string;
 };
 
 /**
