@@ -3,8 +3,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Phone, Mail, Printer, MapPin } from "lucide-react";
+import { Phone, Mail, Printer } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
+import { FlagTR, FlagGB } from "./Flags";
 import { openCookieSettings } from "@/lib/consent";
 
 type Bi = { tr: string; en: string };
@@ -87,8 +88,9 @@ export default function Footer() {
           {/* Marka + iletişim */}
           <div className="md:col-span-4">
             <Link href={lp("/")} className="flex items-center gap-3 md:gap-4">
-              <Image src="/logos/headerlogo1.webp" alt="TayTech" width={1920} height={1080} className="h-12 w-auto md:h-16" />
-              <Image src="/logos/headerlogo2.webp" alt="TayTech" width={1920} height={1080} className="h-12 w-auto md:h-16" />
+              <Image src="/logos/taytech-logo.webp" alt="TayTech" width={1856} height={521} className="h-[22px] w-auto md:h-7" />
+              <span aria-hidden className="h-[22px] w-px shrink-0 bg-zinc-300 md:h-7" />
+              <Image src="/logos/taytech-uk-logo.webp" alt="TayTech UK" width={1886} height={391} className="h-[18px] w-auto translate-y-px md:h-6 md:translate-y-[2px]" />
             </Link>
             <p className="mt-5 max-w-sm text-base leading-relaxed text-[#6e6e73] md:mt-6 md:text-lg">
               {locale === "EN"
@@ -105,34 +107,47 @@ export default function Footer() {
                 <Printer size={20} className="shrink-0 text-[#dc2626]" />
                 <span>+90 (262) 502 51 52</span>
               </div>
-              <a href="mailto:info@taytech.com.tr" className="flex items-center gap-3 text-[#424245] transition-colors hover:text-[#dc2626]">
+              <a
+                href={locale === "EN" ? "mailto:sales@taytech.com" : "mailto:info@taytech.com.tr"}
+                className="flex items-center gap-3 text-[#424245] transition-colors hover:text-[#dc2626]"
+              >
                 <Mail size={20} className="shrink-0 text-[#dc2626]" />
-                <span>info@taytech.com.tr</span>
+                <span>{locale === "EN" ? "sales@taytech.com" : "info@taytech.com.tr"}</span>
               </a>
-              <a
-                href="https://www.google.com/maps/place/Taytech+Enerji+Teknolojileri"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-start gap-3 text-[#424245] transition-colors hover:text-[#dc2626]"
-              >
-                <MapPin size={20} className="mt-1 shrink-0 text-[#dc2626]" />
-                <span className="max-w-[18rem]">
-                  <span className="mb-0.5 block text-sm font-semibold uppercase tracking-wider text-[#86868b]">Türkiye</span>
-                  İnönü Mah. Gebze Plastikçiler OSB, Atatürk Bulvarı No:7/2, Gebze / Kocaeli
-                </span>
-              </a>
-              <a
-                href="https://www.google.com/maps/search/17+Green+Lanes,+London+N16+9BS"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-start gap-3 text-[#424245] transition-colors hover:text-[#dc2626]"
-              >
-                <MapPin size={20} className="mt-1 shrink-0 text-[#dc2626]" />
-                <span className="max-w-[18rem]" lang="en">
-                  <span className="mb-0.5 block text-sm font-semibold uppercase tracking-wider text-[#86868b]">United Kingdom</span>
-                  17 Green Lanes, London N16 9BS, United Kingdom
-                </span>
-              </a>
+              {(() => {
+                const trAddress = (
+                  <a
+                    key="tr"
+                    href="https://www.google.com/maps/place/Taytech+Enerji+Teknolojileri"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-start gap-3 text-[#424245] transition-colors hover:text-[#dc2626]"
+                  >
+                    <FlagTR className="mt-1 h-[15px] w-5 shrink-0 rounded-[3px] shadow-sm" />
+                    <span className="max-w-[18rem]">
+                      <span className="mb-0.5 block text-sm font-semibold uppercase tracking-wider text-[#86868b]">Türkiye</span>
+                      İnönü Mah. Gebze Plastikçiler OSB, Atatürk Bulvarı No:7/2, Gebze / Kocaeli
+                    </span>
+                  </a>
+                );
+                const ukAddress = (
+                  <a
+                    key="uk"
+                    href="https://www.google.com/maps/search/17+Green+Lanes,+London+N16+9BS"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-start gap-3 text-[#424245] transition-colors hover:text-[#dc2626]"
+                  >
+                    <FlagGB className="mt-1 h-[15px] w-5 shrink-0 rounded-[3px] shadow-sm" />
+                    <span className="max-w-[18rem]" lang="en">
+                      <span className="mb-0.5 block text-sm font-semibold uppercase tracking-wider text-[#86868b]">United Kingdom</span>
+                      17 Green Lanes, London N16 9BS, United Kingdom
+                    </span>
+                  </a>
+                );
+                // İngilizce sayfada Birleşik Krallık adresi üstte gösterilir.
+                return locale === "EN" ? [ukAddress, trAddress] : [trAddress, ukAddress];
+              })()}
             </div>
           </div>
 

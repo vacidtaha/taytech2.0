@@ -520,7 +520,7 @@ export default function ProductDetail({
                 {t("contact.phone1")}
               </a>
               <a
-                href="mailto:info@taytech.com.tr"
+                href={`mailto:${t("contact.emailAddr")}`}
                 className="inline-flex items-center gap-2 text-[15px] font-medium text-white/90 transition-colors hover:text-white"
               >
                 <Mail size={16} className="shrink-0" />

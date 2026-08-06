@@ -28,10 +28,6 @@ export default function CategoryView({
   const isEn = locale === "EN";
   const name = isEn ? nameEn : nameTr;
 
-  const totalCount =
-    products.length +
-    subcategories.reduce((sum, c) => sum + c.productCount, 0);
-
   const isEmpty = subcategories.length === 0 && products.length === 0;
 
   const backHref = isRoot
@@ -84,11 +80,6 @@ export default function CategoryView({
             <h1 className="text-3xl font-semibold leading-[1.1] tracking-tight md:text-6xl">
               {name}
             </h1>
-            {totalCount > 0 && (
-              <p className="mt-3 text-[15px] text-[#86868b] md:mt-4 md:text-[17px]">
-                {totalCount} {isEn ? (totalCount === 1 ? "product" : "products") : "ürün"}
-              </p>
-            )}
           </header>
         )}
       </div>
@@ -120,21 +111,9 @@ export default function CategoryView({
                     )}
                   </div>
                   <div className="flex flex-1 items-center justify-between gap-2 p-4 md:gap-3 md:p-6">
-                    <div>
-                      <h3 className="text-[15px] font-semibold leading-snug text-[#1d1d1f] md:text-lg">
-                        {isEn ? c.nameEn : c.nameTr}
-                      </h3>
-                      {c.productCount > 0 && (
-                        <p className="mt-1 text-[12px] text-[#86868b] md:text-[13px]">
-                          {c.productCount}{" "}
-                          {isEn
-                            ? c.productCount === 1
-                              ? "product"
-                              : "products"
-                            : "ürün"}
-                        </p>
-                      )}
-                    </div>
+                    <h3 className="text-[15px] font-semibold leading-snug text-[#1d1d1f] md:text-lg">
+                      {isEn ? c.nameEn : c.nameTr}
+                    </h3>
                     <ChevronRight
                       size={20}
                       className="shrink-0 text-[#86868b] transition-transform group-hover:translate-x-1 group-hover:text-[#1d1d1f]"

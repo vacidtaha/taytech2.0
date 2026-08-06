@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState, useRef, useEffect } from "react";
 import { useLanguage } from "../context/LanguageContext";
+import { FlagTR, FlagGB } from "../components/Flags";
 import emailjs from "@emailjs/browser";
 
 // ============================================================
@@ -419,14 +420,20 @@ export default function IletisimPage() {
               <div style={{ borderTop: '1px solid rgb(210, 210, 215)', paddingTop: '24px' }}>
                 {/* Türkiye */}
                 <div style={{ marginBottom: '24px' }}>
-                  <h3 style={{ fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'rgb(134, 134, 139)', marginBottom: '10px' }}>Türkiye</h3>
+                  <h3 style={{ fontSize: '16px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'rgb(29, 29, 31)', marginBottom: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '9px' }}>
+                    <FlagTR className="h-[14px] w-5 shrink-0 rounded-[2px] shadow-sm" />
+                    Türkiye
+                  </h3>
                   <p style={{ fontSize: '14px', fontWeight: 500, marginBottom: '10px' }}>Taytech Enerji Teknolojileri San. ve Tic. A.Ş.</p>
                   <p style={{ fontSize: '13px', fontWeight: 450 }}>{t("contact.hqAddr1")}, {t("contact.hqAddr2")}</p>
                   <p style={{ fontSize: '13px', fontWeight: 450, marginTop: '6px' }}>{t("contact.factoryAddr1")}, {t("contact.factoryAddr2")}, {t("contact.factoryAddr3")}</p>
                 </div>
 
                 <div style={{ borderTop: '1px solid rgb(210, 210, 215)', paddingTop: '24px', marginBottom: '16px' }}>
-                  <h3 style={{ fontSize: '12px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'rgb(134, 134, 139)', marginBottom: '10px' }} lang="en">United Kingdom</h3>
+                  <h3 style={{ fontSize: '16px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'rgb(29, 29, 31)', marginBottom: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '9px' }} lang="en">
+                    <FlagGB className="h-[14px] w-5 shrink-0 rounded-[2px] shadow-sm" />
+                    United Kingdom
+                  </h3>
                   <p style={{ fontSize: '14px', fontWeight: 500, marginBottom: '10px' }}>Taytech Technologies Ltd.</p>
                   <p style={{ fontSize: '13px', fontWeight: 450 }}>17 Green Lanes, London N16 9BS</p>
                   <p style={{ fontSize: '13px', fontWeight: 450 }}>United Kingdom</p>
@@ -811,7 +818,10 @@ export default function IletisimPage() {
             <div style={{ borderTop: '1px solid rgb(210, 210, 215)', paddingTop: '35px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '40px' }}>
               {/* Türkiye */}
               <div style={{ borderRight: '1px solid rgb(210, 210, 215)', paddingRight: '40px' }}>
-                <h3 style={{ fontSize: '13px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'rgb(134, 134, 139)', marginBottom: '14px' }}>Türkiye</h3>
+                <h3 style={{ fontSize: '20px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'rgb(29, 29, 31)', marginBottom: '18px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
+                  <FlagTR className="h-4 w-6 shrink-0 rounded-[3px] shadow-sm" />
+                  Türkiye
+                </h3>
                 <p style={{ fontSize: '17px', fontWeight: 500, marginBottom: '16px' }}>Taytech Enerji Teknolojileri San. ve Tic. A.Ş.</p>
 
                 <div style={{ marginBottom: '14px' }}>
@@ -830,7 +840,10 @@ export default function IletisimPage() {
 
               {/* United Kingdom */}
               <div style={{ paddingLeft: '40px' }}>
-                <h3 style={{ fontSize: '13px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'rgb(134, 134, 139)', marginBottom: '14px' }} lang="en">United Kingdom</h3>
+                <h3 style={{ fontSize: '20px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'rgb(29, 29, 31)', marginBottom: '18px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }} lang="en">
+                  <FlagGB className="h-4 w-6 shrink-0 rounded-[3px] shadow-sm" />
+                  United Kingdom
+                </h3>
                 <p style={{ fontSize: '17px', fontWeight: 500, marginBottom: '16px' }}>Taytech Technologies Ltd.</p>
 
                 <div>

@@ -65,7 +65,7 @@ export const contactTranslations: Record<Locale, Record<string, string>> = {
     "contact.success":
       "Your message has been sent successfully! We will get back to you as soon as possible.",
     "contact.error":
-      "Message could not be sent. Please try again later or write directly to info@taytech.com.tr.",
+      "Message could not be sent. Please try again later or write directly to sales@taytech.com.",
     "contact.subject.urun": "Product Information",
     "contact.subject.teknik": "Technical Support",
     "contact.subject.satis": "Sales",
@@ -84,7 +84,7 @@ export const contactTranslations: Record<Locale, Record<string, string>> = {
     "contact.fax": "Fax",
     "contact.faxNum": "+90 (262) 502 51 52",
     "contact.emailLabel": "Email",
-    "contact.emailAddr": "info@taytech.com.tr",
+    "contact.emailAddr": "sales@taytech.com",
     "contact.factory": "Factory",
     "contact.factoryAddr1": "İnönü Mahallesi Gebze Plastikçiler OSB",
     "contact.factoryAddr2": "Atatürk Bulvarı No:7/2",

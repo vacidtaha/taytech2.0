@@ -188,22 +188,26 @@ export default function Header({ menu }: { menu: MenuItem[] }) {
               ENG
             </button>
           </div>
-          <Link href={lp("/")} className="flex items-center gap-3 md:gap-5">
+          <Link href={lp("/")} className="flex items-center gap-3 md:gap-4">
             <Image
-              src="/logos/headerlogo1.webp"
-              alt="TayTech Logo 1"
-              width={1920}
-              height={1080}
+              src="/logos/taytech-logo.webp"
+              alt="TayTech"
+              width={1856}
+              height={521}
               priority
-              className="h-12 w-auto md:h-20"
+              className="h-6 w-auto md:h-9"
+            />
+            <span
+              aria-hidden
+              className="h-6 w-px shrink-0 bg-zinc-300 md:h-9"
             />
             <Image
-              src="/logos/headerlogo2.webp"
-              alt="TayTech Logo 2"
-              width={1920}
-              height={1080}
+              src="/logos/taytech-uk-logo.webp"
+              alt="TayTech UK"
+              width={1886}
+              height={391}
               priority
-              className="h-12 w-auto md:h-20"
+              className="h-[22px] w-auto translate-y-[2px] md:h-8 md:translate-y-[3px]"
             />
           </Link>
         </div>
@@ -232,18 +236,22 @@ export default function Header({ menu }: { menu: MenuItem[] }) {
             }`}
           >
             <Image
-              src="/logos/headerlogo1.webp"
-              alt="TayTech Logo 1"
-              width={1920}
-              height={1080}
-              className="h-10 w-auto shrink-0 md:h-16"
+              src="/logos/taytech-logo.webp"
+              alt="TayTech"
+              width={1856}
+              height={521}
+              className="h-[18px] w-auto shrink-0 md:h-7"
+            />
+            <span
+              aria-hidden
+              className="h-[18px] w-px shrink-0 bg-zinc-300 md:h-7"
             />
             <Image
-              src="/logos/headerlogo2.webp"
-              alt="TayTech Logo 2"
-              width={1920}
-              height={1080}
-              className="h-10 w-auto shrink-0 md:h-16"
+              src="/logos/taytech-uk-logo.webp"
+              alt="TayTech UK"
+              width={1886}
+              height={391}
+              className="h-4 w-auto shrink-0 translate-y-px md:h-6 md:translate-y-[2px]"
             />
           </Link>
 
