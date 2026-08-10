@@ -50,8 +50,107 @@ function ContactHeroTitle({ compact = false }: { compact?: boolean }) {
   );
 }
 
+/* lucide-react marka ikonlarını içermediği için LinkedIn ikonu inline SVG */
+function LinkedinIcon({ size = 22 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z" />
+    </svg>
+  );
+}
+
+/** Kurumsal bilgiler kartındaki tek şirket bloğu (footer'daki ayrımla aynı). */
+function CompanyBlock({ country, compact = false }: { country: "tr" | "uk"; compact?: boolean }) {
+  const { t, locale } = useLanguage();
+  const isEn = locale === "EN";
+  const labelStyle = { fontSize: compact ? "15px" : "18px", fontWeight: 500, marginBottom: compact ? "4px" : "6px" } as const;
+  const bodyStyle = { fontSize: compact ? "14px" : "17px", fontWeight: 450 } as const;
+  const groupStyle = { marginTop: compact ? "16px" : "22px" } as const;
+  const linkClass = "hover:text-[#dc2626] transition-colors";
+  const linkStyle = { color: "inherit", textDecoration: "none" } as const;
+
+  if (country === "tr") {
+    return (
+      <div>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "10px" }}>
+          <Image src="/logos/taytech-logo.webp" alt="TayTech" width={1856} height={521} className={compact ? "h-6 w-auto" : "h-8 w-auto"} />
+          <FlagTR className={compact ? "h-[15px] w-[22px] shrink-0 rounded-[2px] shadow-sm" : "h-[18px] w-[26px] shrink-0 rounded-[3px] shadow-sm"} />
+        </div>
+        <span aria-hidden style={{ display: "block", height: "1px", width: compact ? "150px" : "176px", background: "rgb(29, 29, 31)", margin: "14px auto 0" }} />
+        <p style={{ ...bodyStyle, fontWeight: 500, marginTop: compact ? "16px" : "20px" }}>Taytech Enerji Teknolojileri San. ve Tic. A.Ş.</p>
+        <div style={groupStyle}>
+          <h3 style={labelStyle}>{t("contact.phoneLabel")}</h3>
+          <p style={bodyStyle}><a href={telHref(t("contact.phone1"))} className={linkClass} style={linkStyle}>{t("contact.phone1")}</a></p>
+          <p style={bodyStyle}><a href={telHref(t("contact.phone2"))} className={linkClass} style={linkStyle}>{t("contact.phone2")}</a></p>
+        </div>
+        <div style={groupStyle}>
+          <h3 style={labelStyle}>{t("contact.fax")}</h3>
+          <p style={bodyStyle}>{t("contact.faxNum")}</p>
+        </div>
+        <div style={groupStyle}>
+          <h3 style={labelStyle}>{t("contact.emailLabel")}</h3>
+          <p style={bodyStyle}><a href="mailto:info@taytech.com.tr" className={linkClass} style={linkStyle}>info@taytech.com.tr</a></p>
+        </div>
+        <div style={groupStyle}>
+          <h3 style={labelStyle}>{t("contact.hq")}</h3>
+          <p style={bodyStyle}>{t("contact.hqAddr1")}</p>
+          <p style={bodyStyle}>{t("contact.hqAddr2")}</p>
+        </div>
+        <div style={groupStyle}>
+          <h3 style={labelStyle}>{t("contact.factory")}</h3>
+          <p style={bodyStyle}>{t("contact.factoryAddr1")}</p>
+          <p style={bodyStyle}>{t("contact.factoryAddr2")}</p>
+          <p style={bodyStyle}>{t("contact.factoryAddr3")}</p>
+        </div>
+        <a
+          href="https://www.linkedin.com/company/taytech-energy-technologies"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Taytech Türkiye LinkedIn"
+          className="inline-flex text-[#0A66C2] transition-opacity hover:opacity-80"
+          style={{ marginTop: compact ? "18px" : "24px" }}
+        >
+          <LinkedinIcon size={compact ? 22 : 26} />
+        </a>
+      </div>
+    );
+  }
+
+  return (
+    <div lang="en">
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "10px" }}>
+        <Image src="/logos/taytech-uk-logo.webp" alt="TayTech UK" width={1886} height={391} className={compact ? "h-5 w-auto" : "h-[26px] w-auto"} />
+        <FlagGB className={compact ? "h-[15px] w-[22px] shrink-0 rounded-[2px] shadow-sm" : "h-[18px] w-[26px] shrink-0 rounded-[3px] shadow-sm"} />
+      </div>
+      <span aria-hidden style={{ display: "block", height: "1px", width: compact ? "150px" : "176px", background: "rgb(29, 29, 31)", margin: "14px auto 0" }} />
+      <p style={{ ...bodyStyle, fontWeight: 500, marginTop: compact ? "16px" : "20px" }}>Taytech Technologies Ltd.</p>
+      <div style={groupStyle}>
+        <h3 style={labelStyle}>{t("contact.emailLabel")}</h3>
+        <p style={bodyStyle}><a href="mailto:sales@taytech.com" className={linkClass} style={linkStyle}>sales@taytech.com</a></p>
+      </div>
+      <div style={groupStyle}>
+        <h3 style={labelStyle}>{isEn ? "Address" : "Adres"}</h3>
+        <p style={bodyStyle}>17 Green Lanes</p>
+        <p style={bodyStyle}>London N16 9BS</p>
+        <p style={bodyStyle}>United Kingdom</p>
+      </div>
+      <a
+        href="https://uk.linkedin.com/company/taytech-uk"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Taytech UK LinkedIn"
+        className="inline-flex text-[#0A66C2] transition-opacity hover:opacity-80"
+        style={{ marginTop: compact ? "18px" : "24px" }}
+      >
+        <LinkedinIcon size={compact ? 22 : 26} />
+      </a>
+    </div>
+  );
+}
+
 export default function IletisimPage() {
-  const { t } = useLanguage();
+  const { t, locale } = useLanguage();
+  const isEnPage = locale === "EN";
   const formRef = useRef<HTMLFormElement>(null);
 
   const [formData, setFormData] = useState({
@@ -399,46 +498,20 @@ export default function IletisimPage() {
             </h2>
 
             <div className="text-center" style={{ color: 'rgb(29, 29, 31)', marginTop: '28px' }}>
-              {/* Ortak Bilgiler */}
-              <div style={{ marginBottom: '20px' }}>
-                <h3 style={{ fontSize: '15px', fontWeight: 500, marginBottom: '6px' }}>{t("contact.phoneLabel")}</h3>
-                <p style={{ fontSize: '14px', fontWeight: 450 }}><a href={telHref(t("contact.phone1"))} className="hover:text-[#dc2626] transition-colors" style={{ color: 'inherit', textDecoration: 'none' }}>{t("contact.phone1")}</a></p>
-                <p style={{ fontSize: '14px', fontWeight: 450 }}><a href={telHref(t("contact.phone2"))} className="hover:text-[#dc2626] transition-colors" style={{ color: 'inherit', textDecoration: 'none' }}>{t("contact.phone2")}</a></p>
-              </div>
-
-              <div style={{ marginBottom: '20px' }}>
-                <h3 style={{ fontSize: '15px', fontWeight: 500, marginBottom: '6px' }}>{t("contact.fax")}</h3>
-                <p style={{ fontSize: '14px', fontWeight: 450 }}>{t("contact.faxNum")}</p>
-              </div>
-
-              <div style={{ marginBottom: '24px' }}>
-                <h3 style={{ fontSize: '15px', fontWeight: 500, marginBottom: '6px' }}>{t("contact.emailLabel")}</h3>
-                <p style={{ fontSize: '14px', fontWeight: 450 }}><a href={`mailto:${t("contact.emailAddr")}`} className="hover:text-[#dc2626] transition-colors" style={{ color: 'inherit', textDecoration: 'none' }}>{t("contact.emailAddr")}</a></p>
-              </div>
-
-              {/* Adresler - Alt Alta (mobil) */}
-              <div style={{ borderTop: '1px solid rgb(210, 210, 215)', paddingTop: '24px' }}>
-                {/* Türkiye */}
-                <div style={{ marginBottom: '24px' }}>
-                  <h3 style={{ fontSize: '16px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'rgb(29, 29, 31)', marginBottom: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '9px' }}>
-                    <FlagTR className="h-[14px] w-5 shrink-0 rounded-[2px] shadow-sm" />
-                    Türkiye
-                  </h3>
-                  <p style={{ fontSize: '14px', fontWeight: 500, marginBottom: '10px' }}>Taytech Enerji Teknolojileri San. ve Tic. A.Ş.</p>
-                  <p style={{ fontSize: '13px', fontWeight: 450 }}>{t("contact.hqAddr1")}, {t("contact.hqAddr2")}</p>
-                  <p style={{ fontSize: '13px', fontWeight: 450, marginTop: '6px' }}>{t("contact.factoryAddr1")}, {t("contact.factoryAddr2")}, {t("contact.factoryAddr3")}</p>
-                </div>
-
-                <div style={{ borderTop: '1px solid rgb(210, 210, 215)', paddingTop: '24px', marginBottom: '16px' }}>
-                  <h3 style={{ fontSize: '16px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'rgb(29, 29, 31)', marginBottom: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '9px' }} lang="en">
-                    <FlagGB className="h-[14px] w-5 shrink-0 rounded-[2px] shadow-sm" />
-                    United Kingdom
-                  </h3>
-                  <p style={{ fontSize: '14px', fontWeight: 500, marginBottom: '10px' }}>Taytech Technologies Ltd.</p>
-                  <p style={{ fontSize: '13px', fontWeight: 450 }}>17 Green Lanes, London N16 9BS</p>
-                  <p style={{ fontSize: '13px', fontWeight: 450 }}>United Kingdom</p>
-                </div>
-              </div>
+              {/* İki ayrı şirket bloğu (mobil, alt alta) */}
+              {(() => {
+                const blocks = isEnPage
+                  ? (["uk", "tr"] as const)
+                  : (["tr", "uk"] as const);
+                return (
+                  <>
+                    <CompanyBlock country={blocks[0]} compact />
+                    <div style={{ borderTop: '1px solid rgb(210, 210, 215)', marginTop: '28px', paddingTop: '28px' }}>
+                      <CompanyBlock country={blocks[1]} compact />
+                    </div>
+                  </>
+                );
+              })()}
             </div>
           </div>
         </div>
@@ -447,6 +520,10 @@ export default function IletisimPage() {
         <div style={{ padding: '0 20px', marginTop: '24px', marginBottom: '16px' }}>
           <p style={{ fontSize: '20px', fontWeight: 550, color: 'rgb(29, 29, 31)', textAlign: 'left' }}>
             {t("contact.visit")}
+          </p>
+          <p style={{ fontSize: '14px', fontWeight: 450, color: 'rgb(110, 110, 115)', marginTop: '6px', textAlign: 'left' }}>
+            <span style={{ fontWeight: 550, color: 'rgb(29, 29, 31)' }}>{t("contact.factory")}: </span>
+            {t("contact.factoryAddr1")}, {t("contact.factoryAddr2")}, {t("contact.factoryAddr3")}
           </p>
         </div>
 
@@ -797,63 +874,22 @@ export default function IletisimPage() {
           </h2>
 
           <div className="text-center" style={{ color: 'rgb(29, 29, 31)', marginTop: '50px' }}>
-            {/* Ortak Bilgiler */}
-            <div style={{ marginBottom: '35px' }}>
-              <h3 style={{ fontSize: '18px', fontWeight: 500, marginBottom: '8px' }}>{t("contact.phoneLabel")}</h3>
-              <p style={{ fontSize: '18px', fontWeight: 450 }}><a href={telHref(t("contact.phone1"))} className="hover:text-[#dc2626] transition-colors" style={{ color: 'inherit', textDecoration: 'none' }}>{t("contact.phone1")}</a></p>
-              <p style={{ fontSize: '18px', fontWeight: 450 }}><a href={telHref(t("contact.phone2"))} className="hover:text-[#dc2626] transition-colors" style={{ color: 'inherit', textDecoration: 'none' }}>{t("contact.phone2")}</a></p>
-            </div>
-
-            <div style={{ marginBottom: '35px' }}>
-              <h3 style={{ fontSize: '18px', fontWeight: 500, marginBottom: '8px' }}>{t("contact.fax")}</h3>
-              <p style={{ fontSize: '18px', fontWeight: 450 }}>{t("contact.faxNum")}</p>
-            </div>
-
-            <div style={{ marginBottom: '35px' }}>
-              <h3 style={{ fontSize: '18px', fontWeight: 500, marginBottom: '8px' }}>{t("contact.emailLabel")}</h3>
-              <p style={{ fontSize: '18px', fontWeight: 450 }}><a href={`mailto:${t("contact.emailAddr")}`} className="hover:text-[#dc2626] transition-colors" style={{ color: 'inherit', textDecoration: 'none' }}>{t("contact.emailAddr")}</a></p>
-            </div>
-
-            {/* Adresler - Yan Yana */}
-            <div style={{ borderTop: '1px solid rgb(210, 210, 215)', paddingTop: '35px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '40px' }}>
-              {/* Türkiye */}
-              <div style={{ borderRight: '1px solid rgb(210, 210, 215)', paddingRight: '40px' }}>
-                <h3 style={{ fontSize: '20px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'rgb(29, 29, 31)', marginBottom: '18px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
-                  <FlagTR className="h-4 w-6 shrink-0 rounded-[3px] shadow-sm" />
-                  Türkiye
-                </h3>
-                <p style={{ fontSize: '17px', fontWeight: 500, marginBottom: '16px' }}>Taytech Enerji Teknolojileri San. ve Tic. A.Ş.</p>
-
-                <div style={{ marginBottom: '14px' }}>
-                  <h4 style={{ fontSize: '13px', fontWeight: 500, color: 'rgb(134, 134, 139)', marginBottom: '4px' }}>{t("contact.hq")}</h4>
-                  <p style={{ fontSize: '16px', fontWeight: 450 }}>{t("contact.hqAddr1")}</p>
-                  <p style={{ fontSize: '16px', fontWeight: 450 }}>{t("contact.hqAddr2")}</p>
+            {/* İki ayrı şirket bloğu (masaüstü, yan yana) */}
+            {(() => {
+              const blocks = isEnPage
+                ? (["uk", "tr"] as const)
+                : (["tr", "uk"] as const);
+              return (
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '40px' }}>
+                  <div style={{ borderRight: '1px solid rgb(210, 210, 215)', paddingRight: '40px' }}>
+                    <CompanyBlock country={blocks[0]} />
+                  </div>
+                  <div style={{ paddingLeft: '40px' }}>
+                    <CompanyBlock country={blocks[1]} />
+                  </div>
                 </div>
-
-                <div>
-                  <h4 style={{ fontSize: '13px', fontWeight: 500, color: 'rgb(134, 134, 139)', marginBottom: '4px' }}>{t("contact.factory")}</h4>
-                  <p style={{ fontSize: '16px', fontWeight: 450 }}>{t("contact.factoryAddr1")}</p>
-                  <p style={{ fontSize: '16px', fontWeight: 450 }}>{t("contact.factoryAddr2")}</p>
-                  <p style={{ fontSize: '16px', fontWeight: 450 }}>{t("contact.factoryAddr3")}</p>
-                </div>
-              </div>
-
-              {/* United Kingdom */}
-              <div style={{ paddingLeft: '40px' }}>
-                <h3 style={{ fontSize: '20px', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'rgb(29, 29, 31)', marginBottom: '18px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }} lang="en">
-                  <FlagGB className="h-4 w-6 shrink-0 rounded-[3px] shadow-sm" />
-                  United Kingdom
-                </h3>
-                <p style={{ fontSize: '17px', fontWeight: 500, marginBottom: '16px' }}>Taytech Technologies Ltd.</p>
-
-                <div>
-                  <h4 style={{ fontSize: '13px', fontWeight: 500, color: 'rgb(134, 134, 139)', marginBottom: '4px' }}>Address</h4>
-                  <p style={{ fontSize: '16px', fontWeight: 450 }}>17 Green Lanes</p>
-                  <p style={{ fontSize: '16px', fontWeight: 450 }}>London N16 9BS</p>
-                  <p style={{ fontSize: '16px', fontWeight: 450 }}>United Kingdom</p>
-                </div>
-              </div>
-            </div>
+              );
+            })()}
           </div>
         </div>
       </div>
@@ -862,6 +898,10 @@ export default function IletisimPage() {
       <div style={{ paddingLeft: '300px', paddingRight: '300px', marginTop: '40px', marginBottom: '20px' }}>
         <p style={{ fontSize: '24px', fontWeight: 550, color: 'rgb(29, 29, 31)', textAlign: 'left' }}>
           {t("contact.visit")}
+        </p>
+        <p style={{ fontSize: '16px', fontWeight: 450, color: 'rgb(110, 110, 115)', marginTop: '8px', textAlign: 'left' }}>
+          <span style={{ fontWeight: 550, color: 'rgb(29, 29, 31)' }}>{t("contact.factory")}: </span>
+          {t("contact.factoryAddr1")}, {t("contact.factoryAddr2")}, {t("contact.factoryAddr3")}
         </p>
       </div>
 

@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Phone, Mail, Printer } from "lucide-react";
+import { Phone, Mail, Printer, MapPin } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 import { FlagTR, FlagGB } from "./Flags";
 import { openCookieSettings } from "@/lib/consent";
@@ -85,70 +85,92 @@ export default function Footer() {
     <footer className="mt-auto border-t border-zinc-200 bg-[#f5f5f7] text-[#1d1d1f]">
       <div className="mx-auto max-w-[100rem] px-6 py-12 md:px-12 md:py-20">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-12">
-          {/* Marka + iletişim */}
-          <div className="md:col-span-4">
-            <Link href={lp("/")} className="flex items-center gap-3 md:gap-4">
-              <Image src="/logos/taytech-logo.webp" alt="TayTech" width={1856} height={521} className="h-[22px] w-auto md:h-7" />
-              <span aria-hidden className="h-[22px] w-px shrink-0 bg-zinc-300 md:h-7" />
-              <Image src="/logos/taytech-uk-logo.webp" alt="TayTech UK" width={1886} height={391} className="h-[18px] w-auto translate-y-px md:h-6 md:translate-y-[2px]" />
-            </Link>
-            <p className="mt-5 max-w-sm text-base leading-relaxed text-[#6e6e73] md:mt-6 md:text-lg">
-              {locale === "EN"
-                ? "End-to-end engineering solutions in heating-cooling control systems, smart panels and remote monitoring."
-                : "Isıtma-soğutma kontrol sistemleri, akıllı panolar ve uzaktan izlemede uçtan uca mühendislik çözümleri."}
-            </p>
-
-            <div className="mt-6 space-y-4 text-base md:mt-8 md:text-lg">
-              <a href="tel:+902625025149" className="flex items-center gap-3 text-[#424245] transition-colors hover:text-[#dc2626]">
-                <Phone size={20} className="shrink-0 text-[#dc2626]" />
-                <span>+90 (262) 502 51 49</span>
-              </a>
-              <div className="flex items-center gap-3 text-[#424245]">
-                <Printer size={20} className="shrink-0 text-[#dc2626]" />
-                <span>+90 (262) 502 51 52</span>
-              </div>
-              <a
-                href={locale === "EN" ? "mailto:sales@taytech.com" : "mailto:info@taytech.com.tr"}
-                className="flex items-center gap-3 text-[#424245] transition-colors hover:text-[#dc2626]"
-              >
-                <Mail size={20} className="shrink-0 text-[#dc2626]" />
-                <span>{locale === "EN" ? "sales@taytech.com" : "info@taytech.com.tr"}</span>
-              </a>
-              {(() => {
-                const trAddress = (
+          {/* Marka + iletişim: iki ayrı şirket bloğu (Türkiye ve UK) */}
+          <div className="space-y-12 md:col-span-4">
+            {(() => {
+              const trBlock = (
+                <div key="tr">
+                  <Link href={lp("/")} className="inline-flex items-center gap-3">
+                    <Image src="/logos/taytech-logo.webp" alt="TayTech" width={1856} height={521} className="h-[26px] w-auto md:h-8" />
+                    <FlagTR className="h-[18px] w-[26px] shrink-0 rounded-[3px] shadow-sm" />
+                  </Link>
+                  <span aria-hidden className="mt-3.5 block h-px w-44 bg-[#1d1d1f]" />
+                  <div className="mt-5 space-y-3.5 text-base md:text-lg">
+                    <a href="tel:+902625025149" className="flex items-center gap-3 text-[#424245] transition-colors hover:text-[#dc2626]">
+                      <Phone size={19} className="shrink-0 text-[#dc2626]" />
+                      <span>+90 (262) 502 51 49</span>
+                    </a>
+                    <div className="flex items-center gap-3 text-[#424245]">
+                      <Printer size={19} className="shrink-0 text-[#dc2626]" />
+                      <span>+90 (262) 502 51 52</span>
+                    </div>
+                    <a href="mailto:info@taytech.com.tr" className="flex items-center gap-3 text-[#424245] transition-colors hover:text-[#dc2626]">
+                      <Mail size={19} className="shrink-0 text-[#dc2626]" />
+                      <span>info@taytech.com.tr</span>
+                    </a>
+                    <a
+                      href="https://www.google.com/maps/place/Taytech+Enerji+Teknolojileri"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-start gap-3 text-[#424245] transition-colors hover:text-[#dc2626]"
+                    >
+                      <MapPin size={19} className="mt-1 shrink-0 text-[#dc2626]" />
+                      <span className="max-w-[18rem]">
+                        <span className="mb-0.5 block text-sm font-semibold uppercase tracking-wider text-[#86868b]">Türkiye</span>
+                        İnönü Mah. Gebze Plastikçiler OSB, Atatürk Bulvarı No:7/2, Gebze / Kocaeli
+                      </span>
+                    </a>
+                  </div>
                   <a
-                    key="tr"
-                    href="https://www.google.com/maps/place/Taytech+Enerji+Teknolojileri"
+                    href="https://www.linkedin.com/company/taytech-energy-technologies"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-start gap-3 text-[#424245] transition-colors hover:text-[#dc2626]"
+                    aria-label="Taytech Türkiye LinkedIn"
+                    className="mt-5 inline-flex text-[#0A66C2] transition-opacity hover:opacity-80"
                   >
-                    <FlagTR className="mt-1 h-[15px] w-5 shrink-0 rounded-[3px] shadow-sm" />
-                    <span className="max-w-[18rem]">
-                      <span className="mb-0.5 block text-sm font-semibold uppercase tracking-wider text-[#86868b]">Türkiye</span>
-                      İnönü Mah. Gebze Plastikçiler OSB, Atatürk Bulvarı No:7/2, Gebze / Kocaeli
-                    </span>
+                    <LinkedinIcon size={26} />
                   </a>
-                );
-                const ukAddress = (
+                </div>
+              );
+              const ukBlock = (
+                <div key="uk" lang="en">
+                  <Link href={lp("/")} className="inline-flex items-center gap-3">
+                    <Image src="/logos/taytech-uk-logo.webp" alt="TayTech UK" width={1886} height={391} className="h-[22px] w-auto md:h-[26px]" />
+                    <FlagGB className="h-[18px] w-[26px] shrink-0 rounded-[3px] shadow-sm" />
+                  </Link>
+                  <span aria-hidden className="mt-3.5 block h-px w-44 bg-[#1d1d1f]" />
+                  <div className="mt-5 space-y-3.5 text-base md:text-lg">
+                    <a href="mailto:sales@taytech.com" className="flex items-center gap-3 text-[#424245] transition-colors hover:text-[#dc2626]">
+                      <Mail size={19} className="shrink-0 text-[#dc2626]" />
+                      <span>sales@taytech.com</span>
+                    </a>
+                    <a
+                      href="https://www.google.com/maps/search/17+Green+Lanes,+London+N16+9BS"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-start gap-3 text-[#424245] transition-colors hover:text-[#dc2626]"
+                    >
+                      <MapPin size={19} className="mt-1 shrink-0 text-[#dc2626]" />
+                      <span className="max-w-[18rem]">
+                        <span className="mb-0.5 block text-sm font-semibold uppercase tracking-wider text-[#86868b]">United Kingdom</span>
+                        17 Green Lanes, London N16 9BS, United Kingdom
+                      </span>
+                    </a>
+                  </div>
                   <a
-                    key="uk"
-                    href="https://www.google.com/maps/search/17+Green+Lanes,+London+N16+9BS"
+                    href="https://uk.linkedin.com/company/taytech-uk"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-start gap-3 text-[#424245] transition-colors hover:text-[#dc2626]"
+                    aria-label="Taytech UK LinkedIn"
+                    className="mt-5 inline-flex text-[#0A66C2] transition-opacity hover:opacity-80"
                   >
-                    <FlagGB className="mt-1 h-[15px] w-5 shrink-0 rounded-[3px] shadow-sm" />
-                    <span className="max-w-[18rem]" lang="en">
-                      <span className="mb-0.5 block text-sm font-semibold uppercase tracking-wider text-[#86868b]">United Kingdom</span>
-                      17 Green Lanes, London N16 9BS, United Kingdom
-                    </span>
+                    <LinkedinIcon size={26} />
                   </a>
-                );
-                // İngilizce sayfada Birleşik Krallık adresi üstte gösterilir.
-                return locale === "EN" ? [ukAddress, trAddress] : [trAddress, ukAddress];
-              })()}
-            </div>
+                </div>
+              );
+              // İngilizce sayfada UK bloğu üstte gösterilir.
+              return locale === "EN" ? [ukBlock, trBlock] : [trBlock, ukBlock];
+            })()}
           </div>
 
           {/* Bağlantı sütunları */}
